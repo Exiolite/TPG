@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_u_i_inventory" kind="class" prot="public">
+    <compoundname>UIInventory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_u_i_inventory_1a6a8630a4f2006978244a25cbf3d8a3ca" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UIInventory.uiItemGrid</definition>
+        <argsstring></argsstring>
+        <name>uiItemGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" line="7" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_u_i_inventory_1a8c8aac94e0d52b48ae434a1e1569ee5f" compoundref="_u_i_inventory_8cs" startline="21" endline="31">UpdateInventory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_inventory_1a3c49390fcc1926205b1c58f6b803b123" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UIInventory.uiItem</definition>
+        <argsstring></argsstring>
+        <name>uiItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" line="8" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_u_i_inventory_1a08023e5b7c6b713753fdcf2fbd4a780a" compoundref="_u_i_inventory_8cs" startline="33" endline="46">UpdateEquipment</referencedby>
+        <referencedby refid="class_u_i_inventory_1a8c8aac94e0d52b48ae434a1e1569ee5f" compoundref="_u_i_inventory_8cs" startline="21" endline="31">UpdateInventory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_inventory_1a5cc620f126de20bee3bca95d901beb26" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UIInventory.uiWeaponSlot</definition>
+        <argsstring></argsstring>
+        <name>uiWeaponSlot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" line="9" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_u_i_inventory_1a08023e5b7c6b713753fdcf2fbd4a780a" compoundref="_u_i_inventory_8cs" startline="33" endline="46">UpdateEquipment</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_inventory_1a03a9958b8725a7adc4c328e369b21b04" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIInventory.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" line="13" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" bodystart="13" bodyend="17"/>
+        <references refid="class_u_i_inventory_1a08023e5b7c6b713753fdcf2fbd4a780a" compoundref="_u_i_inventory_8cs" startline="33" endline="46">UpdateEquipment</references>
+        <references refid="class_u_i_inventory_1a8c8aac94e0d52b48ae434a1e1569ee5f" compoundref="_u_i_inventory_8cs" startline="21" endline="31">UpdateInventory</references>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_inventory_1a8c8aac94e0d52b48ae434a1e1569ee5f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIInventory.UpdateInventory</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateInventory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" line="21" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" bodystart="21" bodyend="31"/>
+        <references refid="class_inventory_1af0291b77fa3a9a3e0ff48422ce54ab7b" compoundref="_inventory_8cs" startline="35">Inventory.container</references>
+        <references refid="class_game_manager_1a7666e8468dac197b9eb32dd32128524f" compoundref="_game_manager_8cs" startline="27">GameManager.instance</references>
+        <references refid="class_player_manager_1a68c30587d045a6b67489446e655f595d" compoundref="_player_manager_8cs" startline="23">PlayerManager.playerInventory</references>
+        <references refid="class_game_manager_1ab21fdb48fd1c8ce2275e50e20cde1e84" compoundref="_game_manager_8cs" startline="20">GameManager.playerManager</references>
+        <references refid="class_u_i_inventory_1a3c49390fcc1926205b1c58f6b803b123" compoundref="_u_i_inventory_8cs" startline="8">uiItem</references>
+        <references refid="class_u_i_inventory_1a6a8630a4f2006978244a25cbf3d8a3ca" compoundref="_u_i_inventory_8cs" startline="7">uiItemGrid</references>
+        <referencedby refid="class_u_i_inventory_1a03a9958b8725a7adc4c328e369b21b04" compoundref="_u_i_inventory_8cs" startline="13" endline="17">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_inventory_1a08023e5b7c6b713753fdcf2fbd4a780a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIInventory.UpdateEquipment</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateEquipment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" line="33" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" bodystart="33" bodyend="46"/>
+        <references refid="class_item_data_1ae1655a6cb2a5503e66fa6942d4f6144f" compoundref="_item_data_8cs" startline="12">ItemData.count</references>
+        <references refid="class_game_manager_1a7666e8468dac197b9eb32dd32128524f" compoundref="_game_manager_8cs" startline="27">GameManager.instance</references>
+        <references refid="class_player_manager_1ad01122fc86efc749ae244b3cf012f1c4" compoundref="_player_manager_8cs" startline="24">PlayerManager.playerEquipment</references>
+        <references refid="class_game_manager_1ab21fdb48fd1c8ce2275e50e20cde1e84" compoundref="_game_manager_8cs" startline="20">GameManager.playerManager</references>
+        <references refid="class_u_i_inventory_1a3c49390fcc1926205b1c58f6b803b123" compoundref="_u_i_inventory_8cs" startline="8">uiItem</references>
+        <references refid="class_u_i_inventory_1a5cc620f126de20bee3bca95d901beb26" compoundref="_u_i_inventory_8cs" startline="9">uiWeaponSlot</references>
+        <references refid="class_equipment_1af4e1d7d8207af93e1a673de31ee61de6" compoundref="_equipment_8cs" startline="17">Equipment.weaponSlot</references>
+        <referencedby refid="class_u_i_inventory_1a03a9958b8725a7adc4c328e369b21b04" compoundref="_u_i_inventory_8cs" startline="13" endline="17">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="258">
+        <label>UIInventory</label>
+        <link refid="class_u_i_inventory"/>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="259">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="260">
+        <label>UIInventory</label>
+        <link refid="class_u_i_inventory"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="261">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" line="6" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/UIInventory.cs" bodystart="5" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_u_i_inventory_1a03a9958b8725a7adc4c328e369b21b04" prot="private" virt="non-virtual"><scope>UIInventory</scope><name>Awake</name></member>
+      <member refid="class_u_i_inventory_1a3c49390fcc1926205b1c58f6b803b123" prot="public" virt="non-virtual"><scope>UIInventory</scope><name>uiItem</name></member>
+      <member refid="class_u_i_inventory_1a6a8630a4f2006978244a25cbf3d8a3ca" prot="public" virt="non-virtual"><scope>UIInventory</scope><name>uiItemGrid</name></member>
+      <member refid="class_u_i_inventory_1a5cc620f126de20bee3bca95d901beb26" prot="public" virt="non-virtual"><scope>UIInventory</scope><name>uiWeaponSlot</name></member>
+      <member refid="class_u_i_inventory_1a08023e5b7c6b713753fdcf2fbd4a780a" prot="private" virt="non-virtual"><scope>UIInventory</scope><name>UpdateEquipment</name></member>
+      <member refid="class_u_i_inventory_1a8c8aac94e0d52b48ae434a1e1569ee5f" prot="private" virt="non-virtual"><scope>UIInventory</scope><name>UpdateInventory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

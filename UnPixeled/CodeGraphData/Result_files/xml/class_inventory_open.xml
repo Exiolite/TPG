@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_inventory_open" kind="class" prot="public">
+    <compoundname>InventoryOpen</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEvent</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="134">
+        <label>UnityEvent</label>
+      </node>
+      <node id="133">
+        <label>InventoryOpen</label>
+        <link refid="class_inventory_open"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="136">
+        <label>UnityEvent</label>
+      </node>
+      <node id="135">
+        <label>InventoryOpen</label>
+        <link refid="class_inventory_open"/>
+        <childnode refid="136" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="53" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="53" bodyend="53"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation" kind="struct" prot="package">
+    <compoundname>UnityEditor::AI::NavMeshAssetManager::AsyncBakeOperation</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation_1af596d8d38ef05305e45beda1a881902e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface" kindref="compound">NavMeshSurface</ref></type>
+        <definition>NavMeshSurface UnityEditor.AI.NavMeshAssetManager.AsyncBakeOperation.surface</definition>
+        <argsstring></argsstring>
+        <name>surface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshAssetManager.cs" line="14" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshAssetManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation_1aa609e4284521e831ea007ab80226ad63" prot="public" static="no" mutable="no">
+        <type>NavMeshData</type>
+        <definition>NavMeshData UnityEditor.AI.NavMeshAssetManager.AsyncBakeOperation.bakeData</definition>
+        <argsstring></argsstring>
+        <name>bakeData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshAssetManager.cs" line="15" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshAssetManager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation_1a24b67a2192c2e73babf27b9e0fc57f2d" prot="public" static="no" mutable="no">
+        <type>AsyncOperation</type>
+        <definition>AsyncOperation UnityEditor.AI.NavMeshAssetManager.AsyncBakeOperation.bakeOperation</definition>
+        <argsstring></argsstring>
+        <name>bakeOperation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshAssetManager.cs" line="16" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshAssetManager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UnityEditor.AI.NavMeshAssetManager.AsyncBakeOperation</label>
+        <link refid="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>surface</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UnityEngine.AI.NavMeshSurface</label>
+        <link refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshAssetManager.cs" line="13" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshAssetManager.cs" bodystart="12" bodyend="17"/>
+    <listofallmembers>
+      <member refid="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation_1aa609e4284521e831ea007ab80226ad63" prot="public" virt="non-virtual"><scope>UnityEditor::AI::NavMeshAssetManager::AsyncBakeOperation</scope><name>bakeData</name></member>
+      <member refid="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation_1a24b67a2192c2e73babf27b9e0fc57f2d" prot="public" virt="non-virtual"><scope>UnityEditor::AI::NavMeshAssetManager::AsyncBakeOperation</scope><name>bakeOperation</name></member>
+      <member refid="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation_1af596d8d38ef05305e45beda1a881902e" prot="public" virt="non-virtual"><scope>UnityEditor::AI::NavMeshAssetManager::AsyncBakeOperation</scope><name>surface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

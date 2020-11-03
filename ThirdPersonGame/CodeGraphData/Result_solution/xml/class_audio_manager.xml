@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_audio_manager" kind="class" prot="public">
+    <compoundname>AudioManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_audio_manager_1abefec1a063901d99027b50565a62e1f5" prot="public" static="no" mutable="no">
+        <type>List&lt; AudioClip &gt;</type>
+        <definition>List&lt;AudioClip&gt; AudioManager.stepSounds</definition>
+        <argsstring></argsstring>
+        <name>stepSounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="9" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a46f87fca08ae0c607bda36c55eeced94" compoundref="_audio_manager_8cs" startline="27" endline="30">PlayerStep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1af099efed8fec73278d2a71f8c5b29cac" prot="public" static="no" mutable="no">
+        <type>List&lt; AudioClip &gt;</type>
+        <definition>List&lt;AudioClip&gt; AudioManager.enemySoulHit</definition>
+        <argsstring></argsstring>
+        <name>enemySoulHit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="10" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a4eb578d2c3fd242d93127793eabd6489" compoundref="_audio_manager_8cs" startline="32" endline="35">EnemyDamaged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1add2bf16f86ea242db0f89915b1f24f49" prot="public" static="no" mutable="no">
+        <type>List&lt; AudioClip &gt;</type>
+        <definition>List&lt;AudioClip&gt; AudioManager.enemyRangeSoulShoot</definition>
+        <argsstring></argsstring>
+        <name>enemyRangeSoulShoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="11" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a9c1ec82c535a560a4745fadeb013027c" compoundref="_audio_manager_8cs" startline="37" endline="40">RangeSoulShoot</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1adec817e936dc355fa2a2468939efd07a" prot="public" static="no" mutable="no">
+        <type>List&lt; AudioClip &gt;</type>
+        <definition>List&lt;AudioClip&gt; AudioManager.doorOpens</definition>
+        <argsstring></argsstring>
+        <name>doorOpens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="12" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a1a52533d9b2837a6af6d9235b32b6e38" compoundref="_audio_manager_8cs" startline="42" endline="45">DoorOpens</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_audio_manager_1a0cd8d4407e468d5687a43ffbf3336d65" prot="public" static="no" mutable="no">
+        <type>List&lt; AudioClip &gt;</type>
+        <definition>List&lt;AudioClip&gt; AudioManager.pickUp</definition>
+        <argsstring></argsstring>
+        <name>pickUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="13" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_audio_manager_1a5d37f928fa8bf838273faa493749aa98" compoundref="_audio_manager_8cs" startline="47" endline="50">PickUp</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="16" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="16" bodyend="23"/>
+        <references refid="class_audio_manager_1a1a52533d9b2837a6af6d9235b32b6e38" compoundref="_audio_manager_8cs" startline="42" endline="45">DoorOpens</references>
+        <references refid="class_audio_manager_1a4eb578d2c3fd242d93127793eabd6489" compoundref="_audio_manager_8cs" startline="32" endline="35">EnemyDamaged</references>
+        <references refid="class_audio_manager_1a5d37f928fa8bf838273faa493749aa98" compoundref="_audio_manager_8cs" startline="47" endline="50">PickUp</references>
+        <references refid="class_audio_manager_1a46f87fca08ae0c607bda36c55eeced94" compoundref="_audio_manager_8cs" startline="27" endline="30">PlayerStep</references>
+        <references refid="class_audio_manager_1a9c1ec82c535a560a4745fadeb013027c" compoundref="_audio_manager_8cs" startline="37" endline="40">RangeSoulShoot</references>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a46f87fca08ae0c607bda36c55eeced94" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PlayerStep</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="27" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="27" bodyend="30"/>
+        <references refid="class_audio_manager_1abefec1a063901d99027b50565a62e1f5" compoundref="_audio_manager_8cs" startline="9">stepSounds</references>
+        <referencedby refid="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" compoundref="_audio_manager_8cs" startline="16" endline="23">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a4eb578d2c3fd242d93127793eabd6489" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.EnemyDamaged</definition>
+        <argsstring>(AudioSource _source)</argsstring>
+        <name>EnemyDamaged</name>
+        <param>
+          <type>AudioSource</type>
+          <declname>_source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="32" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="32" bodyend="35"/>
+        <references refid="class_audio_manager_1af099efed8fec73278d2a71f8c5b29cac" compoundref="_audio_manager_8cs" startline="10">enemySoulHit</references>
+        <referencedby refid="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" compoundref="_audio_manager_8cs" startline="16" endline="23">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a9c1ec82c535a560a4745fadeb013027c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.RangeSoulShoot</definition>
+        <argsstring>(AudioSource _source)</argsstring>
+        <name>RangeSoulShoot</name>
+        <param>
+          <type>AudioSource</type>
+          <declname>_source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="37" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="37" bodyend="40"/>
+        <references refid="class_audio_manager_1add2bf16f86ea242db0f89915b1f24f49" compoundref="_audio_manager_8cs" startline="11">enemyRangeSoulShoot</references>
+        <referencedby refid="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" compoundref="_audio_manager_8cs" startline="16" endline="23">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a1a52533d9b2837a6af6d9235b32b6e38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.DoorOpens</definition>
+        <argsstring>(AudioSource _source)</argsstring>
+        <name>DoorOpens</name>
+        <param>
+          <type>AudioSource</type>
+          <declname>_source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="42" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="42" bodyend="45"/>
+        <references refid="class_audio_manager_1adec817e936dc355fa2a2468939efd07a" compoundref="_audio_manager_8cs" startline="12">doorOpens</references>
+        <referencedby refid="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" compoundref="_audio_manager_8cs" startline="16" endline="23">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_audio_manager_1a5d37f928fa8bf838273faa493749aa98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioManager.PickUp</definition>
+        <argsstring>(AudioSource _source)</argsstring>
+        <name>PickUp</name>
+        <param>
+          <type>AudioSource</type>
+          <declname>_source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="47" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="47" bodyend="50"/>
+        <references refid="class_audio_manager_1a0cd8d4407e468d5687a43ffbf3336d65" compoundref="_audio_manager_8cs" startline="13">pickUp</references>
+        <referencedby refid="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" compoundref="_audio_manager_8cs" startline="16" endline="23">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="4">
+        <label>AudioManager</label>
+        <link refid="class_audio_manager"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="6">
+        <label>AudioManager</label>
+        <link refid="class_audio_manager"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="8" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="7" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>Awake</name></member>
+      <member refid="class_audio_manager_1a1a52533d9b2837a6af6d9235b32b6e38" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>DoorOpens</name></member>
+      <member refid="class_audio_manager_1adec817e936dc355fa2a2468939efd07a" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>doorOpens</name></member>
+      <member refid="class_audio_manager_1a4eb578d2c3fd242d93127793eabd6489" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>EnemyDamaged</name></member>
+      <member refid="class_audio_manager_1add2bf16f86ea242db0f89915b1f24f49" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>enemyRangeSoulShoot</name></member>
+      <member refid="class_audio_manager_1af099efed8fec73278d2a71f8c5b29cac" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>enemySoulHit</name></member>
+      <member refid="class_audio_manager_1a5d37f928fa8bf838273faa493749aa98" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>PickUp</name></member>
+      <member refid="class_audio_manager_1a0cd8d4407e468d5687a43ffbf3336d65" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>pickUp</name></member>
+      <member refid="class_audio_manager_1a46f87fca08ae0c607bda36c55eeced94" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>PlayerStep</name></member>
+      <member refid="class_audio_manager_1a9c1ec82c535a560a4745fadeb013027c" prot="private" virt="non-virtual"><scope>AudioManager</scope><name>RangeSoulShoot</name></member>
+      <member refid="class_audio_manager_1abefec1a063901d99027b50565a62e1f5" prot="public" virt="non-virtual"><scope>AudioManager</scope><name>stepSounds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

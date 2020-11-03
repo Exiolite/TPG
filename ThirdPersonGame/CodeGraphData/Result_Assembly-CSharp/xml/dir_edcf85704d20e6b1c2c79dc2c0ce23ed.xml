@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_edcf85704d20e6b1c2c79dc2c0ce23ed" kind="dir">
+    <compoundname>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI</compoundname>
+    <innerfile refid="_u_i_game_8cs">UIGame.cs</innerfile>
+    <innerfile refid="_u_i_inventory_8cs">UIInventory.cs</innerfile>
+    <innerfile refid="_u_i_item_slot_8cs">UIItemSlot.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI/"/>
+  </compounddef>
+</doxygen>

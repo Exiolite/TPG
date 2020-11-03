@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_camera_follow" kind="class" prot="public">
+    <compoundname>CameraFollow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_follow_1ae34ba9d2ba479a0bd004adb5a96a9342" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform CameraFollow.playerTransform</definition>
+        <argsstring></argsstring>
+        <name>playerTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" line="8" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_camera_follow_1adbbbae516b9d54ffc9afe287dcb72cd5" compoundref="_camera_follow_8cs" startline="14" endline="17">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_camera_follow_1a924c2f26a261004c89aa63ca0c89d454" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraFollow.smoothSpeed</definition>
+        <argsstring></argsstring>
+        <name>smoothSpeed</name>
+        <initializer>= 0.125f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" line="9" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_camera_follow_1af572f7bb45ca2a3027beacdd5985a60d" compoundref="_camera_follow_8cs" startline="19" endline="24">LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_follow_1ae4f97609d08d1933161b1c4da36b2018" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CameraFollow.offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" line="10" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_camera_follow_1af572f7bb45ca2a3027beacdd5985a60d" compoundref="_camera_follow_8cs" startline="19" endline="24">LateUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_follow_1adbbbae516b9d54ffc9afe287dcb72cd5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraFollow.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" line="14" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" bodystart="14" bodyend="17"/>
+        <references refid="class_camera_follow_1ae34ba9d2ba479a0bd004adb5a96a9342" compoundref="_camera_follow_8cs" startline="8">playerTransform</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_follow_1af572f7bb45ca2a3027beacdd5985a60d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraFollow.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" line="19" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" bodystart="19" bodyend="24"/>
+        <references refid="class_camera_follow_1ae4f97609d08d1933161b1c4da36b2018" compoundref="_camera_follow_8cs" startline="10">offset</references>
+        <references refid="class_camera_follow_1a924c2f26a261004c89aa63ca0c89d454" compoundref="_camera_follow_8cs" startline="9">smoothSpeed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>CameraFollow</label>
+        <link refid="class_camera_follow"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>CameraFollow</label>
+        <link refid="class_camera_follow"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" line="7" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/CameraFollow.cs" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_camera_follow_1af572f7bb45ca2a3027beacdd5985a60d" prot="private" virt="non-virtual"><scope>CameraFollow</scope><name>LateUpdate</name></member>
+      <member refid="class_camera_follow_1ae4f97609d08d1933161b1c4da36b2018" prot="public" virt="non-virtual"><scope>CameraFollow</scope><name>offset</name></member>
+      <member refid="class_camera_follow_1ae34ba9d2ba479a0bd004adb5a96a9342" prot="private" virt="non-virtual"><scope>CameraFollow</scope><name>playerTransform</name></member>
+      <member refid="class_camera_follow_1a924c2f26a261004c89aa63ca0c89d454" prot="public" virt="non-virtual"><scope>CameraFollow</scope><name>smoothSpeed</name></member>
+      <member refid="class_camera_follow_1adbbbae516b9d54ffc9afe287dcb72cd5" prot="private" virt="non-virtual"><scope>CameraFollow</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

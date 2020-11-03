@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_audio_steps" kind="class" prot="public">
+    <compoundname>AudioSteps</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_audio_steps_1a211894867aab6ab95820f3c1838d743d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AudioSteps.PlayerStep</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/Player/AudioSteps.cs" line="7" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/Player/AudioSteps.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>AudioSteps</label>
+        <link refid="class_audio_steps"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>AudioSteps</label>
+        <link refid="class_audio_steps"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/Player/AudioSteps.cs" line="6" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/Player/AudioSteps.cs" bodystart="5" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_audio_steps_1a211894867aab6ab95820f3c1838d743d" prot="public" virt="non-virtual"><scope>AudioSteps</scope><name>PlayerStep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

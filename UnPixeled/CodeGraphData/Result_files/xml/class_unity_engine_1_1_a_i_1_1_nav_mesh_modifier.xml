@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier" kind="class" prot="public">
+    <compoundname>UnityEngine::AI::NavMeshModifier</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1af904ed07c71ec9bdf80d775d57a7730c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshModifier.m_OverrideArea</definition>
+        <argsstring></argsstring>
+        <name>m_OverrideArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="11" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1aee1b74c2fe6097451bf0615aec2688bb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.AI.NavMeshModifier.m_Area</definition>
+        <argsstring></argsstring>
+        <name>m_Area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="15" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a2c0cf3a96fcfe5c3b47ef0070b039da2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshModifier.m_IgnoreFromBuild</definition>
+        <argsstring></argsstring>
+        <name>m_IgnoreFromBuild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="19" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1afec4c02c75061e36ba0c55a86644bfbf" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; UnityEngine.AI.NavMeshModifier.m_AffectedAgents</definition>
+        <argsstring></argsstring>
+        <name>m_AffectedAgents</name>
+        <initializer>= new List&lt;int&gt;(new int[] { -1 })</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="25" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a84a135d90246d97089f2c0f3d3ed6197" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshModifier.overrideArea</definition>
+        <argsstring></argsstring>
+        <name>overrideArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="12" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a456a8b29136267bac460f54e6a3d5943" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int UnityEngine.AI.NavMeshModifier.area</definition>
+        <argsstring></argsstring>
+        <name>area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="16" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a43adb4e69509a139de04fadbb98a74c6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshModifier.ignoreFromBuild</definition>
+        <argsstring></argsstring>
+        <name>ignoreFromBuild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="20" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a30e7dd28b86964852e57fe30e00bd4f1" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier" kindref="compound">NavMeshModifier</ref> &gt;</type>
+        <definition>List&lt;NavMeshModifier&gt; UnityEngine.AI.NavMeshModifier.activeModifiers</definition>
+        <argsstring></argsstring>
+        <name>activeModifiers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="29" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a429b9844f0b4b9a51ec9491a632ac6a3" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; <ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier" kindref="compound">NavMeshModifier</ref> &gt;</type>
+        <definition>readonly List&lt;NavMeshModifier&gt; UnityEngine.AI.NavMeshModifier.s_NavMeshModifiers</definition>
+        <argsstring></argsstring>
+        <name>s_NavMeshModifiers</name>
+        <initializer>= new List&lt;<ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier" kindref="compound">NavMeshModifier</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="27" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a7c68957576ebbf14430a0da378c6121e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.AI.NavMeshModifier.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="34" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1aaa0cd8dafb0b6d6d49d4760527acdc57" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.AI.NavMeshModifier.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="40" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1aab88e8190e44bd9414e7d1628436b0b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshModifier.AffectsAgentType</definition>
+        <argsstring>(int agentTypeID)</argsstring>
+        <name>AffectsAgentType</name>
+        <param>
+          <type>int</type>
+          <declname>agentTypeID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="45" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="45" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="159">
+        <label>UnityEngine.AI.NavMeshModifier</label>
+        <link refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="161">
+        <label>UnityEngine.AI.NavMeshModifier</label>
+        <link refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" line="9" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshModifier.cs" bodystart="8" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a30e7dd28b86964852e57fe30e00bd4f1" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>activeModifiers</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1aab88e8190e44bd9414e7d1628436b0b6" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>AffectsAgentType</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a456a8b29136267bac460f54e6a3d5943" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>area</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a43adb4e69509a139de04fadbb98a74c6" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>ignoreFromBuild</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1afec4c02c75061e36ba0c55a86644bfbf" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>m_AffectedAgents</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1aee1b74c2fe6097451bf0615aec2688bb" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>m_Area</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a2c0cf3a96fcfe5c3b47ef0070b039da2" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>m_IgnoreFromBuild</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1af904ed07c71ec9bdf80d775d57a7730c" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>m_OverrideArea</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1aaa0cd8dafb0b6d6d49d4760527acdc57" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a7c68957576ebbf14430a0da378c6121e" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a84a135d90246d97089f2c0f3d3ed6197" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>overrideArea</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a429b9844f0b4b9a51ec9491a632ac6a3" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshModifier</scope><name>s_NavMeshModifiers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

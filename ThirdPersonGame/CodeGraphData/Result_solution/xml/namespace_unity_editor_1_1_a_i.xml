@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_unity_editor_1_1_a_i" kind="namespace">
+    <compoundname>UnityEditor::AI</compoundname>
+    <innerclass refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager" prot="public">UnityEditor::AI::NavMeshAssetManager</innerclass>
+    <innerclass refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility" prot="public">UnityEditor::AI::NavMeshComponentsGUIUtility</innerclass>
+    <innerclass refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor" prot="public">UnityEditor::AI::NavMeshLinkEditor</innerclass>
+    <innerclass refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor" prot="public">UnityEditor::AI::NavMeshModifierEditor</innerclass>
+    <innerclass refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor" prot="public">UnityEditor::AI::NavMeshModifierVolumeEditor</innerclass>
+    <innerclass refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor" prot="public">UnityEditor::AI::NavMeshSurfaceEditor</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshAssetManager.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

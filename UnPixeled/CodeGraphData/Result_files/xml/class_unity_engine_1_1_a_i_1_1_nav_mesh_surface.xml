@@ -1,0 +1,819 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface" kind="class" prot="public">
+    <compoundname>UnityEngine::AI::NavMeshSurface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1afd0b66c8df2b765012caccecc25f4803" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.AI.NavMeshSurface.m_AgentTypeID</definition>
+        <argsstring></argsstring>
+        <name>m_AgentTypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="23" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6684515cb42841e32b40103173bf81d8" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_unity_engine_1_1_a_i_1ab3439844eec641152f2ba65fb19b5cf9" kindref="member">CollectObjects</ref></type>
+        <definition>CollectObjects UnityEngine.AI.NavMeshSurface.m_CollectObjects</definition>
+        <argsstring></argsstring>
+        <name>m_CollectObjects</name>
+        <initializer>= CollectObjects.All</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="27" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aac32f91bffd081b9f2074ba905f7d6cb" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEngine.AI.NavMeshSurface.m_Size</definition>
+        <argsstring></argsstring>
+        <name>m_Size</name>
+        <initializer>= new Vector3(10.0f, 10.0f, 10.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="31" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6ebac99112681cfa10ccaa3f01bbea07" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEngine.AI.NavMeshSurface.m_Center</definition>
+        <argsstring></argsstring>
+        <name>m_Center</name>
+        <initializer>= new Vector3(0, 2.0f, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="35" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad5dd1708824e1cdd1178f32b89309e2c" prot="private" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask UnityEngine.AI.NavMeshSurface.m_LayerMask</definition>
+        <argsstring></argsstring>
+        <name>m_LayerMask</name>
+        <initializer>= ~0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="39" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a5ec8714d0b26a3ac201795670b39a6f0" prot="private" static="no" mutable="no">
+        <type>NavMeshCollectGeometry</type>
+        <definition>NavMeshCollectGeometry UnityEngine.AI.NavMeshSurface.m_UseGeometry</definition>
+        <argsstring></argsstring>
+        <name>m_UseGeometry</name>
+        <initializer>= NavMeshCollectGeometry.RenderMeshes</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="43" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aa772bc3234ae2616f84428c1f8434e7c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.AI.NavMeshSurface.m_DefaultArea</definition>
+        <argsstring></argsstring>
+        <name>m_DefaultArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="47" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aeca5b4d70bc9b78be60db63549874f15" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshSurface.m_IgnoreNavMeshAgent</definition>
+        <argsstring></argsstring>
+        <name>m_IgnoreNavMeshAgent</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="51" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1adc216337b5c7f6003c50b8edb699b3ba" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshSurface.m_IgnoreNavMeshObstacle</definition>
+        <argsstring></argsstring>
+        <name>m_IgnoreNavMeshObstacle</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="55" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ac3e16e7753b9c7629305e16eaa77ec54" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshSurface.m_OverrideTileSize</definition>
+        <argsstring></argsstring>
+        <name>m_OverrideTileSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="59" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab0d26a868ac583ffa725b4105c860d38" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UnityEngine.AI.NavMeshSurface.m_TileSize</definition>
+        <argsstring></argsstring>
+        <name>m_TileSize</name>
+        <initializer>= 256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="62" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad9c8d7c51f520c1f9cf18ad2a4d3dc3a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshSurface.m_OverrideVoxelSize</definition>
+        <argsstring></argsstring>
+        <name>m_OverrideVoxelSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="65" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a76cd0f3a03c9b3d36cd938e568893878" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UnityEngine.AI.NavMeshSurface.m_VoxelSize</definition>
+        <argsstring></argsstring>
+        <name>m_VoxelSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="68" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab51287eec00b9d5517bfd69977851002" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshSurface.m_BuildHeightMesh</definition>
+        <argsstring></argsstring>
+        <name>m_BuildHeightMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="73" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ae61fcee93ba2ff8011ada6af69a70d9b" prot="private" static="no" mutable="no">
+        <type>NavMeshData</type>
+        <definition>NavMeshData UnityEngine.AI.NavMeshSurface.m_NavMeshData</definition>
+        <argsstring></argsstring>
+        <name>m_NavMeshData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="79" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a065e038ab8b17bd9d52ea5e50c448e11" prot="private" static="no" mutable="no">
+        <type>NavMeshDataInstance</type>
+        <definition>NavMeshDataInstance UnityEngine.AI.NavMeshSurface.m_NavMeshDataInstance</definition>
+        <argsstring></argsstring>
+        <name>m_NavMeshDataInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="83" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a13ad8c93067f354a6cc0905b3a1e4213" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEngine.AI.NavMeshSurface.m_LastPosition</definition>
+        <argsstring></argsstring>
+        <name>m_LastPosition</name>
+        <initializer>= Vector3.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="84" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a3971bb175fe673dd0d2f1f8daa502217" prot="private" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion UnityEngine.AI.NavMeshSurface.m_LastRotation</definition>
+        <argsstring></argsstring>
+        <name>m_LastRotation</name>
+        <initializer>= Quaternion.identity</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="85" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ada23db57d56759a36a94939d754aae64" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int UnityEngine.AI.NavMeshSurface.agentTypeID</definition>
+        <argsstring></argsstring>
+        <name>agentTypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="24" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a00bcc3b2f3500381af09377a64fa3708" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_unity_engine_1_1_a_i_1ab3439844eec641152f2ba65fb19b5cf9" kindref="member">CollectObjects</ref></type>
+        <definition>CollectObjects UnityEngine.AI.NavMeshSurface.collectObjects</definition>
+        <argsstring></argsstring>
+        <name>collectObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="28" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a69d3632948e2abd25a60eee7622015c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEngine.AI.NavMeshSurface.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="32" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a30c7cb2dadbf689a036085d2b804d1e0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 UnityEngine.AI.NavMeshSurface.center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="36" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a4fe846e0f32d064be221dccb46581233" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>LayerMask</type>
+        <definition>LayerMask UnityEngine.AI.NavMeshSurface.layerMask</definition>
+        <argsstring></argsstring>
+        <name>layerMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="40" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad165cdb8a106d59b424b14367c7d2723" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>NavMeshCollectGeometry</type>
+        <definition>NavMeshCollectGeometry UnityEngine.AI.NavMeshSurface.useGeometry</definition>
+        <argsstring></argsstring>
+        <name>useGeometry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="44" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a921f2f9f6b6f7cfc4c8fd9125f2cc602" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int UnityEngine.AI.NavMeshSurface.defaultArea</definition>
+        <argsstring></argsstring>
+        <name>defaultArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="48" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a38bbd52829348bbcb04c3c369d1437b8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshSurface.ignoreNavMeshAgent</definition>
+        <argsstring></argsstring>
+        <name>ignoreNavMeshAgent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="52" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab5f7b99886990c7f0b8677351c4de102" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshSurface.ignoreNavMeshObstacle</definition>
+        <argsstring></argsstring>
+        <name>ignoreNavMeshObstacle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="56" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a7be530183647a32e26a2526fbbfa235b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshSurface.overrideTileSize</definition>
+        <argsstring></argsstring>
+        <name>overrideTileSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="60" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aad6f77c6cb0977c02adcd32c419d3b5c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int UnityEngine.AI.NavMeshSurface.tileSize</definition>
+        <argsstring></argsstring>
+        <name>tileSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="63" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a76c9c143c8f3d166f37c81b1939c9325" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshSurface.overrideVoxelSize</definition>
+        <argsstring></argsstring>
+        <name>overrideVoxelSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="66" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a9778fde71edbb4df9fe4fcff3adb6f5f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float UnityEngine.AI.NavMeshSurface.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="69" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a314d5ce1234db77483d54858a77e4fb0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshSurface.buildHeightMesh</definition>
+        <argsstring></argsstring>
+        <name>buildHeightMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="74" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1af93626d806baafc9dd6cf35878f1c5ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>NavMeshData</type>
+        <definition>NavMeshData UnityEngine.AI.NavMeshSurface.navMeshData</definition>
+        <argsstring></argsstring>
+        <name>navMeshData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="80" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6fa2eb9e7b828c14c88eedd5ef7a3ac5" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface" kindref="compound">NavMeshSurface</ref> &gt;</type>
+        <definition>List&lt;NavMeshSurface&gt; UnityEngine.AI.NavMeshSurface.activeSurfaces</definition>
+        <argsstring></argsstring>
+        <name>activeSurfaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="89" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a370baf1fe034523c32365f1c7377bad2" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; <ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface" kindref="compound">NavMeshSurface</ref> &gt;</type>
+        <definition>readonly List&lt;NavMeshSurface&gt; UnityEngine.AI.NavMeshSurface.s_NavMeshSurfaces</definition>
+        <argsstring></argsstring>
+        <name>s_NavMeshSurfaces</name>
+        <initializer>= new List&lt;<ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface" kindref="compound">NavMeshSurface</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="87" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad1c50b565d798d01e5d79898ddc37694" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.AI.NavMeshSurface.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="94" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="94" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6d07bcc1964fc5fc24d872e0afb43d44" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.AI.NavMeshSurface.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="100" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="100" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab7d94cb7ef7119ca7cc3a7a30f1c8cb2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.AI.NavMeshSurface.AppendModifierVolumes</definition>
+        <argsstring>(ref List&lt; NavMeshBuildSource &gt; sources)</argsstring>
+        <name>AppendModifierVolumes</name>
+        <param>
+          <type>ref List&lt; NavMeshBuildSource &gt;</type>
+          <declname>sources</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="230" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="230" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a9601967a4c230416d0d3e59950bda3f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; NavMeshBuildSource &gt;</type>
+        <definition>List&lt;NavMeshBuildSource&gt; UnityEngine.AI.NavMeshSurface.CollectSources</definition>
+        <argsstring>()</argsstring>
+        <name>CollectSources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="272" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="272" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a0661fa8406d166aca8ae06007cce13b2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bounds</type>
+        <definition>Bounds UnityEngine.AI.NavMeshSurface.CalculateWorldBounds</definition>
+        <argsstring>(List&lt; NavMeshBuildSource &gt; sources)</argsstring>
+        <name>CalculateWorldBounds</name>
+        <param>
+          <type>List&lt; NavMeshBuildSource &gt;</type>
+          <declname>sources</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="369" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="369" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a018608bac16f89e07985094c49d28203" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UnityEngine.AI.NavMeshSurface.HasTransformChanged</definition>
+        <argsstring>()</argsstring>
+        <name>HasTransformChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="406" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="406" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a7e169bc2513c2614c14138578d8fe2f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.AI.NavMeshSurface.UpdateDataIfTransformChanged</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateDataIfTransformChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="413" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="413" bodyend="420"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a59cb54cd1345b7f9f5ec569740249fbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.AI.NavMeshSurface.AddData</definition>
+        <argsstring>()</argsstring>
+        <name>AddData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="106" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="106" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab172d2aeaa1fc33361ec519b34e30bda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.AI.NavMeshSurface.RemoveData</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="131" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="131" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a29b3013714ce2cb0f40489b0094cde15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>NavMeshBuildSettings</type>
+        <definition>NavMeshBuildSettings UnityEngine.AI.NavMeshSurface.GetBuildSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GetBuildSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="137" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="137" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aadb98970a0eab4c02bf9d9b5fced4393" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.AI.NavMeshSurface.BuildNavMesh</definition>
+        <argsstring>()</argsstring>
+        <name>BuildNavMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="159" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="159" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1afe022e3ea5130431bae0366ff2df756a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AsyncOperation</type>
+        <definition>AsyncOperation UnityEngine.AI.NavMeshSurface.UpdateNavMesh</definition>
+        <argsstring>(NavMeshData data)</argsstring>
+        <name>UpdateNavMesh</name>
+        <param>
+          <type>NavMeshData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="184" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="184" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ade9f0ceb52c0ce6d9fea3f8c5818864f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.AI.NavMeshSurface.Register</definition>
+        <argsstring>(NavMeshSurface surface)</argsstring>
+        <name>Register</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface" kindref="compound">NavMeshSurface</ref></type>
+          <declname>surface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="197" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="197" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aa32e6679a3700d98e43af14a75f9b589" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.AI.NavMeshSurface.Unregister</definition>
+        <argsstring>(NavMeshSurface surface)</argsstring>
+        <name>Unregister</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface" kindref="compound">NavMeshSurface</ref></type>
+          <declname>surface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="216" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="216" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a318bc5523c96326b3540aeacd44ea96b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.AI.NavMeshSurface.UpdateActive</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="224" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="224" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ada1d98991b8fe1ded55c3f12601e9aa8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 UnityEngine.AI.NavMeshSurface.Abs</definition>
+        <argsstring>(Vector3 v)</argsstring>
+        <name>Abs</name>
+        <param>
+          <type>Vector3</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="354" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="354" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a150ec663d0fe35cb17dde4cae86bfc8c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bounds</type>
+        <definition>static Bounds UnityEngine.AI.NavMeshSurface.GetWorldBounds</definition>
+        <argsstring>(Matrix4x4 mat, Bounds bounds)</argsstring>
+        <name>GetWorldBounds</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>mat</declname>
+        </param>
+        <param>
+          <type>Bounds</type>
+          <declname>bounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="359" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="359" bodyend="367"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="167">
+        <label>UnityEngine.AI.NavMeshSurface</label>
+        <link refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="169">
+        <label>UnityEngine.AI.NavMeshSurface</label>
+        <link refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" line="21" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/NavMeshSurface.cs" bodystart="20" bodyend="485"/>
+    <listofallmembers>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ada1d98991b8fe1ded55c3f12601e9aa8" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>Abs</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6fa2eb9e7b828c14c88eedd5ef7a3ac5" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>activeSurfaces</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a59cb54cd1345b7f9f5ec569740249fbc" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>AddData</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ada23db57d56759a36a94939d754aae64" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>agentTypeID</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab7d94cb7ef7119ca7cc3a7a30f1c8cb2" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>AppendModifierVolumes</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a314d5ce1234db77483d54858a77e4fb0" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>buildHeightMesh</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aadb98970a0eab4c02bf9d9b5fced4393" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>BuildNavMesh</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a0661fa8406d166aca8ae06007cce13b2" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>CalculateWorldBounds</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a30c7cb2dadbf689a036085d2b804d1e0" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>center</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a00bcc3b2f3500381af09377a64fa3708" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>collectObjects</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a9601967a4c230416d0d3e59950bda3f1" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>CollectSources</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a921f2f9f6b6f7cfc4c8fd9125f2cc602" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>defaultArea</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a29b3013714ce2cb0f40489b0094cde15" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>GetBuildSettings</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a150ec663d0fe35cb17dde4cae86bfc8c" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>GetWorldBounds</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a018608bac16f89e07985094c49d28203" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>HasTransformChanged</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a38bbd52829348bbcb04c3c369d1437b8" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>ignoreNavMeshAgent</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab5f7b99886990c7f0b8677351c4de102" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>ignoreNavMeshObstacle</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a4fe846e0f32d064be221dccb46581233" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>layerMask</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1afd0b66c8df2b765012caccecc25f4803" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_AgentTypeID</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab51287eec00b9d5517bfd69977851002" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_BuildHeightMesh</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6ebac99112681cfa10ccaa3f01bbea07" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_Center</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6684515cb42841e32b40103173bf81d8" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_CollectObjects</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aa772bc3234ae2616f84428c1f8434e7c" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_DefaultArea</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aeca5b4d70bc9b78be60db63549874f15" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_IgnoreNavMeshAgent</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1adc216337b5c7f6003c50b8edb699b3ba" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_IgnoreNavMeshObstacle</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a13ad8c93067f354a6cc0905b3a1e4213" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_LastPosition</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a3971bb175fe673dd0d2f1f8daa502217" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_LastRotation</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad5dd1708824e1cdd1178f32b89309e2c" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_LayerMask</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ae61fcee93ba2ff8011ada6af69a70d9b" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_NavMeshData</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a065e038ab8b17bd9d52ea5e50c448e11" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_NavMeshDataInstance</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ac3e16e7753b9c7629305e16eaa77ec54" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_OverrideTileSize</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad9c8d7c51f520c1f9cf18ad2a4d3dc3a" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_OverrideVoxelSize</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aac32f91bffd081b9f2074ba905f7d6cb" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_Size</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab0d26a868ac583ffa725b4105c860d38" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_TileSize</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a5ec8714d0b26a3ac201795670b39a6f0" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_UseGeometry</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a76cd0f3a03c9b3d36cd938e568893878" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>m_VoxelSize</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1af93626d806baafc9dd6cf35878f1c5ea" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>navMeshData</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6d07bcc1964fc5fc24d872e0afb43d44" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>OnDisable</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad1c50b565d798d01e5d79898ddc37694" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>OnEnable</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a7be530183647a32e26a2526fbbfa235b" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>overrideTileSize</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a76c9c143c8f3d166f37c81b1939c9325" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>overrideVoxelSize</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ade9f0ceb52c0ce6d9fea3f8c5818864f" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>Register</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab172d2aeaa1fc33361ec519b34e30bda" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>RemoveData</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a370baf1fe034523c32365f1c7377bad2" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>s_NavMeshSurfaces</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a69d3632948e2abd25a60eee7622015c4" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>size</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aad6f77c6cb0977c02adcd32c419d3b5c" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>tileSize</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aa32e6679a3700d98e43af14a75f9b589" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>Unregister</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a318bc5523c96326b3540aeacd44ea96b" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>UpdateActive</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a7e169bc2513c2614c14138578d8fe2f3" prot="private" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>UpdateDataIfTransformChanged</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1afe022e3ea5130431bae0366ff2df756a" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>UpdateNavMesh</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad165cdb8a106d59b424b14367c7d2723" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>useGeometry</name></member>
+      <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a9778fde71edbb4df9fe4fcff3adb6f5f" prot="public" virt="non-virtual"><scope>UnityEngine::AI::NavMeshSurface</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

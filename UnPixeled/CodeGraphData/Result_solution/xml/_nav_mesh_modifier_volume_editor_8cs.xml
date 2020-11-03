@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_nav_mesh_modifier_volume_editor_8cs" kind="file">
+    <compoundname>NavMeshModifierVolumeEditor.cs</compoundname>
+    <innerclass refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor" prot="public">UnityEditor::AI::NavMeshModifierVolumeEditor</innerclass>
+    <innernamespace refid="namespace_unity_editor_1_1_a_i">UnityEditor::AI</innernamespace>
+    <innernamespace refid="namespace_unity_editor_1_1_i_m_g_u_i_1_1_controls">UnityEditor::IMGUI::Controls</innernamespace>
+    <innernamespace refid="namespace_unity_editor_internal">UnityEditorInternal</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEditor.IMGUI.Controls;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEditorInternal;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.AI;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UnityEditor.AI</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>[CanEditMultipleObjects]</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>[CustomEditor(typeof(<ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume" kindref="compound">NavMeshModifierVolume</ref>))]</highlight></codeline>
+<codeline lineno="10" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor" kindref="compound">NavMeshModifierVolumeEditor</ref><sp/>:<sp/>Editor</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a176db6376ef85d619aba55aab928b06c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a176db6376ef85d619aba55aab928b06c" kindref="member">m_AffectedAgents</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1785523edaae7c589ab754ec9e81cc82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1785523edaae7c589ab754ec9e81cc82" kindref="member">m_Area</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a831d39c0d389691597fcb479e4631865" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a831d39c0d389691597fcb479e4631865" kindref="member">m_Center</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a04f1947caf4f68c4614d5d90ca341c72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerializedProperty<sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a04f1947caf4f68c4614d5d90ca341c72" kindref="member">m_Size</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a6dfe00c3a33a8558c0faf5c68821631b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Color<sp/>s_HandleColor<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Color(187f,<sp/>138f,<sp/>240f,<sp/>210f)<sp/>/<sp/>255;</highlight></codeline>
+<codeline lineno="18" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1d19b0d328856172080dd464298eba35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Color<sp/>s_HandleColorDisabled<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Color(187f<sp/>*<sp/>0.75f,<sp/>138f<sp/>*<sp/>0.75f,<sp/>240f<sp/>*<sp/>0.75f,<sp/>100f)<sp/>/<sp/>255;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1aa550619578db38866c1f740023e22c13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BoxBoundsHandle<sp/>m_BoundsHandle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>BoxBoundsHandle();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>editingCollider</highlight></codeline>
+<codeline lineno="23" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a5d06a376a0531f926a4eed90fe66d55d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>EditMode.editMode<sp/>==<sp/>EditMode.SceneViewEditMode.Collider<sp/>&amp;&amp;<sp/>EditMode.IsOwner(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ab71add1366687575f0958a60ad8200a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ab71add1366687575f0958a60ad8200a3" kindref="member">OnEnable</ref>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_AffectedAgents<sp/>=<sp/>serializedObject.FindProperty(</highlight><highlight class="stringliteral">&quot;m_AffectedAgents&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Area<sp/>=<sp/>serializedObject.FindProperty(</highlight><highlight class="stringliteral">&quot;m_Area&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Center<sp/>=<sp/>serializedObject.FindProperty(</highlight><highlight class="stringliteral">&quot;m_Center&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Size<sp/>=<sp/>serializedObject.FindProperty(</highlight><highlight class="stringliteral">&quot;m_Size&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavMeshVisualizationSettings.showNavigation++;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a6518e60bbef44d8ade61d92bbbe701f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a6518e60bbef44d8ade61d92bbbe701f3" kindref="member">OnDisable</ref>()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavMeshVisualizationSettings.showNavigation--;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a33a5fc0d3e3476635fdf7300d9c4a92b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Bounds<sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a33a5fc0d3e3476635fdf7300d9c4a92b" kindref="member">GetBounds</ref>()</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>navModifier<sp/>=<sp/>(<ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume" kindref="compound">NavMeshModifierVolume</ref>)target;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Bounds(navModifier.transform.position,<sp/>navModifier.size);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1691fedc7d5772f04c10ac7cd60e98e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1691fedc7d5772f04c10ac7cd60e98e5" kindref="member">OnInspectorGUI</ref>()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializedObject.Update();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditMode.DoEditModeInspectorModeButton(EditMode.SceneViewEditMode.Collider,<sp/></highlight><highlight class="stringliteral">&quot;Edit<sp/>Volume&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUIUtility.IconContent(</highlight><highlight class="stringliteral">&quot;EditCollider&quot;</highlight><highlight class="normal">),<sp/>GetBounds,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.PropertyField(m_Size);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.PropertyField(m_Center);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavMeshComponentsGUIUtility.AreaPopup(</highlight><highlight class="stringliteral">&quot;Area<sp/>Type&quot;</highlight><highlight class="normal">,<sp/>m_Area);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NavMeshComponentsGUIUtility.AgentMaskPopup(</highlight><highlight class="stringliteral">&quot;Affected<sp/>Agents&quot;</highlight><highlight class="normal">,<sp/>m_AffectedAgents);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUILayout.Space();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializedObject.ApplyModifiedProperties();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[DrawGizmo(GizmoType.Selected<sp/>|<sp/>GizmoType.Active)]</highlight></codeline>
+<codeline lineno="66" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1af2e552c4429452f94c91a9fb5dfbfa46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1af2e552c4429452f94c91a9fb5dfbfa46" kindref="member">RenderBoxGizmo</ref>(<ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume" kindref="compound">NavMeshModifierVolume</ref><sp/>navModifier,<sp/>GizmoType<sp/>gizmoType)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>color<sp/>=<sp/>navModifier.enabled<sp/>?<sp/>s_HandleColor<sp/>:<sp/>s_HandleColorDisabled;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>colorTrans<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Color(color.r<sp/>*<sp/>0.75f,<sp/>color.g<sp/>*<sp/>0.75f,<sp/>color.b<sp/>*<sp/>0.75f,<sp/>color.a<sp/>*<sp/>0.15f);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>oldColor<sp/>=<sp/>Gizmos.color;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>oldMatrix<sp/>=<sp/>Gizmos.matrix;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.matrix<sp/>=<sp/>navModifier.transform.localToWorldMatrix;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.color<sp/>=<sp/>colorTrans;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.DrawCube(navModifier.center,<sp/>navModifier.size);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.color<sp/>=<sp/>color;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.DrawWireCube(navModifier.center,<sp/>navModifier.size);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.matrix<sp/>=<sp/>oldMatrix;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.color<sp/>=<sp/>oldColor;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.DrawIcon(navModifier.transform.position,<sp/></highlight><highlight class="stringliteral">&quot;NavMeshModifierVolume<sp/>Icon&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[DrawGizmo(GizmoType.NotInSelectionHierarchy<sp/>|<sp/>GizmoType.Pickable)]</highlight></codeline>
+<codeline lineno="89" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a0804fbd8b7c4e225d0815343141dc31d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a0804fbd8b7c4e225d0815343141dc31d" kindref="member">RenderBoxGizmoNotSelected</ref>(<ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume" kindref="compound">NavMeshModifierVolume</ref><sp/>navModifier,<sp/>GizmoType<sp/>gizmoType)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(NavMeshVisualizationSettings.showNavigation<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>color<sp/>=<sp/>navModifier.enabled<sp/>?<sp/>s_HandleColor<sp/>:<sp/>s_HandleColorDisabled;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>oldColor<sp/>=<sp/>Gizmos.color;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>oldMatrix<sp/>=<sp/>Gizmos.matrix;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.matrix<sp/>=<sp/>navModifier.transform.localToWorldMatrix;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.color<sp/>=<sp/>color;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.DrawWireCube(navModifier.center,<sp/>navModifier.size);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.matrix<sp/>=<sp/>oldMatrix;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.color<sp/>=<sp/>oldColor;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gizmos.DrawIcon(navModifier.transform.position,<sp/></highlight><highlight class="stringliteral">&quot;NavMeshModifierVolume<sp/>Icon&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ad7875912c028d50fffbe8a75024efc7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ad7875912c028d50fffbe8a75024efc7a" kindref="member">OnSceneGUI</ref>()</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!editingCollider)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>vol<sp/>=<sp/>(<ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume" kindref="compound">NavMeshModifierVolume</ref>)target;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>color<sp/>=<sp/>vol.enabled<sp/>?<sp/>s_HandleColor<sp/>:<sp/>s_HandleColorDisabled;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Handles.DrawingScope(color,<sp/>vol.transform.localToWorldMatrix))</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_BoundsHandle.center<sp/>=<sp/>vol.center;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_BoundsHandle.size<sp/>=<sp/>vol.size;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorGUI.BeginChangeCheck();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_BoundsHandle.DrawHandle();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(EditorGUI.EndChangeCheck())</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Undo.RecordObject(vol,<sp/></highlight><highlight class="stringliteral">&quot;Modified<sp/>NavMesh<sp/>Modifier<sp/>Volume&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>center<sp/>=<sp/>m_BoundsHandle.center;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>size<sp/>=<sp/>m_BoundsHandle.size;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vol.center<sp/>=<sp/>center;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vol.size<sp/>=<sp/>size;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EditorUtility.SetDirty(target);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[MenuItem(</highlight><highlight class="stringliteral">&quot;GameObject/AI/NavMesh<sp/>Modifier<sp/>Volume&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>2001)]</highlight></codeline>
+<codeline lineno="136" refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ae11cb0e71942b612c58cb0a495035b80" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ae11cb0e71942b612c58cb0a495035b80" kindref="member">CreateNavMeshModifierVolume</ref>(MenuCommand<sp/>menuCommand)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>parent<sp/>=<sp/>menuCommand.context<sp/>as<sp/>GameObject;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>go<sp/>=<sp/>NavMeshComponentsGUIUtility.CreateAndSelectGameObject(</highlight><highlight class="stringliteral">&quot;NavMesh<sp/>Modifier<sp/>Volume&quot;</highlight><highlight class="normal">,<sp/>parent);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>go.AddComponent&lt;<ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume" kindref="compound">NavMeshModifierVolume</ref>&gt;();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>view<sp/>=<sp/>SceneView.lastActiveSceneView;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(view<sp/>!=<sp/>null)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view.MoveToView(go.transform);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs"/>
+  </compounddef>
+</doxygen>

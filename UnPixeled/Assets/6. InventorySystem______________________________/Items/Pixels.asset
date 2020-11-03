@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 041974d91a9d71f47a341f155d9bcaeb, type: 3}
+  m_Name: Pixels
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8421115897394391084, guid: aba29be0f9ab40c41acc1d189d422d94, type: 3}
+  itemIcon: {fileID: 21300000, guid: 57a2f9aa8ac0cc647a47eaebc71517c3, type: 3}
+  itemName: Pixels
+  stackable: 1
+  count: 2
+  itemType: 0
+  etc: 0
+  etcType: 0
+  weaponDamage: 0
+  critChance: 0
+  weaponType: 0
+  restoreHealth: 0

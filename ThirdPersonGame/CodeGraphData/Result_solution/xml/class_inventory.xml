@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_inventory" kind="class" prot="public">
+    <compoundname>Inventory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_inventory_1a3d1162a471cb40e63e81488c5b7b55fe" prot="public" static="no">
+        <name>InventoryActions</name>
+        <enumvalue id="class_inventory_1a3d1162a471cb40e63e81488c5b7b55fea34ec78fcc91ffb1e54cd85e4a0924332" prot="public">
+          <name>add</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_inventory_1a3d1162a471cb40e63e81488c5b7b55fea0f6969d7052da9261e31ddb6e88c136e" prot="public">
+          <name>remove</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" line="29" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_inventory_1a7e42de5152c946b6b2b29c24e95e51ef" prot="public" static="no" mutable="no">
+        <type><ref refid="class_inventory_1a3d1162a471cb40e63e81488c5b7b55fe" kindref="member">InventoryActions</ref></type>
+        <definition>InventoryActions Inventory.inventoryAcctions</definition>
+        <argsstring></argsstring>
+        <name>inventoryAcctions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" line="33" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_inventory_1af0291b77fa3a9a3e0ff48422ce54ab7b" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_inventory_slot" kindref="compound">InventorySlot</ref> &gt;</type>
+        <definition>List&lt;InventorySlot&gt; Inventory.container</definition>
+        <argsstring></argsstring>
+        <name>container</name>
+        <initializer>= new List&lt;<ref refid="class_inventory_slot" kindref="compound">InventorySlot</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" line="35" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_inventory_1a686e54f7fcd6b98581a992b50c78aa83" compoundref="_inventory_8cs" startline="52" endline="62">AddItem</referencedby>
+        <referencedby refid="class_inventory_1a3dea07dfb33d2c0b1013af071208eb69" compoundref="_inventory_8cs" startline="64" endline="72">RemoveItem</referencedby>
+        <referencedby refid="class_u_i_inventory_1a8c8aac94e0d52b48ae434a1e1569ee5f" compoundref="_u_i_inventory_8cs" startline="21" endline="31">UIInventory.UpdateInventory</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_inventory_1ad1d4f136c9df9e11f191351d31245598" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Inventory.InventoryAction</definition>
+        <argsstring>(InventoryActions _action, ItemData _item, int _count)</argsstring>
+        <name>InventoryAction</name>
+        <param>
+          <type><ref refid="class_inventory_1a3d1162a471cb40e63e81488c5b7b55fe" kindref="member">InventoryActions</ref></type>
+          <declname>_action</declname>
+        </param>
+        <param>
+          <type><ref refid="class_item_data" kindref="compound">ItemData</ref></type>
+          <declname>_item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" line="38" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" bodystart="38" bodyend="50"/>
+        <references refid="class_inventory_1a686e54f7fcd6b98581a992b50c78aa83" compoundref="_inventory_8cs" startline="52" endline="62">AddItem</references>
+        <references refid="class_inventory_1a3dea07dfb33d2c0b1013af071208eb69" compoundref="_inventory_8cs" startline="64" endline="72">RemoveItem</references>
+      </memberdef>
+      <memberdef kind="function" id="class_inventory_1a686e54f7fcd6b98581a992b50c78aa83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Inventory.AddItem</definition>
+        <argsstring>(ItemData _item, int _count)</argsstring>
+        <name>AddItem</name>
+        <param>
+          <type><ref refid="class_item_data" kindref="compound">ItemData</ref></type>
+          <declname>_item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" line="52" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" bodystart="52" bodyend="62"/>
+        <references refid="class_inventory_1af0291b77fa3a9a3e0ff48422ce54ab7b" compoundref="_inventory_8cs" startline="35">container</references>
+        <references refid="class_item_data_1aa4f2b94959f790ca2a4680434ab0ff7f" compoundref="_item_data_8cs" startline="11">ItemData.stackable</references>
+        <referencedby refid="class_inventory_1ad1d4f136c9df9e11f191351d31245598" compoundref="_inventory_8cs" startline="38" endline="50">InventoryAction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_inventory_1a3dea07dfb33d2c0b1013af071208eb69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Inventory.RemoveItem</definition>
+        <argsstring>(ItemData _item, int _count)</argsstring>
+        <name>RemoveItem</name>
+        <param>
+          <type><ref refid="class_item_data" kindref="compound">ItemData</ref></type>
+          <declname>_item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" line="64" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" bodystart="64" bodyend="72"/>
+        <references refid="class_inventory_1af0291b77fa3a9a3e0ff48422ce54ab7b" compoundref="_inventory_8cs" startline="35">container</references>
+        <references refid="class_item_data_1ac84f9991e476bd4c2f8403a0f6f5b98e" compoundref="_item_data_8cs" startline="10">ItemData.itemName</references>
+        <referencedby refid="class_inventory_1ad1d4f136c9df9e11f191351d31245598" compoundref="_inventory_8cs" startline="38" endline="50">InventoryAction</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="136">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="135">
+        <label>Inventory</label>
+        <link refid="class_inventory"/>
+        <childnode refid="136" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="138">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="137">
+        <label>Inventory</label>
+        <link refid="class_inventory"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" line="27" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System/Inventory.cs" bodystart="26" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_inventory_1a686e54f7fcd6b98581a992b50c78aa83" prot="public" virt="non-virtual"><scope>Inventory</scope><name>AddItem</name></member>
+      <member refid="class_inventory_1af0291b77fa3a9a3e0ff48422ce54ab7b" prot="public" virt="non-virtual"><scope>Inventory</scope><name>container</name></member>
+      <member refid="class_inventory_1a7e42de5152c946b6b2b29c24e95e51ef" prot="public" virt="non-virtual"><scope>Inventory</scope><name>inventoryAcctions</name></member>
+      <member refid="class_inventory_1ad1d4f136c9df9e11f191351d31245598" prot="public" virt="non-virtual"><scope>Inventory</scope><name>InventoryAction</name></member>
+      <member refid="class_inventory_1a3d1162a471cb40e63e81488c5b7b55fe" prot="public" virt="non-virtual"><scope>Inventory</scope><name>InventoryActions</name></member>
+      <member refid="class_inventory_1a3dea07dfb33d2c0b1013af071208eb69" prot="public" virt="non-virtual"><scope>Inventory</scope><name>RemoveItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

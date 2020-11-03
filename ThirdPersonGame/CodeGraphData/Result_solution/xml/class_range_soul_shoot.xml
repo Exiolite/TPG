@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_range_soul_shoot" kind="class" prot="public">
+    <compoundname>RangeSoulShoot</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEvent&lt; AudioSource &gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="245">
+        <label>UnityEvent&lt; AudioSource &gt;</label>
+      </node>
+      <node id="244">
+        <label>RangeSoulShoot</label>
+        <link refid="class_range_soul_shoot"/>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="247">
+        <label>UnityEvent&lt; AudioSource &gt;</label>
+      </node>
+      <node id="246">
+        <label>RangeSoulShoot</label>
+        <link refid="class_range_soul_shoot"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="74" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="74" bodyend="74"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

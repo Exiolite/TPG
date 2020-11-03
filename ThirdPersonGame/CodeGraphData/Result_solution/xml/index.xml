@@ -1,0 +1,743 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation" kind="struct"><name>UnityEditor::AI::NavMeshAssetManager::AsyncBakeOperation</name>
+    <member refid="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation_1af596d8d38ef05305e45beda1a881902e" kind="variable"><name>surface</name></member>
+    <member refid="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation_1aa609e4284521e831ea007ab80226ad63" kind="variable"><name>bakeData</name></member>
+    <member refid="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_async_bake_operation_1a24b67a2192c2e73babf27b9e0fc57f2d" kind="variable"><name>bakeOperation</name></member>
+  </compound>
+  <compound refid="class_audio_manager" kind="class"><name>AudioManager</name>
+    <member refid="class_audio_manager_1abefec1a063901d99027b50565a62e1f5" kind="variable"><name>stepSounds</name></member>
+    <member refid="class_audio_manager_1af099efed8fec73278d2a71f8c5b29cac" kind="variable"><name>enemySoulHit</name></member>
+    <member refid="class_audio_manager_1add2bf16f86ea242db0f89915b1f24f49" kind="variable"><name>enemyRangeSoulShoot</name></member>
+    <member refid="class_audio_manager_1adec817e936dc355fa2a2468939efd07a" kind="variable"><name>doorOpens</name></member>
+    <member refid="class_audio_manager_1a0cd8d4407e468d5687a43ffbf3336d65" kind="variable"><name>pickUp</name></member>
+    <member refid="class_audio_manager_1a631d7d42b921bcbd82bd1baec2ec3ea7" kind="function"><name>Awake</name></member>
+    <member refid="class_audio_manager_1a46f87fca08ae0c607bda36c55eeced94" kind="function"><name>PlayerStep</name></member>
+    <member refid="class_audio_manager_1a4eb578d2c3fd242d93127793eabd6489" kind="function"><name>EnemyDamaged</name></member>
+    <member refid="class_audio_manager_1a9c1ec82c535a560a4745fadeb013027c" kind="function"><name>RangeSoulShoot</name></member>
+    <member refid="class_audio_manager_1a1a52533d9b2837a6af6d9235b32b6e38" kind="function"><name>DoorOpens</name></member>
+    <member refid="class_audio_manager_1a5d37f928fa8bf838273faa493749aa98" kind="function"><name>PickUp</name></member>
+  </compound>
+  <compound refid="class_audio_steps" kind="class"><name>AudioSteps</name>
+    <member refid="class_audio_steps_1a211894867aab6ab95820f3c1838d743d" kind="function"><name>PlayerStep</name></member>
+  </compound>
+  <compound refid="class_camera_follow" kind="class"><name>CameraFollow</name>
+    <member refid="class_camera_follow_1ae34ba9d2ba479a0bd004adb5a96a9342" kind="variable"><name>playerTransform</name></member>
+    <member refid="class_camera_follow_1a924c2f26a261004c89aa63ca0c89d454" kind="variable"><name>smoothSpeed</name></member>
+    <member refid="class_camera_follow_1ae4f97609d08d1933161b1c4da36b2018" kind="variable"><name>offset</name></member>
+    <member refid="class_camera_follow_1adbbbae516b9d54ffc9afe287dcb72cd5" kind="function"><name>Start</name></member>
+    <member refid="class_camera_follow_1af572f7bb45ca2a3027beacdd5985a60d" kind="function"><name>LateUpdate</name></member>
+  </compound>
+  <compound refid="class_damage_enemy_soul" kind="class"><name>DamageEnemySoul</name>
+  </compound>
+  <compound refid="class_damage_player" kind="class"><name>DamagePlayer</name>
+  </compound>
+  <compound refid="class_disable_dash" kind="class"><name>DisableDash</name>
+  </compound>
+  <compound refid="class_disable_inventory" kind="class"><name>DisableInventory</name>
+  </compound>
+  <compound refid="class_disable_mouse" kind="class"><name>DisableMouse</name>
+  </compound>
+  <compound refid="class_disable_movement" kind="class"><name>DisableMovement</name>
+  </compound>
+  <compound refid="class_door_opens" kind="class"><name>DoorOpens</name>
+  </compound>
+  <compound refid="class_enemy_a_i___soul" kind="class"><name>EnemyAI_Soul</name>
+    <member refid="class_enemy_a_i___soul_1ae39f2b618d25643ef377466aee572dbd" kind="enum"><name>AI_Type</name></member>
+    <member refid="class_enemy_a_i___soul_1ae39f2b618d25643ef377466aee572dbdae686710e1512ff998541ddd98ee4b7e8" kind="enumvalue"><name>melee</name></member>
+    <member refid="class_enemy_a_i___soul_1ae39f2b618d25643ef377466aee572dbda37b19816109a32106d109e83bbb3c97d" kind="enumvalue"><name>range</name></member>
+    <member refid="class_enemy_a_i___soul_1a6c52b03488315a2c0d959b1477630fab" kind="variable"><name>lookRadius</name></member>
+    <member refid="class_enemy_a_i___soul_1a9de998d05eb37840d235459e7286bdab" kind="variable"><name>runRadius</name></member>
+    <member refid="class_enemy_a_i___soul_1a0dabf30880ad685f77cdd2de1ccb83a3" kind="variable"><name>attackRadius</name></member>
+    <member refid="class_enemy_a_i___soul_1a048781eebd6e734007cadb4adecabd9e" kind="variable"><name>ai_Type</name></member>
+    <member refid="class_enemy_a_i___soul_1a9394f662ff911b85c1a3f0334ab61432" kind="variable"><name>damage</name></member>
+    <member refid="class_enemy_a_i___soul_1a4d686a4dff21a30735cb5e736e51ff3c" kind="variable"><name>attackDelay</name></member>
+    <member refid="class_enemy_a_i___soul_1aef5b70b75896f510587f2f417110ec62" kind="variable"><name>shootForce</name></member>
+    <member refid="class_enemy_a_i___soul_1a5088a99bfbefd085efc2087574a5f554" kind="variable"><name>projectile</name></member>
+    <member refid="class_enemy_a_i___soul_1ad78324e602e5b9afe2033fc9a59c1f13" kind="variable"><name>pfPojectile</name></member>
+    <member refid="class_enemy_a_i___soul_1a117926b0f225f61e75befa6fbfb8d9e5" kind="variable"><name>lastAttacked</name></member>
+    <member refid="class_enemy_a_i___soul_1a0b174ce0aa075daea0cb2f0788b31b39" kind="variable"><name>navMeshAgent</name></member>
+    <member refid="class_enemy_a_i___soul_1a72ad6a1016c15c2b74815043b26da911" kind="function"><name>OnDrawGizmosSelected</name></member>
+    <member refid="class_enemy_a_i___soul_1af2dfce451063858bf714530050f7221f" kind="function"><name>Awake</name></member>
+    <member refid="class_enemy_a_i___soul_1a0c530fbea64122a499768917dd3ccda5" kind="function"><name>Start</name></member>
+    <member refid="class_enemy_a_i___soul_1adbb4c660ca31ced47480503376807410" kind="function"><name>Update</name></member>
+    <member refid="class_enemy_a_i___soul_1ac48f01e8f765f0d4a528a030b378161b" kind="function"><name>PlayerSpottedByEmeny</name></member>
+    <member refid="class_enemy_a_i___soul_1ac0c95ab5abdcf746ebdb29364b61fd4d" kind="function"><name>ActorActions</name></member>
+    <member refid="class_enemy_a_i___soul_1aa2672700e015c319d88fd32fb30b1a7a" kind="function"><name>ActorMove</name></member>
+    <member refid="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" kind="function"><name>ActorAttack</name></member>
+  </compound>
+  <compound refid="class_enemy_dead" kind="class"><name>EnemyDead</name>
+  </compound>
+  <compound refid="class_equipment" kind="class"><name>Equipment</name>
+    <member refid="class_equipment_1a92c3518f38aafd15de4a07a9795965e7" kind="enum"><name>EquipmentActions</name></member>
+    <member refid="class_equipment_1a92c3518f38aafd15de4a07a9795965e7a9046c60fefe66f31f80c61379c92843c" kind="enumvalue"><name>equip</name></member>
+    <member refid="class_equipment_1a92c3518f38aafd15de4a07a9795965e7af20f2ef71d78adcbf81c34908bf7983d" kind="enumvalue"><name>upequip</name></member>
+    <member refid="class_equipment_1a6f21f9b7fdf7dcdac949061f7765e02e" kind="variable"><name>equipmentActions</name></member>
+    <member refid="class_equipment_1af4e1d7d8207af93e1a673de31ee61de6" kind="variable"><name>weaponSlot</name></member>
+    <member refid="class_equipment_1a32cfe43b8a2193ec619c7547951736bf" kind="function"><name>EquipmentAction</name></member>
+    <member refid="class_equipment_1a4e54f691ee27a35005ccdc093cd6feff" kind="function"><name>UpEqip</name></member>
+    <member refid="class_equipment_1afbf5234dc00b86758ac7eef85134c310" kind="function"><name>Clear</name></member>
+  </compound>
+  <compound refid="class_equipment_action" kind="class"><name>EquipmentAction</name>
+  </compound>
+  <compound refid="class_equipment_update" kind="class"><name>EquipmentUpdate</name>
+  </compound>
+  <compound refid="class_event_audio" kind="class"><name>EventAudio</name>
+    <member refid="class_event_audio_1a9ce91bb8f39b8a6ce36a142d087190be" kind="variable"><name>playerStepSound</name></member>
+    <member refid="class_event_audio_1a08734ccc2cf0e797638ed48cf702656d" kind="variable"><name>doorOpens</name></member>
+    <member refid="class_event_audio_1a7f659728c524e1fbe7df5deb651d1060" kind="variable"><name>pickUp</name></member>
+    <member refid="class_event_audio_1a79f0d0c8e71db8b8f0520ffea7eec5ca" kind="variable"><name>damagePlayer</name></member>
+    <member refid="class_event_audio_1af613b436ef5abcc59d36ec73eb68ab92" kind="variable"><name>damageEnemySoul</name></member>
+    <member refid="class_event_audio_1aa501a9df7461c9b4493874b335d2246b" kind="variable"><name>rangeSoulShoot</name></member>
+  </compound>
+  <compound refid="class_event_game" kind="class"><name>EventGame</name>
+    <member refid="class_event_game_1a680560cedd122787c35349da8f57656a" kind="variable"><name>playerDead</name></member>
+    <member refid="class_event_game_1a6ccbeab775c20a2e6fbfbee86f6dcedb" kind="variable"><name>enemyDead</name></member>
+    <member refid="class_event_game_1a96e8ee082ae3544ee4f3f2273a4d643f" kind="variable"><name>playerIneraction</name></member>
+    <member refid="class_event_game_1ac4fe25358cea3f6390d8a421d47a00e3" kind="variable"><name>playerStatAction</name></member>
+    <member refid="class_event_game_1a6183d8323730e4c20c2cd50e02159afd" kind="variable"><name>updatePlayerStats</name></member>
+    <member refid="class_event_game_1aea42ffaf1610ec6d5f015e52214cebbc" kind="variable"><name>disableMovement</name></member>
+    <member refid="class_event_game_1a09947ec2f7e50a9b8044adcb9c8c1d28" kind="variable"><name>disableDash</name></member>
+    <member refid="class_event_game_1a6448418e968fcdbdbc1b3616ac0e36eb" kind="variable"><name>inventoryOpen</name></member>
+    <member refid="class_event_game_1a50f83c92e4d6234f23f14ba059932cb0" kind="variable"><name>disableInventory</name></member>
+    <member refid="class_event_game_1ae70c45c42f0ee2edfdd1573cbe683a8b" kind="variable"><name>disableMouse</name></member>
+    <member refid="class_event_game_1a28c86fb7f1678a3c436396fde185b0be" kind="variable"><name>inventoryAction</name></member>
+    <member refid="class_event_game_1afa958240a06d901a3ee89c694b74a586" kind="variable"><name>inventoryUpdate</name></member>
+    <member refid="class_event_game_1aabf7f790ccd58b15c999ab1bd4407a38" kind="variable"><name>equipmentAction</name></member>
+    <member refid="class_event_game_1a8089fbaab2be2807b176598a6991d6c5" kind="variable"><name>equipmentUpdate</name></member>
+    <member refid="class_event_game_1a6a3ceedc6018887dfb9c4fb4c502050f" kind="variable"><name>playerSpottedByEnemy</name></member>
+  </compound>
+  <compound refid="class_floating_text" kind="class"><name>FloatingText</name>
+    <member refid="class_floating_text_1a4926445120e79d1ca60035300456cbea" kind="function"><name>Update</name></member>
+    <member refid="class_floating_text_1a342c243903e506087fabba4f1c55e598" kind="function"><name>showText</name></member>
+  </compound>
+  <compound refid="class_game_manager" kind="class"><name>GameManager</name>
+    <member refid="class_game_manager_1a57d400c7a28f42865048fbdbaf236cfb" kind="variable"><name>playerPrefab</name></member>
+    <member refid="class_game_manager_1a408af9cf2de7d5075154ebfedf05d2d5" kind="variable"><name>gamePlayer</name></member>
+    <member refid="class_game_manager_1a13ae86907013231189bfe62acf2a9e46" kind="variable"><name>cameraPrefab</name></member>
+    <member refid="class_game_manager_1a6874da7eb59212b9eaabaa01cb831bdd" kind="variable"><name>gameCamera</name></member>
+    <member refid="class_game_manager_1aa8fd66e6c709eb0ceac87ead9b92a9b0" kind="variable"><name>floatingText</name></member>
+    <member refid="class_game_manager_1a193a6798cc256f0d9672213603c9aeca" kind="variable"><name>damageColor</name></member>
+    <member refid="class_game_manager_1ac88abf393e588301e6646db8e36c6d1b" kind="variable"><name>pickUpSprite</name></member>
+    <member refid="class_game_manager_1accb0b79815a9dc0316411f0d317d62fd" kind="variable"><name>inputManager</name></member>
+    <member refid="class_game_manager_1a98707c07e8e201b774ddb6a65f755186" kind="variable"><name>audioManager</name></member>
+    <member refid="class_game_manager_1ad679b61ec1e06dc02dfca1baabef5b42" kind="variable"><name>vfxManager</name></member>
+    <member refid="class_game_manager_1ab21fdb48fd1c8ce2275e50e20cde1e84" kind="variable"><name>playerManager</name></member>
+    <member refid="class_game_manager_1a70d0b416d2ca1ac435f0a3a742226980" kind="variable"><name>uiManager</name></member>
+    <member refid="class_game_manager_1ac60c567c335c24d26edcb2476c8d0a07" kind="variable"><name>soulDrop</name></member>
+    <member refid="class_game_manager_1a7666e8468dac197b9eb32dd32128524f" kind="variable"><name>instance</name></member>
+    <member refid="class_game_manager_1a2959177ee51ac31badbf8b1bc8f7f637" kind="function"><name>Awake</name></member>
+    <member refid="class_game_manager_1a37d8e2617cfba4ccfb65b9291e6befa5" kind="function"><name>PlayerDead</name></member>
+    <member refid="class_game_manager_1a9651830425a93b0321f75ac3daba2988" kind="function"><name>InstantiatePlayer</name></member>
+  </compound>
+  <compound refid="class_health_stats__actor" kind="class"><name>HealthStats_actor</name>
+    <member refid="class_health_stats__actor_1a7d359369d2119c5c13d6a9430c5cad20" kind="variable"><name>damageText</name></member>
+    <member refid="class_health_stats__actor_1a331bc7e7b0e35be775899c36d10a39a5" kind="variable"><name>destroyDelay</name></member>
+    <member refid="class_health_stats__actor_1a5f6ad114352ac1e05f7aca085df5d5bc" kind="variable"><name>deadTime</name></member>
+    <member refid="class_health_stats__actor_1a77fa80b917aecc6a961cd522d222d068" kind="variable"><name>dieParticles</name></member>
+    <member refid="class_health_stats__actor_1aeeac3e760e7c195c362506b3c0f56599" kind="variable"><name>hitParticles</name></member>
+    <member refid="class_health_stats__actor_1a33a3216bb83b4823b919651027a7bd18" kind="variable"><name>health</name></member>
+    <member refid="class_health_stats__actor_1a4fc41a907fe86034f6365a120b861d41" kind="variable"><name>dead</name></member>
+    <member refid="class_health_stats__actor_1a8c5b9af3dc4dcb1b676bc67b8373cdf2" kind="variable"><name>dropFromMob</name></member>
+    <member refid="class_health_stats__actor_1a3ff848749122c8b441e79b08d451dc60" kind="function"><name>Awake</name></member>
+    <member refid="class_health_stats__actor_1af0d313ce925002960a6b73ec4af44c4c" kind="function"><name>Update</name></member>
+    <member refid="class_health_stats__actor_1a798f28010f23cd035ab0ef7cbb5b7c3f" kind="function"><name>OnTriggerEnter</name></member>
+    <member refid="class_health_stats__actor_1a36dfbb5d91503c0dbf8b4676548e28ee" kind="function"><name>EnemyDead</name></member>
+    <member refid="class_health_stats__actor_1a13f78b442c53f9e982210609ff17a1ac" kind="function"><name>HealthDamage</name></member>
+  </compound>
+  <compound refid="class_health_stats__player" kind="class"><name>HealthStats_player</name>
+    <member refid="class_health_stats__player_1a53e21264a6a1707d97d23d373bc8d186" kind="variable"><name>damageText</name></member>
+    <member refid="class_health_stats__player_1a41b203f6a28f3ff3897ff15ad77bd4bf" kind="variable"><name>disableDeaht</name></member>
+    <member refid="class_health_stats__player_1a1c05fbc666414f5951cbb689b7b99717" kind="variable"><name>health</name></member>
+    <member refid="class_health_stats__player_1ab9a7d9b8df93e4ef992fc0c185d4ee74" kind="variable"><name>healthMax</name></member>
+    <member refid="class_health_stats__player_1ab1a8ca7f8cad9503da93af70d7439b03" kind="variable"><name>healthRegeneration</name></member>
+    <member refid="class_health_stats__player_1a789544da5035764e2a2cad5bb67d0168" kind="variable"><name>expirience</name></member>
+    <member refid="class_health_stats__player_1a722dba45a03e94ee8db99cc0fb1ba83b" kind="variable"><name>energy</name></member>
+    <member refid="class_health_stats__player_1a918dd330bd06a0e8b2c4b747e8cf0836" kind="variable"><name>energyMax</name></member>
+    <member refid="class_health_stats__player_1a23b61f5c46f99cf7490a1a4055194717" kind="variable"><name>energyUseForDash</name></member>
+    <member refid="class_health_stats__player_1ab1f98c78e821baa7db21c8804151aa8a" kind="variable"><name>minimumEnergyForDash</name></member>
+    <member refid="class_health_stats__player_1a983df665e8b5bdf000e03a5cb7872c65" kind="variable"><name>energyRegeneration</name></member>
+    <member refid="class_health_stats__player_1a23244a1aec84f1a41d9883733ce0a15c" kind="function"><name>Awake</name></member>
+    <member refid="class_health_stats__player_1a91ff753d0a89a991b73a5d28212c25b0" kind="function"><name>Start</name></member>
+    <member refid="class_health_stats__player_1a4f9da92fff34f652557e50433545764b" kind="function"><name>Update</name></member>
+    <member refid="class_health_stats__player_1a3ec553b683d038312d966c772e46c1c6" kind="function"><name>HealthStatsAction</name></member>
+    <member refid="class_health_stats__player_1a6d231ee6f5802185e0bd94a3692fe519" kind="function"><name>RegenerateHealth</name></member>
+    <member refid="class_health_stats__player_1aedd3e47d04ec4695ab1c0ad64dcce7ec" kind="function"><name>RegenerateEnergy</name></member>
+    <member refid="class_health_stats__player_1ab02edbe368a5f4cea8467d856f5da97f" kind="function"><name>DropStat</name></member>
+    <member refid="class_health_stats__player_1a78432ae4f6ac41d3e93ab90359bdb61a" kind="function"><name>AddStat</name></member>
+    <member refid="class_health_stats__player_1ae26b645babbb6d9aee5d73bb9128158f" kind="function"><name>ResetPlayer</name></member>
+  </compound>
+  <compound refid="class_input_manager" kind="class"><name>InputManager</name>
+    <member refid="class_input_manager_1ae3adf8c3439f35a45bc384df86a9a983" kind="variable"><name>moveX</name></member>
+    <member refid="class_input_manager_1ae42e4805e2e5d29d5c61df8067f3baa4" kind="variable"><name>moveZ</name></member>
+    <member refid="class_input_manager_1a503aaba4f3728641c408f442bfcaa58b" kind="variable"><name>inputWASD</name></member>
+    <member refid="class_input_manager_1a91750e54c5182058acc06340ad792f5c" kind="variable"><name>disableMovement</name></member>
+    <member refid="class_input_manager_1a8b167e625cd79f8366cc543f83acb90a" kind="variable"><name>disableDash</name></member>
+    <member refid="class_input_manager_1aa10189f5d09f265d1943ab13896cb821" kind="variable"><name>disableMouse</name></member>
+    <member refid="class_input_manager_1a7c32b209f7bccd800d99a5cccdf964ce" kind="variable"><name>inventoryOpened</name></member>
+    <member refid="class_input_manager_1af2aeeba1de6106442e98403f88c88bd9" kind="variable"><name>disableInventory</name></member>
+    <member refid="class_input_manager_1ab6c8ec6ddddb9740199f1ca0607e240f" kind="function"><name>Awake</name></member>
+    <member refid="class_input_manager_1a17a33be75084fed42bebb52892323c62" kind="function"><name>Update</name></member>
+    <member refid="class_input_manager_1a6c0d36288db1568d932ae50155cf9951" kind="function"><name>DisableMovement</name></member>
+    <member refid="class_input_manager_1a0fba4d7553afd5af8eef409d7ee5d547" kind="function"><name>DisableDash</name></member>
+    <member refid="class_input_manager_1ab58f35e3fafeb95ccd72cc567ea560ff" kind="function"><name>DisableMouse</name></member>
+    <member refid="class_input_manager_1aa517eceabb0b8b9b9cf4fda728ca8407" kind="function"><name>OpenCloseInventory</name></member>
+    <member refid="class_input_manager_1a25d9311598b6b80df78d9be9bdbeaa92" kind="function"><name>DisableInventory</name></member>
+    <member refid="class_input_manager_1a442f3837cbdbfc28f50c780a2cd9de48" kind="function"><name>WASDMovement</name></member>
+    <member refid="class_input_manager_1ab20e6c89e4c5a58103c3ada99a81c3b2" kind="function"><name>Dash</name></member>
+    <member refid="class_input_manager_1a6bd1b41a3aef75fbe38cfab95dfa65c3" kind="function"><name>LeftMouseButton</name></member>
+    <member refid="class_input_manager_1a00ae801f0e1738033e8463f4ed4f8a14" kind="function"><name>RightMouseButton</name></member>
+    <member refid="class_input_manager_1a03ac6f901f92de8090ecc94ddd8d427e" kind="function"><name>Interact</name></member>
+  </compound>
+  <compound refid="class_inventory" kind="class"><name>Inventory</name>
+    <member refid="class_inventory_1a3d1162a471cb40e63e81488c5b7b55fe" kind="enum"><name>InventoryActions</name></member>
+    <member refid="class_inventory_1a3d1162a471cb40e63e81488c5b7b55fea34ec78fcc91ffb1e54cd85e4a0924332" kind="enumvalue"><name>add</name></member>
+    <member refid="class_inventory_1a3d1162a471cb40e63e81488c5b7b55fea0f6969d7052da9261e31ddb6e88c136e" kind="enumvalue"><name>remove</name></member>
+    <member refid="class_inventory_1a7e42de5152c946b6b2b29c24e95e51ef" kind="variable"><name>inventoryAcctions</name></member>
+    <member refid="class_inventory_1af0291b77fa3a9a3e0ff48422ce54ab7b" kind="variable"><name>container</name></member>
+    <member refid="class_inventory_1ad1d4f136c9df9e11f191351d31245598" kind="function"><name>InventoryAction</name></member>
+    <member refid="class_inventory_1a686e54f7fcd6b98581a992b50c78aa83" kind="function"><name>AddItem</name></member>
+    <member refid="class_inventory_1a3dea07dfb33d2c0b1013af071208eb69" kind="function"><name>RemoveItem</name></member>
+  </compound>
+  <compound refid="class_inventory_action" kind="class"><name>InventoryAction</name>
+  </compound>
+  <compound refid="class_inventory_open" kind="class"><name>InventoryOpen</name>
+  </compound>
+  <compound refid="class_inventory_slot" kind="class"><name>InventorySlot</name>
+    <member refid="class_inventory_slot_1a30163bb29573243d02e4b6d3bd8c98da" kind="variable"><name>item</name></member>
+    <member refid="class_inventory_slot_1acd90598cca7ddbc13dc261cef4e82051" kind="variable"><name>count</name></member>
+    <member refid="class_inventory_slot_1a4f3febb8a94015027b662258c42411e5" kind="function"><name>InventorySlot</name></member>
+    <member refid="class_inventory_slot_1a97d8250b70d5f9465854c922dfe4cae9" kind="function"><name>AddCount</name></member>
+  </compound>
+  <compound refid="class_inventory_update" kind="class"><name>InventoryUpdate</name>
+  </compound>
+  <compound refid="class_item" kind="class"><name>Item</name>
+    <member refid="class_item_1ae51d114791b5a8f127fa4a0287ce69c3" kind="variable"><name>item</name></member>
+    <member refid="class_item_1a2a7837951d7faca7f5788638545c1726" kind="variable"><name>spriteGObject</name></member>
+    <member refid="class_item_1ab7489e36592a795adef95fb56f038aaa" kind="function"><name>Awake</name></member>
+    <member refid="class_item_1a18e619e4918f45bce6a4c657b83e3e4d" kind="function"><name>OnTriggerEnter</name></member>
+    <member refid="class_item_1a8e0560105f8fd3b7454e3b6988a1c4d7" kind="function"><name>OnTriggerExit</name></member>
+    <member refid="class_item_1a54e4c01614ac04a864820a3a47e3a027" kind="function"><name>InstancePickUpSprite</name></member>
+  </compound>
+  <compound refid="class_item_data" kind="class"><name>ItemData</name>
+    <member refid="class_item_data_1a35046a0f2919f8d749416c4d5b8d878e" kind="enum"><name>ItemType</name></member>
+    <member refid="class_item_data_1a35046a0f2919f8d749416c4d5b8d878eae80f17310109447772dca82b45ef35a5" kind="enumvalue"><name>etc</name></member>
+    <member refid="class_item_data_1a35046a0f2919f8d749416c4d5b8d878ea282aa351a2bd30655fbc060bd4f33766" kind="enumvalue"><name>weapon</name></member>
+    <member refid="class_item_data_1a35046a0f2919f8d749416c4d5b8d878ea468fc0481d0de11c389199e9eaa7d819" kind="enumvalue"><name>armour</name></member>
+    <member refid="class_item_data_1a35046a0f2919f8d749416c4d5b8d878ea66735c55d23fc37e5b57afef4657e6d2" kind="enumvalue"><name>consumable</name></member>
+    <member refid="class_item_data_1a21f74536a0a0f69bdab331e7c0c50a0e" kind="enum"><name>WeaponType</name></member>
+    <member refid="class_item_data_1a21f74536a0a0f69bdab331e7c0c50a0eac13d88cb4cb02003daedb8a84e5d272a" kind="enumvalue"><name>stuff</name></member>
+    <member refid="class_item_data_1a21f74536a0a0f69bdab331e7c0c50a0eaf3b462d93b24cb0538f5d864546bc3e0" kind="enumvalue"><name>sword</name></member>
+    <member refid="class_item_data_1ac2686d323c71cd030e3439d66504df5a" kind="variable"><name>prefab</name></member>
+    <member refid="class_item_data_1aba4f58feb517ece89ccaadecb99a59d2" kind="variable"><name>itemIcon</name></member>
+    <member refid="class_item_data_1ac84f9991e476bd4c2f8403a0f6f5b98e" kind="variable"><name>itemName</name></member>
+    <member refid="class_item_data_1aa4f2b94959f790ca2a4680434ab0ff7f" kind="variable"><name>stackable</name></member>
+    <member refid="class_item_data_1ae1655a6cb2a5503e66fa6942d4f6144f" kind="variable"><name>count</name></member>
+    <member refid="class_item_data_1a6d5d16927a9279bc2f4efa53d4ccb564" kind="variable"><name>itemType</name></member>
+    <member refid="class_item_data_1a35ec5df4f2c52a4a1a97ca6f0d900d8f" kind="variable"><name>weaponDamage</name></member>
+    <member refid="class_item_data_1a7ca6fd34728bca62e2f289434665e904" kind="variable"><name>critChance</name></member>
+    <member refid="class_item_data_1a3d9e12383c81bf13572d274cd7d19418" kind="variable"><name>weaponType</name></member>
+    <member refid="class_item_data_1a8d1107765a68c4c3668cbbc0440ce56d" kind="variable"><name>restoreHealth</name></member>
+    <member refid="class_item_data_1a750fe705a8f962dd8590a1dcbb68622b" kind="property"><name>ItemIcon</name></member>
+    <member refid="class_item_data_1ad83ec933e645a3713298fe0ae551d7f4" kind="property"><name>ItemName</name></member>
+    <member refid="class_item_data_1a8ecb8f16f8e8af5b9d851f86bd3044e2" kind="property"><name>Stackable</name></member>
+    <member refid="class_item_data_1a4af4c92cb8f74f8de60ee7eeee3d5818" kind="property"><name>Count</name></member>
+    <member refid="class_item_data_1a6740e5cb6dd55a25defb18253985e0e1" kind="property"><name>Prefab</name></member>
+    <member refid="class_item_data_1aefc7b14d4701ea6d0b47f60d02bcecfc" kind="property"><name>WeaponDamage</name></member>
+    <member refid="class_item_data_1a2193a2985581b33b27b2b07d14230dd4" kind="property"><name>CritChance</name></member>
+    <member refid="class_item_data_1a57f1cb344241930460b13645e3a271e9" kind="property"><name>RestoreHealth</name></member>
+  </compound>
+  <compound refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager" kind="class"><name>UnityEditor::AI::NavMeshAssetManager</name>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a6fe93fe9b27631cdd858b4586ba6ca26" kind="variable"><name>m_BakeOperations</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a025cb657606660a5e55a771e562206d5" kind="variable"><name>m_PrefabNavMeshDataAssets</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a0f5b8a776a582c37fe70db52442533b4" kind="function"><name>GetBakeOperations</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a7aedb68d949673ea8ddbc3ef52a013d3" kind="function"><name>GetAndEnsureTargetPath</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1aef8c1fd64cf321c6ffeb819962f3db9e" kind="function"><name>CreateNavMeshAsset</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a7a6ef362d34a959dd0c49ba3ca4a41ef" kind="function"><name>InitializeBakeData</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a865ceb13bfe83b70b3dda5b7fd419ab7" kind="function"><name>SetNavMeshData</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1af9c6cf56758572074e3b6364732e0d01" kind="function"><name>GetNavMeshAssetToDelete</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1ac7f588ad5587c7285fa5c1b456188a49" kind="function"><name>ClearSurface</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a3f5fb8067299c5c14b7921eb4f3579f8" kind="function"><name>UpdateAsyncBuildOperations</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a978e82e64a72a612c48afb7bc3529eac" kind="function"><name>StoreNavMeshDataIfInPrefab</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a2244bdac243b2de5c42006e97fa908bc" kind="function"><name>IsCurrentPrefabNavMeshDataStored</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1aaa0ad9e901beb916ba16f7a35e34261a" kind="function"><name>DeleteStoredNavMeshDataAssetsForOwnedSurfaces</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a41b48e95c22f8d2d330ed31e7c2ea246" kind="function"><name>DeleteStoredPrefabNavMeshDataAsset</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a9b9c21be1b44eb6a158dd59cf1567576" kind="function"><name>ForgetUnsavedNavMeshDataChanges</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a9eb384b5a70428c55a15dae6a4dd48c7" kind="function"><name>StartBakingSurfaces</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a2dd5c3c43486663d31f093043054b8b2" kind="function"><name>IsSurfaceBaking</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1a8cbb2f329edbe846b4fe609f1e274805" kind="function"><name>ClearSurfaces</name></member>
+  </compound>
+  <compound refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility" kind="class"><name>UnityEditor::AI::NavMeshComponentsGUIUtility</name>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility_1a3a766aa7560b9342338bae8d406c87fb" kind="function"><name>AreaPopup</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility_1a21e6bc162db0568182bde0d0f5289864" kind="function"><name>AgentTypePopup</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility_1abb5263aab6b9c095d0f9c2cc781d9378" kind="function"><name>AgentMaskPopup</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility_1adc59157802b2c08b3e28397278779906" kind="function"><name>CreateAndSelectGameObject</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility_1a38d45726ada15e0626fe1b3a9c1ee3b5" kind="function"><name>IsAll</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility_1a2e71d4c629a72e7e1f06da7c17106b9b" kind="function"><name>ToggleAgentMaskItem</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility_1a55c924c1bbee014dcbfac1ef5b707f0e" kind="function"><name>ToggleAgentMaskItem</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility_1aae436ef00fc091ddd415f08dfd90ca56" kind="function"><name>SetAgentMaskNone</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility_1a42e98a786f1c90e425f996393d123897" kind="function"><name>SetAgentMaskAll</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility_1abade3a2164052b32e16faf74a9b638ab" kind="function"><name>GetAgentMaskLabelName</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_components_g_u_i_utility_1a828a12550cc67fd4d2961448d39629d4" kind="function"><name>AgentMaskHasSelectedAgentTypeID</name></member>
+  </compound>
+  <compound refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link" kind="class"><name>UnityEngine::AI::NavMeshLink</name>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a70fbdcf55d2381b6e5d04677615b93f1" kind="variable"><name>m_AgentTypeID</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a5150b6efb6fb276c2589bf97a17956dc" kind="variable"><name>m_StartPoint</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a74310b1434bcd9f1e9d866d3f6373c39" kind="variable"><name>m_EndPoint</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1ab4acba9a11e8ffe32a20c4248ef6d521" kind="variable"><name>m_Width</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a4a32eb4006f895dc7962d3d4eed716ee" kind="variable"><name>m_CostModifier</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a55814344b861345f3b4f76e1f4cb1cfd" kind="variable"><name>m_Bidirectional</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a076ec21d10240437dd9d6e6b90896a2f" kind="variable"><name>m_AutoUpdatePosition</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1ac614df9489a7044e78540ab04dbdd8e6" kind="variable"><name>m_Area</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a3cf7ba9a2bbd3aa46067fc0fcc5631e1" kind="variable"><name>m_LinkInstance</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1abb365ca5b8422447d73384b20b0b0aab" kind="variable"><name>m_LastPosition</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a3df253424cf4eda9e91e1af5e4c29592" kind="variable"><name>m_LastRotation</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a6799dbdf47aae6834c162077ee8e009d" kind="property"><name>agentTypeID</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1aa9f5067aa5cb0cc9d5a802252c82446f" kind="property"><name>startPoint</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a2949ad1009e22649b914278d80200cab" kind="property"><name>endPoint</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a7114269330fb7e61101bc6bd84d3ae26" kind="property"><name>width</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a3ebc8915c5fba8de460b114d4f77b1b7" kind="property"><name>costModifier</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a868f51870cc678fecb7b18c45eba00fc" kind="property"><name>bidirectional</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1af696013572383671a2d5d172e00a6b5b" kind="property"><name>autoUpdate</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1aa4d4bacb28beb552f2c7d4e7bb03a127" kind="property"><name>area</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a53216dee2ecc3f51c08f45aa8e25d43a" kind="variable"><name>s_Tracked</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a42631a38a41d530b6e8f7e343a4ab386" kind="function"><name>OnEnable</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1ad35ceb86712480966cf8f6495db7c942" kind="function"><name>OnDisable</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a142bf29b6f5945d0596e40c5850f6163" kind="function"><name>SetAutoUpdate</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a145db50b6efe2129f9590aebb810ec7e" kind="function"><name>AddLink</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1aaeff376e95b08710939a81fa49358da3" kind="function"><name>HasTransformChanged</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a552ffbda7afac48453490bf1141c9194" kind="function"><name>OnDidApplyAnimationProperties</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1afb2b43693840e3b4797402528279043a" kind="function"><name>UpdateLink</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a19bcafc76c31997e26d5e4a4aa3b2cfd" kind="function"><name>AddTracking</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a1387fac476b06ba0c68d4402dc8bea2b" kind="function"><name>RemoveTracking</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_link_1a2314ea3cfce7b73f9a065b042025f45f" kind="function"><name>UpdateTrackedInstances</name></member>
+  </compound>
+  <compound refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor" kind="class"><name>UnityEditor::AI::NavMeshLinkEditor</name>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1ac059b76fa65e87febc77af9d9badde2e" kind="variable"><name>m_AgentTypeID</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a5750d3e4d057ed65ad60ca259ac03c35" kind="variable"><name>m_Area</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1aecece08e07e537352814a85c59b52052" kind="variable"><name>m_CostModifier</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a6f7c7ae990b0ab65ad4e82711e577785" kind="variable"><name>m_AutoUpdatePosition</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a96eeeacba4e99f3cc88b640b9f917eae" kind="variable"><name>m_Bidirectional</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1af730e89b4b72d14a588bb55e684995ec" kind="variable"><name>m_EndPoint</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1ad76990a1bf6195975c0299c00b65db18" kind="variable"><name>m_StartPoint</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a4db81d0cb77ad0b9c847c9a9c7b24bca" kind="variable"><name>m_Width</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a604556ed044be2db7c12e83fe3008d8d" kind="variable"><name>s_SelectedID</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a804c67a98dd67e2182e95ba18156bc54" kind="variable"><name>s_SelectedPoint</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a8b1439084ee3b49de5cae3ed83fda175" kind="variable"><name>s_HandleColor</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1afc3e50ab301519f92bdb1508833a5895" kind="variable"><name>s_HandleColorDisabled</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a01537f83e15fa42f59394aadcbcc4874" kind="function"><name>OnEnable</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a69f517a1dcfcbffa2828a87004025c9b" kind="function"><name>OnDisable</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1af02f8083c51162f05741f00f7b702bcc" kind="function"><name>AlignTransformToEndPoints</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a5e3d7106e4931c7d028fe3b11dad796e" kind="function"><name>UnscaledLocalToWorldMatrix</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a9dc4eba6016abcfc236fe0d2dffbbf41" kind="function"><name>CalcLinkRight</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1aa05e2073441d3af619b71fa585fc8d0a" kind="function"><name>DrawLink</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a3461f309954088e7e7bdab1b5d24b587" kind="function"><name>RenderBoxGizmo</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1aa3a66e790a806ce7072ee0dbf50423be" kind="function"><name>RenderBoxGizmoNotSelected</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a98a716e5a9cd9846502c113b32a75cde" kind="function"><name>OnInspectorGUI</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1ad705e4c42737c195408391b55a48ae66" kind="function"><name>OnSceneGUI</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_link_editor_1a03143817f1723cad74f8133210173020" kind="function"><name>CreateNavMeshLink</name></member>
+  </compound>
+  <compound refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier" kind="class"><name>UnityEngine::AI::NavMeshModifier</name>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1af904ed07c71ec9bdf80d775d57a7730c" kind="variable"><name>m_OverrideArea</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1aee1b74c2fe6097451bf0615aec2688bb" kind="variable"><name>m_Area</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a2c0cf3a96fcfe5c3b47ef0070b039da2" kind="variable"><name>m_IgnoreFromBuild</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1afec4c02c75061e36ba0c55a86644bfbf" kind="variable"><name>m_AffectedAgents</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a84a135d90246d97089f2c0f3d3ed6197" kind="property"><name>overrideArea</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a456a8b29136267bac460f54e6a3d5943" kind="property"><name>area</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a43adb4e69509a139de04fadbb98a74c6" kind="property"><name>ignoreFromBuild</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a30e7dd28b86964852e57fe30e00bd4f1" kind="property"><name>activeModifiers</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a429b9844f0b4b9a51ec9491a632ac6a3" kind="variable"><name>s_NavMeshModifiers</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1a7c68957576ebbf14430a0da378c6121e" kind="function"><name>OnEnable</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1aaa0cd8dafb0b6d6d49d4760527acdc57" kind="function"><name>OnDisable</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_1aab88e8190e44bd9414e7d1628436b0b6" kind="function"><name>AffectsAgentType</name></member>
+  </compound>
+  <compound refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor" kind="class"><name>UnityEditor::AI::NavMeshModifierEditor</name>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor_1a98b46997e742a1502befe783ad7a7da3" kind="variable"><name>m_AffectedAgents</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor_1ab71d25ac1b28d25107756bbb9f2b250c" kind="variable"><name>m_Area</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor_1a574c3fd7474235a9a74d25b9332b7ca4" kind="variable"><name>m_IgnoreFromBuild</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor_1aa80cd2509638bd3ee73b0d97d0a1d1ea" kind="variable"><name>m_OverrideArea</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor_1a3d6ba06e8bc4d2a31f99a2cc102cf12f" kind="function"><name>OnEnable</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor_1af0b76d5a0ff4ee9876a34540b837769b" kind="function"><name>OnDisable</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_editor_1a572f1742afd868908d11b0f5ad36453c" kind="function"><name>OnInspectorGUI</name></member>
+  </compound>
+  <compound refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume" kind="class"><name>UnityEngine::AI::NavMeshModifierVolume</name>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1a2bb2a51e77b5f13b4affafa4a365865d" kind="variable"><name>m_Size</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1aeacf2810f020749bac2ec3492cec9135" kind="variable"><name>m_Center</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1a710cdd7f0e6bd25c26de6b5a55370261" kind="variable"><name>m_Area</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1a065c6b98e295eca3ac4c2f93c4de852b" kind="variable"><name>m_AffectedAgents</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1a6d41ab19eb04de52b3e13c42ba47e11e" kind="property"><name>size</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1a4714dbf648538abbc3a495084a434b55" kind="property"><name>center</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1a3daa3d1b155e4f6a0dc7b34d571317a7" kind="property"><name>area</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1a11e8c223005f2d6a0ddee83eff2e412b" kind="property"><name>activeModifiers</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1a52c078b66ad162adf74af944aeefc129" kind="variable"><name>s_NavMeshModifiers</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1a0e1c94f6c6ac479e6ee2ec9f3d48c2fe" kind="function"><name>OnEnable</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1ae4c1dfdaae53e8988411955e7970d8ae" kind="function"><name>OnDisable</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume_1a3683cc7829a40bdfd0371d1c9ca3d9e8" kind="function"><name>AffectsAgentType</name></member>
+  </compound>
+  <compound refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor" kind="class"><name>UnityEditor::AI::NavMeshModifierVolumeEditor</name>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a176db6376ef85d619aba55aab928b06c" kind="variable"><name>m_AffectedAgents</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1785523edaae7c589ab754ec9e81cc82" kind="variable"><name>m_Area</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a831d39c0d389691597fcb479e4631865" kind="variable"><name>m_Center</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a04f1947caf4f68c4614d5d90ca341c72" kind="variable"><name>m_Size</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1aa550619578db38866c1f740023e22c13" kind="variable"><name>m_BoundsHandle</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a6dfe00c3a33a8558c0faf5c68821631b" kind="variable"><name>s_HandleColor</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1d19b0d328856172080dd464298eba35" kind="variable"><name>s_HandleColorDisabled</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a5d06a376a0531f926a4eed90fe66d55d" kind="property"><name>editingCollider</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ab71add1366687575f0958a60ad8200a3" kind="function"><name>OnEnable</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a6518e60bbef44d8ade61d92bbbe701f3" kind="function"><name>OnDisable</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a33a5fc0d3e3476635fdf7300d9c4a92b" kind="function"><name>GetBounds</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ad7875912c028d50fffbe8a75024efc7a" kind="function"><name>OnSceneGUI</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1691fedc7d5772f04c10ac7cd60e98e5" kind="function"><name>OnInspectorGUI</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1af2e552c4429452f94c91a9fb5dfbfa46" kind="function"><name>RenderBoxGizmo</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a0804fbd8b7c4e225d0815343141dc31d" kind="function"><name>RenderBoxGizmoNotSelected</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ae11cb0e71942b612c58cb0a495035b80" kind="function"><name>CreateNavMeshModifierVolume</name></member>
+  </compound>
+  <compound refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface" kind="class"><name>UnityEngine::AI::NavMeshSurface</name>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1afd0b66c8df2b765012caccecc25f4803" kind="variable"><name>m_AgentTypeID</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6684515cb42841e32b40103173bf81d8" kind="variable"><name>m_CollectObjects</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aac32f91bffd081b9f2074ba905f7d6cb" kind="variable"><name>m_Size</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6ebac99112681cfa10ccaa3f01bbea07" kind="variable"><name>m_Center</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad5dd1708824e1cdd1178f32b89309e2c" kind="variable"><name>m_LayerMask</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a5ec8714d0b26a3ac201795670b39a6f0" kind="variable"><name>m_UseGeometry</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aa772bc3234ae2616f84428c1f8434e7c" kind="variable"><name>m_DefaultArea</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aeca5b4d70bc9b78be60db63549874f15" kind="variable"><name>m_IgnoreNavMeshAgent</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1adc216337b5c7f6003c50b8edb699b3ba" kind="variable"><name>m_IgnoreNavMeshObstacle</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ac3e16e7753b9c7629305e16eaa77ec54" kind="variable"><name>m_OverrideTileSize</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab0d26a868ac583ffa725b4105c860d38" kind="variable"><name>m_TileSize</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad9c8d7c51f520c1f9cf18ad2a4d3dc3a" kind="variable"><name>m_OverrideVoxelSize</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a76cd0f3a03c9b3d36cd938e568893878" kind="variable"><name>m_VoxelSize</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab51287eec00b9d5517bfd69977851002" kind="variable"><name>m_BuildHeightMesh</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ae61fcee93ba2ff8011ada6af69a70d9b" kind="variable"><name>m_NavMeshData</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a065e038ab8b17bd9d52ea5e50c448e11" kind="variable"><name>m_NavMeshDataInstance</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a13ad8c93067f354a6cc0905b3a1e4213" kind="variable"><name>m_LastPosition</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a3971bb175fe673dd0d2f1f8daa502217" kind="variable"><name>m_LastRotation</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ada23db57d56759a36a94939d754aae64" kind="property"><name>agentTypeID</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a00bcc3b2f3500381af09377a64fa3708" kind="property"><name>collectObjects</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a69d3632948e2abd25a60eee7622015c4" kind="property"><name>size</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a30c7cb2dadbf689a036085d2b804d1e0" kind="property"><name>center</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a4fe846e0f32d064be221dccb46581233" kind="property"><name>layerMask</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad165cdb8a106d59b424b14367c7d2723" kind="property"><name>useGeometry</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a921f2f9f6b6f7cfc4c8fd9125f2cc602" kind="property"><name>defaultArea</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a38bbd52829348bbcb04c3c369d1437b8" kind="property"><name>ignoreNavMeshAgent</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab5f7b99886990c7f0b8677351c4de102" kind="property"><name>ignoreNavMeshObstacle</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a7be530183647a32e26a2526fbbfa235b" kind="property"><name>overrideTileSize</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aad6f77c6cb0977c02adcd32c419d3b5c" kind="property"><name>tileSize</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a76c9c143c8f3d166f37c81b1939c9325" kind="property"><name>overrideVoxelSize</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a9778fde71edbb4df9fe4fcff3adb6f5f" kind="property"><name>voxelSize</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a314d5ce1234db77483d54858a77e4fb0" kind="property"><name>buildHeightMesh</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1af93626d806baafc9dd6cf35878f1c5ea" kind="property"><name>navMeshData</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6fa2eb9e7b828c14c88eedd5ef7a3ac5" kind="property"><name>activeSurfaces</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a370baf1fe034523c32365f1c7377bad2" kind="variable"><name>s_NavMeshSurfaces</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ad1c50b565d798d01e5d79898ddc37694" kind="function"><name>OnEnable</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a6d07bcc1964fc5fc24d872e0afb43d44" kind="function"><name>OnDisable</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab7d94cb7ef7119ca7cc3a7a30f1c8cb2" kind="function"><name>AppendModifierVolumes</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a9601967a4c230416d0d3e59950bda3f1" kind="function"><name>CollectSources</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a0661fa8406d166aca8ae06007cce13b2" kind="function"><name>CalculateWorldBounds</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a018608bac16f89e07985094c49d28203" kind="function"><name>HasTransformChanged</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a7e169bc2513c2614c14138578d8fe2f3" kind="function"><name>UpdateDataIfTransformChanged</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a59cb54cd1345b7f9f5ec569740249fbc" kind="function"><name>AddData</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ab172d2aeaa1fc33361ec519b34e30bda" kind="function"><name>RemoveData</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a29b3013714ce2cb0f40489b0094cde15" kind="function"><name>GetBuildSettings</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aadb98970a0eab4c02bf9d9b5fced4393" kind="function"><name>BuildNavMesh</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1afe022e3ea5130431bae0366ff2df756a" kind="function"><name>UpdateNavMesh</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ade9f0ceb52c0ce6d9fea3f8c5818864f" kind="function"><name>Register</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1aa32e6679a3700d98e43af14a75f9b589" kind="function"><name>Unregister</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a318bc5523c96326b3540aeacd44ea96b" kind="function"><name>UpdateActive</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ada1d98991b8fe1ded55c3f12601e9aa8" kind="function"><name>Abs</name></member>
+    <member refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a150ec663d0fe35cb17dde4cae86bfc8c" kind="function"><name>GetWorldBounds</name></member>
+  </compound>
+  <compound refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor" kind="class"><name>UnityEditor::AI::NavMeshSurfaceEditor</name>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0791ec8fcd8f24edf2be9e3cd096fe6a" kind="variable"><name>m_AgentTypeID</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1aa61a311ba093acdd2e0cf5784c604b1a" kind="variable"><name>m_BuildHeightMesh</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad3d772f4eb826c849887ce2cca023040" kind="variable"><name>m_Center</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a70053fd4d0a72bc280ee13130e3f51d8" kind="variable"><name>m_CollectObjects</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad2f9d34f26f97b6323e5706389469e4f" kind="variable"><name>m_DefaultArea</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0827e41b6c9aa432adf1c75caf4be9af" kind="variable"><name>m_LayerMask</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0c9c6eb40867af3d4a0aa6919a8222d5" kind="variable"><name>m_OverrideTileSize</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1afb34bdd4d38e4a930a53fa57f40ed5e5" kind="variable"><name>m_OverrideVoxelSize</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0e0f7e6c2d891bc016bf9c5605a0103a" kind="variable"><name>m_Size</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1abff143429f2ce6f2e59b2b55b71ece02" kind="variable"><name>m_TileSize</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ae61ec1ec2b7c6de36a16d93c507538a9" kind="variable"><name>m_UseGeometry</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a05493d46d1fbc50b90ab3c5714e12832" kind="variable"><name>m_VoxelSize</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1afe835d7776abd9e8fd373e03d385e423" kind="variable"><name>m_NavMeshData</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a9e6bdfb23c431cb92a48c89171ab63fa" kind="variable"><name>m_BoundsHandle</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0282cf93aa9ff5bd3bb61a0e01bd9d21" kind="variable"><name>s_Styles</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a7d678fa124c4f83e728502d0100b13f7" kind="variable"><name>s_ShowDebugOptions</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1acc2b431dea077427d0928836082e6429" kind="variable"><name>s_HandleColor</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a7873ed29e2ea1d81fd5b31983eb35560" kind="variable"><name>s_HandleColorSelected</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a7f31aaf39e363b2b9b07a1f636bc12c6" kind="variable"><name>s_HandleColorDisabled</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a889726b8b48d927ab914a49125deb562" kind="property"><name>editingCollider</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a3f3133957daa4c0436f32eeb154507e3" kind="function"><name>OnEnable</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a5fb0febf2fb7a31caf88117a6bd908f2" kind="function"><name>OnDisable</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad0ab4d5ffdff16d64bf3147dfe59d440" kind="function"><name>GetBounds</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a799f88af773d7ee990d7bbe703261a74" kind="function"><name>OnSceneGUI</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ac5e76f0631254a0c3bbd9416b37f92eb" kind="function"><name>OnInspectorGUI</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad250c52818871f76da2c441d8408def2" kind="function"><name>RenderBoxGizmoSelected</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a27dd74eb5cf3e01f61d2472ec65790a4" kind="function"><name>RenderBoxGizmoNotSelected</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a53d78573dea22b29fb609e72752dbb86" kind="function"><name>RenderBoxGizmo</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1aef0aa706a714ba527984e415a08cbf3c" kind="function"><name>CreateNavMeshSurface</name></member>
+  </compound>
+  <compound refid="class_open_door" kind="class"><name>OpenDoor</name>
+    <member refid="class_open_door_1a5688c2874a16e9fad22b9bd35c1eee3e" kind="variable"><name>door</name></member>
+    <member refid="class_open_door_1ae2b1fb4075570dac96dd06bf8dafa4cc" kind="variable"><name>localSprite</name></member>
+    <member refid="class_open_door_1adcdc8d4c42567b2e9224355538fe555f" kind="variable"><name>localSprite2</name></member>
+    <member refid="class_open_door_1a44d761a72b5202b19b8086d6ce65b8e8" kind="function"><name>Awake</name></member>
+    <member refid="class_open_door_1a28eba0f8471d26965dcc52a299075067" kind="function"><name>PlayAnimation</name></member>
+    <member refid="class_open_door_1a8a6df4acd9bb570f061a6f5fdd02b664" kind="function"><name>OnTriggerEnter</name></member>
+    <member refid="class_open_door_1a828a892cf10138b8b5e410e2a7bdf368" kind="function"><name>OnTriggerExit</name></member>
+  </compound>
+  <compound refid="class_pick_up" kind="class"><name>PickUp</name>
+  </compound>
+  <compound refid="class_player_dead" kind="class"><name>PlayerDead</name>
+  </compound>
+  <compound refid="class_player_interaction" kind="class"><name>PlayerInteraction</name>
+  </compound>
+  <compound refid="class_player_manager" kind="class"><name>PlayerManager</name>
+    <member refid="class_player_manager_1a9e5cbc34fa5515403a71a78bc980ac90" kind="variable"><name>playerSpeed</name></member>
+    <member refid="class_player_manager_1ae324b67788bb472f27f1cedae6d8b5b4" kind="variable"><name>dashSpeed</name></member>
+    <member refid="class_player_manager_1abdb4f4d4862ce014134e6d088f50fd12" kind="variable"><name>charController</name></member>
+    <member refid="class_player_manager_1a1fb9f8afb16985a4325641618d5d3f85" kind="variable"><name>playerModel</name></member>
+    <member refid="class_player_manager_1a5f9ba9ace91a9df5c655f2081191df1e" kind="variable"><name>weaponCollider</name></member>
+    <member refid="class_player_manager_1a83522b8fdffd41c87c8e06bb8075f34c" kind="variable"><name>rightHand</name></member>
+    <member refid="class_player_manager_1a68c30587d045a6b67489446e655f595d" kind="variable"><name>playerInventory</name></member>
+    <member refid="class_player_manager_1ad01122fc86efc749ae244b3cf012f1c4" kind="variable"><name>playerEquipment</name></member>
+    <member refid="class_player_manager_1a69f1d1a6f080e7bd197b57b834e228c1" kind="variable"><name>defenceState</name></member>
+    <member refid="class_player_manager_1a61acaf32d07ec0b0689c8f4cb1377274" kind="variable"><name>speed</name></member>
+    <member refid="class_player_manager_1a62f044a550fb87fbbd45d3e49ef206c9" kind="variable"><name>playerAnim</name></member>
+    <member refid="class_player_manager_1a1416e7628e83873973f7e6bf513e2e11" kind="function"><name>Awake</name></member>
+    <member refid="class_player_manager_1a88c8a1178aad26b023ffacd9934931b4" kind="function"><name>ResetPlayer</name></member>
+    <member refid="class_player_manager_1abdb444060fde7b515c89247b97f5167c" kind="function"><name>Start</name></member>
+    <member refid="class_player_manager_1a43372940f8b1158c706116b1b5b6370e" kind="function"><name>OnTriggerStay</name></member>
+    <member refid="class_player_manager_1a845f49f829496d56defe86c77e03fa12" kind="function"><name>Update</name></member>
+    <member refid="class_player_manager_1a07d5f86bcde9e9e9e5aff7a4830e9e74" kind="function"><name>OnApplicationQuit</name></member>
+    <member refid="class_player_manager_1a4e89a19373ac861426f87ec716fa13d2" kind="function"><name>AnimationPlayer</name></member>
+    <member refid="class_player_manager_1a3867de3e73f15fc23f8b471f43f5c963" kind="function"><name>PlayerRotate</name></member>
+    <member refid="class_player_manager_1ab341df3bc8ff980817676d302f47017e" kind="function"><name>PlayerDash</name></member>
+    <member refid="class_player_manager_1af61b05c61f2c2f0703ed17acc9c08859" kind="function"><name>MovementAnimations</name></member>
+    <member refid="class_player_manager_1a54c2c4b350961104f0c1aa6324c874d2" kind="function"><name>AttackAnimation</name></member>
+    <member refid="class_player_manager_1a03b46c442e58ab705ee1c2f887f887eb" kind="function"><name>DefenceAnimation</name></member>
+    <member refid="class_player_manager_1a86c46e698a9fb06e1600ca025746f753" kind="function"><name>PlayerInventoryAction</name></member>
+    <member refid="class_player_manager_1ae10d061b8912ce84481ebe712992a2a0" kind="function"><name>PlayerEqupmentAction</name></member>
+  </compound>
+  <compound refid="class_player_spotted_by_enemy" kind="class"><name>PlayerSpottedByEnemy</name>
+  </compound>
+  <compound refid="class_player_stat_action" kind="class"><name>PlayerStatAction</name>
+  </compound>
+  <compound refid="class_player_step_sound" kind="class"><name>PlayerStepSound</name>
+  </compound>
+  <compound refid="class_projectile" kind="class"><name>Projectile</name>
+    <member refid="class_projectile_1a57fdaff65f176cd15a018c62c51916d0" kind="variable"><name>defendedProjectileByPlayer</name></member>
+    <member refid="class_projectile_1af3269892d37d6cb0f551f84f7197d882" kind="variable"><name>damage</name></member>
+    <member refid="class_projectile_1a942e8eb8688d41a60a327300d4e11299" kind="variable"><name>particleSystemTrail</name></member>
+    <member refid="class_projectile_1ad66c48642e5fc6f6a2870895c818660d" kind="function"><name>OnCollisionEnter</name></member>
+    <member refid="class_projectile_1a637afe762aba2b53b63778df6568273b" kind="function"><name>OnTriggerEnter</name></member>
+  </compound>
+  <compound refid="class_range_soul_shoot" kind="class"><name>RangeSoulShoot</name>
+  </compound>
+  <compound refid="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_saved_prefab_nav_mesh_data" kind="struct"><name>UnityEditor::AI::NavMeshAssetManager::SavedPrefabNavMeshData</name>
+    <member refid="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_saved_prefab_nav_mesh_data_1a0ce42f8eca300e6f52d7261e1bf9e535" kind="variable"><name>surface</name></member>
+    <member refid="struct_unity_editor_1_1_a_i_1_1_nav_mesh_asset_manager_1_1_saved_prefab_nav_mesh_data_1a0b5bdfcda62c22fd13c70a25dfb66bd8" kind="variable"><name>navMeshData</name></member>
+  </compound>
+  <compound refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles" kind="class"><name>UnityEditor::AI::NavMeshSurfaceEditor::Styles</name>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles_1abdee75409023de160bf281e2105ade20" kind="variable"><name>m_LayerMask</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles_1af51b5e9eac5a490aab44895edf6d4c70" kind="variable"><name>m_ShowInputGeom</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles_1a8de57eb20998b77665befcd853b32491" kind="variable"><name>m_ShowVoxels</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles_1a22f00368cc87f4bc9b49e71ae000122a" kind="variable"><name>m_ShowRegions</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles_1a51c46e3e8948184be1a4ff40bb47e186" kind="variable"><name>m_ShowRawContours</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles_1aa6d04880fefbe93e2ef8faa941a90389" kind="variable"><name>m_ShowContours</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles_1a9b09e0e950c1bc76e73c309248b91b29" kind="variable"><name>m_ShowPolyMesh</name></member>
+    <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles_1a39e6c843742c2c546fa62fe929b57e73" kind="variable"><name>m_ShowPolyMeshDetail</name></member>
+  </compound>
+  <compound refid="class_u_i_game" kind="class"><name>UIGame</name>
+    <member refid="class_u_i_game_1a1d53c4f084a907912bea8d469a7ce99d" kind="variable"><name>healthBar</name></member>
+    <member refid="class_u_i_game_1a39a53251ab6d5398925ae50dd183c9fc" kind="variable"><name>energyBar</name></member>
+    <member refid="class_u_i_game_1a9eb80a23c4bbef6507a212a9a116b67b" kind="variable"><name>expirienceBar</name></member>
+    <member refid="class_u_i_game_1a123ca7c854afc252b1dfde95dc8861ae" kind="variable"><name>InventoryPannell</name></member>
+    <member refid="class_u_i_game_1aa8f2143796a6a49ce7bb33190fa404fd" kind="variable"><name>inventoryEnabled</name></member>
+    <member refid="class_u_i_game_1a915a6b5943cd3120c199072815307a09" kind="function"><name>Awake</name></member>
+    <member refid="class_u_i_game_1a1b8f194e421ce977934aa8afdaa89b29" kind="function"><name>Start</name></member>
+    <member refid="class_u_i_game_1afa04188598bf99ed14edb0136c19bc2f" kind="function"><name>InventorySetActive</name></member>
+    <member refid="class_u_i_game_1aa5a2a7551c87a44cf8292ff10a73cb67" kind="function"><name>UpdateBars</name></member>
+  </compound>
+  <compound refid="class_u_i_inventory" kind="class"><name>UIInventory</name>
+    <member refid="class_u_i_inventory_1a6a8630a4f2006978244a25cbf3d8a3ca" kind="variable"><name>uiItemGrid</name></member>
+    <member refid="class_u_i_inventory_1a3c49390fcc1926205b1c58f6b803b123" kind="variable"><name>uiItem</name></member>
+    <member refid="class_u_i_inventory_1a5cc620f126de20bee3bca95d901beb26" kind="variable"><name>uiWeaponSlot</name></member>
+    <member refid="class_u_i_inventory_1a03a9958b8725a7adc4c328e369b21b04" kind="function"><name>Awake</name></member>
+    <member refid="class_u_i_inventory_1a8c8aac94e0d52b48ae434a1e1569ee5f" kind="function"><name>UpdateInventory</name></member>
+    <member refid="class_u_i_inventory_1a08023e5b7c6b713753fdcf2fbd4a780a" kind="function"><name>UpdateEquipment</name></member>
+  </compound>
+  <compound refid="class_u_i_item_slot" kind="class"><name>UIItemSlot</name>
+    <member refid="class_u_i_item_slot_1a5a76e5619158202074a0c79bce94bd21" kind="variable"><name>item</name></member>
+    <member refid="class_u_i_item_slot_1a4878c61c8e8fc348f38b79edd9d3c5ee" kind="variable"><name>textName</name></member>
+    <member refid="class_u_i_item_slot_1a6671b28a9c0631856aaa389681ad1823" kind="variable"><name>textCount</name></member>
+    <member refid="class_u_i_item_slot_1a3a8bd1765cf89775fc893b38f9c4bbe5" kind="function"><name>OnClicked</name></member>
+    <member refid="class_u_i_item_slot_1ad287aa4708a75aeaa786471c22a8f3a5" kind="function"><name>SetSlot</name></member>
+  </compound>
+  <compound refid="class_u_i_manager" kind="class"><name>UIManager</name>
+    <member refid="class_u_i_manager_1af435712edd268f087990ac99f742227e" kind="variable"><name>uiGame</name></member>
+  </compound>
+  <compound refid="class_update_player_stats" kind="class"><name>UpdatePlayerStats</name>
+  </compound>
+  <compound refid="class_v_f_x_manager" kind="class"><name>VFXManager</name>
+    <member refid="class_v_f_x_manager_1a6cd64658ab98af0f4351ef95afdc9e8e" kind="variable"><name>soulDead</name></member>
+    <member refid="class_v_f_x_manager_1ae35109e81732f8b74e99af061b7d81c6" kind="variable"><name>soulHitted</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_xml_1_1_serialization" kind="namespace"><name>System::Xml::Serialization</name>
+  </compound>
+  <compound refid="namespace_unity_editor" kind="namespace"><name>UnityEditor</name>
+  </compound>
+  <compound refid="namespace_unity_editor_1_1_a_i" kind="namespace"><name>UnityEditor::AI</name>
+  </compound>
+  <compound refid="namespace_unity_editor_1_1_experimental_1_1_scene_management" kind="namespace"><name>UnityEditor::Experimental::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_editor_1_1_i_m_g_u_i_1_1_controls" kind="namespace"><name>UnityEditor::IMGUI::Controls</name>
+  </compound>
+  <compound refid="namespace_unity_editor_1_1_scene_management" kind="namespace"><name>UnityEditor::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_editor_internal" kind="namespace"><name>UnityEditorInternal</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_a_i" kind="namespace"><name>UnityEngine::AI</name>
+    <member refid="namespace_unity_engine_1_1_a_i_1ab3439844eec641152f2ba65fb19b5cf9" kind="enum"><name>CollectObjects</name></member>
+    <member refid="namespace_unity_engine_1_1_a_i_1ab3439844eec641152f2ba65fb19b5cf9ab1c94ca2fbc3e78fc30069c8d0f01680" kind="enumvalue"><name>All</name></member>
+    <member refid="namespace_unity_engine_1_1_a_i_1ab3439844eec641152f2ba65fb19b5cf9abd7a9717d29c5ddcab1bc175eda1e298" kind="enumvalue"><name>Volume</name></member>
+    <member refid="namespace_unity_engine_1_1_a_i_1ab3439844eec641152f2ba65fb19b5cf9a64e4aca4297806247f62a7b5f8cbd3df" kind="enumvalue"><name>Children</name></member>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_events" kind="namespace"><name>UnityEngine::Events</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_event_systems" kind="namespace"><name>UnityEngine::EventSystems</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_player_loop" kind="namespace"><name>UnityEngine::PlayerLoop</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_rendering" kind="namespace"><name>UnityEngine::Rendering</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="_camera_follow_8cs" kind="file"><name>CameraFollow.cs</name>
+  </compound>
+  <compound refid="_event_game_8cs" kind="file"><name>EventGame.cs</name>
+  </compound>
+  <compound refid="_game_manager_8cs" kind="file"><name>GameManager.cs</name>
+  </compound>
+  <compound refid="_player_manager_8cs" kind="file"><name>PlayerManager.cs</name>
+  </compound>
+  <compound refid="_u_i_manager_8cs" kind="file"><name>UIManager.cs</name>
+  </compound>
+  <compound refid="_audio_manager_8cs" kind="file"><name>AudioManager.cs</name>
+  </compound>
+  <compound refid="_input_manager_8cs" kind="file"><name>InputManager.cs</name>
+  </compound>
+  <compound refid="_v_f_x_manager_8cs" kind="file"><name>VFXManager.cs</name>
+  </compound>
+  <compound refid="_open_door_8cs" kind="file"><name>OpenDoor.cs</name>
+  </compound>
+  <compound refid="_enemy_a_i___soul_8cs" kind="file"><name>EnemyAI_Soul.cs</name>
+  </compound>
+  <compound refid="_audio_steps_8cs" kind="file"><name>AudioSteps.cs</name>
+  </compound>
+  <compound refid="_projectile_8cs" kind="file"><name>Projectile.cs</name>
+  </compound>
+  <compound refid="_health_stats__actor_8cs" kind="file"><name>HealthStats_actor.cs</name>
+  </compound>
+  <compound refid="_health_stats__player_8cs" kind="file"><name>HealthStats_player.cs</name>
+  </compound>
+  <compound refid="_equipment_8cs" kind="file"><name>Equipment.cs</name>
+  </compound>
+  <compound refid="_inventory_8cs" kind="file"><name>Inventory.cs</name>
+  </compound>
+  <compound refid="_item_8cs" kind="file"><name>Item.cs</name>
+  </compound>
+  <compound refid="_item_data_8cs" kind="file"><name>ItemData.cs</name>
+  </compound>
+  <compound refid="_u_i_game_8cs" kind="file"><name>UIGame.cs</name>
+  </compound>
+  <compound refid="_u_i_inventory_8cs" kind="file"><name>UIInventory.cs</name>
+  </compound>
+  <compound refid="_u_i_item_slot_8cs" kind="file"><name>UIItemSlot.cs</name>
+  </compound>
+  <compound refid="_floating_text_8cs" kind="file"><name>FloatingText.cs</name>
+  </compound>
+  <compound refid="_nav_mesh_asset_manager_8cs" kind="file"><name>NavMeshAssetManager.cs</name>
+  </compound>
+  <compound refid="_nav_mesh_components_g_u_i_utility_8cs" kind="file"><name>NavMeshComponentsGUIUtility.cs</name>
+  </compound>
+  <compound refid="_nav_mesh_link_editor_8cs" kind="file"><name>NavMeshLinkEditor.cs</name>
+  </compound>
+  <compound refid="_nav_mesh_modifier_editor_8cs" kind="file"><name>NavMeshModifierEditor.cs</name>
+  </compound>
+  <compound refid="_nav_mesh_modifier_volume_editor_8cs" kind="file"><name>NavMeshModifierVolumeEditor.cs</name>
+  </compound>
+  <compound refid="_nav_mesh_surface_editor_8cs" kind="file"><name>NavMeshSurfaceEditor.cs</name>
+    <member refid="_nav_mesh_surface_editor_8cs_1a9dc32fae8e08d2428b7007f1e77a4aae" kind="define"><name>NAVMESHCOMPONENTS_SHOW_NAVMESHDATA_REF</name></member>
+  </compound>
+  <compound refid="_nav_mesh_link_8cs" kind="file"><name>NavMeshLink.cs</name>
+  </compound>
+  <compound refid="_nav_mesh_modifier_8cs" kind="file"><name>NavMeshModifier.cs</name>
+  </compound>
+  <compound refid="_nav_mesh_modifier_volume_8cs" kind="file"><name>NavMeshModifierVolume.cs</name>
+  </compound>
+  <compound refid="_nav_mesh_surface_8cs" kind="file"><name>NavMeshSurface.cs</name>
+  </compound>
+  <compound refid="dir_8167c9189946375be649616706b61f02" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers</name>
+  </compound>
+  <compound refid="dir_491c9d93d47ee8c111cbd0325fbb8b8a" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________</name>
+  </compound>
+  <compound refid="dir_b3a67ec1ed22309d49c1d1c4577a74c2" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers</name>
+  </compound>
+  <compound refid="dir_c7db7479815d75e07563f38f13cdc194" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/3. HealthStats</name>
+  </compound>
+  <compound refid="dir_a6f4de5480f5f16741355a9e116420f9" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System</name>
+  </compound>
+  <compound refid="dir_d75df909e3f4c369db34dd56bc9983d8" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________</name>
+  </compound>
+  <compound refid="dir_387c8ac4ca2e980087b3f412aa2bc999" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI</name>
+  </compound>
+  <compound refid="dir_b272db2c36276e364407c9994d0073e1" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_d1c0304e6933a48b579d946a5b025621" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor</name>
+  </compound>
+  <compound refid="dir_d837873452588ec752742088bfb98987" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers</name>
+  </compound>
+  <compound refid="dir_edcf85704d20e6b1c2c79dc2c0ce23ed" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/GUI</name>
+  </compound>
+  <compound refid="dir_ac2b7c9038218fc9d343915a233ca4a9" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO</name>
+  </compound>
+  <compound refid="dir_b6ecf78ca0316827e14c64c0f6d1c957" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents</name>
+  </compound>
+  <compound refid="dir_cde021bf4d86857ee4d2a38297c762c7" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/OnScreenUI</name>
+  </compound>
+  <compound refid="dir_f7ec53c6c11890db3a35ceec58a839ad" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/Player</name>
+  </compound>
+  <compound refid="dir_9742df03e7eb413dac2c37fd79a21592" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/Projectiles</name>
+  </compound>
+  <compound refid="dir_4468dfc231e990b20e44752870694665" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts</name>
+  </compound>
+  <compound refid="dir_062492669e28d088a1447a30e9004319" kind="dir"><name>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts</name>
+  </compound>
+  <compound refid="dir_154814e6534fd5a00e2c4604d89f2103" kind="dir"><name>D:/UnPixeled Project/UnPixeled</name>
+  </compound>
+  <compound refid="dir_0c7d934a8de712832a4d752a0336a55e" kind="dir"><name>D:/UnPixeled Project</name>
+  </compound>
+</doxygenindex>

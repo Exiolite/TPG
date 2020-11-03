@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4468dfc231e990b20e44752870694665" kind="dir">
+    <compoundname>D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts</compoundname>
+    <innerfile refid="_nav_mesh_link_8cs">NavMeshLink.cs</innerfile>
+    <innerfile refid="_nav_mesh_modifier_8cs">NavMeshModifier.cs</innerfile>
+    <innerfile refid="_nav_mesh_modifier_volume_8cs">NavMeshModifierVolume.cs</innerfile>
+    <innerfile refid="_nav_mesh_surface_8cs">NavMeshSurface.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Scripts/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d837873452588ec752742088bfb98987" kind="dir">
+    <compoundname>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers</compoundname>
+    <innerfile refid="_event_game_8cs">EventGame.cs</innerfile>
+    <innerfile refid="_game_manager_8cs">GameManager.cs</innerfile>
+    <innerfile refid="_player_manager_8cs">PlayerManager.cs</innerfile>
+    <innerfile refid="_u_i_manager_8cs">UIManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/"/>
+  </compounddef>
+</doxygen>

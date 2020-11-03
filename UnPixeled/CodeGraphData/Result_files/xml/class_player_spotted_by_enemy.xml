@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_player_spotted_by_enemy" kind="class" prot="public">
+    <compoundname>PlayerSpottedByEnemy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEvent&lt; Transform &gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="196">
+        <label>UnityEvent&lt; Transform &gt;</label>
+      </node>
+      <node id="195">
+        <label>PlayerSpottedByEnemy</label>
+        <link refid="class_player_spotted_by_enemy"/>
+        <childnode refid="196" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="198">
+        <label>UnityEvent&lt; Transform &gt;</label>
+      </node>
+      <node id="197">
+        <label>PlayerSpottedByEnemy</label>
+        <link refid="class_player_spotted_by_enemy"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="68" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="68" bodyend="68"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

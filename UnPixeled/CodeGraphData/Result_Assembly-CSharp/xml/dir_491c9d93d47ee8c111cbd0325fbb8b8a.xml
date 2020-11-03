@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_491c9d93d47ee8c111cbd0325fbb8b8a" kind="dir">
+    <compoundname>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________</compoundname>
+    <innerdir refid="dir_8167c9189946375be649616706b61f02">D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers</innerdir>
+    <innerdir refid="dir_b3a67ec1ed22309d49c1d1c4577a74c2">D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers</innerdir>
+    <innerdir refid="dir_c7db7479815d75e07563f38f13cdc194">D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/3. HealthStats</innerdir>
+    <innerdir refid="dir_a6f4de5480f5f16741355a9e116420f9">D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/4. Inventory System</innerdir>
+    <innerdir refid="dir_062492669e28d088a1447a30e9004319">D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/"/>
+  </compounddef>
+</doxygen>

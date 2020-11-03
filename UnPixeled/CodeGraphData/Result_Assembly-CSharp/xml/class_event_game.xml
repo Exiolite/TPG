@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_event_game" kind="class" prot="public">
+    <compoundname>EventGame</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_event_game_1a680560cedd122787c35349da8f57656a" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_player_dead" kindref="compound">PlayerDead</ref></type>
+        <definition>PlayerDead EventGame.playerDead</definition>
+        <argsstring></argsstring>
+        <name>playerDead</name>
+        <initializer>= new <ref refid="class_player_dead" kindref="compound">PlayerDead</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="10" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1a6ccbeab775c20a2e6fbfbee86f6dcedb" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_enemy_dead" kindref="compound">EnemyDead</ref></type>
+        <definition>EnemyDead EventGame.enemyDead</definition>
+        <argsstring></argsstring>
+        <name>enemyDead</name>
+        <initializer>= new <ref refid="class_enemy_dead" kindref="compound">EnemyDead</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="11" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1a96e8ee082ae3544ee4f3f2273a4d643f" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_player_interaction" kindref="compound">PlayerInteraction</ref></type>
+        <definition>PlayerInteraction EventGame.playerIneraction</definition>
+        <argsstring></argsstring>
+        <name>playerIneraction</name>
+        <initializer>= new <ref refid="class_player_interaction" kindref="compound">PlayerInteraction</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="14" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1ac4fe25358cea3f6390d8a421d47a00e3" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_player_stat_action" kindref="compound">PlayerStatAction</ref></type>
+        <definition>PlayerStatAction EventGame.playerStatAction</definition>
+        <argsstring></argsstring>
+        <name>playerStatAction</name>
+        <initializer>= new <ref refid="class_player_stat_action" kindref="compound">PlayerStatAction</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="17" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1a6183d8323730e4c20c2cd50e02159afd" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_update_player_stats" kindref="compound">UpdatePlayerStats</ref></type>
+        <definition>UpdatePlayerStats EventGame.updatePlayerStats</definition>
+        <argsstring></argsstring>
+        <name>updatePlayerStats</name>
+        <initializer>= new <ref refid="class_update_player_stats" kindref="compound">UpdatePlayerStats</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="18" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1aea42ffaf1610ec6d5f015e52214cebbc" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_disable_movement" kindref="compound">DisableMovement</ref></type>
+        <definition>DisableMovement EventGame.disableMovement</definition>
+        <argsstring></argsstring>
+        <name>disableMovement</name>
+        <initializer>= new <ref refid="class_disable_movement" kindref="compound">DisableMovement</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="20" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1a09947ec2f7e50a9b8044adcb9c8c1d28" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_disable_dash" kindref="compound">DisableDash</ref></type>
+        <definition>DisableDash EventGame.disableDash</definition>
+        <argsstring></argsstring>
+        <name>disableDash</name>
+        <initializer>= new <ref refid="class_disable_dash" kindref="compound">DisableDash</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="21" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1a6448418e968fcdbdbc1b3616ac0e36eb" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_inventory_open" kindref="compound">InventoryOpen</ref></type>
+        <definition>InventoryOpen EventGame.inventoryOpen</definition>
+        <argsstring></argsstring>
+        <name>inventoryOpen</name>
+        <initializer>= new <ref refid="class_inventory_open" kindref="compound">InventoryOpen</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="23" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1a50f83c92e4d6234f23f14ba059932cb0" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_disable_inventory" kindref="compound">DisableInventory</ref></type>
+        <definition>DisableInventory EventGame.disableInventory</definition>
+        <argsstring></argsstring>
+        <name>disableInventory</name>
+        <initializer>= new <ref refid="class_disable_inventory" kindref="compound">DisableInventory</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="24" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1ae70c45c42f0ee2edfdd1573cbe683a8b" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_disable_mouse" kindref="compound">DisableMouse</ref></type>
+        <definition>DisableMouse EventGame.disableMouse</definition>
+        <argsstring></argsstring>
+        <name>disableMouse</name>
+        <initializer>= new <ref refid="class_disable_mouse" kindref="compound">DisableMouse</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="26" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1a28c86fb7f1678a3c436396fde185b0be" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_inventory_action" kindref="compound">InventoryAction</ref></type>
+        <definition>InventoryAction EventGame.inventoryAction</definition>
+        <argsstring></argsstring>
+        <name>inventoryAction</name>
+        <initializer>= new <ref refid="class_inventory_action" kindref="compound">InventoryAction</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="30" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1afa958240a06d901a3ee89c694b74a586" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_inventory_update" kindref="compound">InventoryUpdate</ref></type>
+        <definition>InventoryUpdate EventGame.inventoryUpdate</definition>
+        <argsstring></argsstring>
+        <name>inventoryUpdate</name>
+        <initializer>= new <ref refid="class_inventory_update" kindref="compound">InventoryUpdate</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="31" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1aabf7f790ccd58b15c999ab1bd4407a38" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_equipment_action" kindref="compound">EquipmentAction</ref></type>
+        <definition>EquipmentAction EventGame.equipmentAction</definition>
+        <argsstring></argsstring>
+        <name>equipmentAction</name>
+        <initializer>= new <ref refid="class_equipment_action" kindref="compound">EquipmentAction</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="33" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1a8089fbaab2be2807b176598a6991d6c5" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_equipment_update" kindref="compound">EquipmentUpdate</ref></type>
+        <definition>EquipmentUpdate EventGame.equipmentUpdate</definition>
+        <argsstring></argsstring>
+        <name>equipmentUpdate</name>
+        <initializer>= new <ref refid="class_equipment_update" kindref="compound">EquipmentUpdate</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="34" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_event_game_1a6a3ceedc6018887dfb9c4fb4c502050f" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_player_spotted_by_enemy" kindref="compound">PlayerSpottedByEnemy</ref></type>
+        <definition>PlayerSpottedByEnemy EventGame.playerSpottedByEnemy</definition>
+        <argsstring></argsstring>
+        <name>playerSpottedByEnemy</name>
+        <initializer>= new <ref refid="class_player_spotted_by_enemy" kindref="compound">PlayerSpottedByEnemy</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="36" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="91">
+        <label>UnityEvent&lt; GameObject &gt;</label>
+      </node>
+      <node id="87">
+        <label>EquipmentAction</label>
+        <link refid="class_equipment_action"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>UnityEvent&lt; String, String, float &gt;</label>
+      </node>
+      <node id="77">
+        <label>UnityEvent&lt; float, float, float &gt;</label>
+      </node>
+      <node id="86">
+        <label>PlayerDead</label>
+        <link refid="class_player_dead"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>EquipmentUpdate</label>
+        <link refid="class_equipment_update"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>EventGame</label>
+        <link refid="class_event_game"/>
+        <childnode refid="74" relation="usage">
+          <edgelabel>playerSpottedByEnemy</edgelabel>
+        </childnode>
+        <childnode refid="76" relation="usage">
+          <edgelabel>updatePlayerStats</edgelabel>
+        </childnode>
+        <childnode refid="78" relation="usage">
+          <edgelabel>inventoryUpdate</edgelabel>
+        </childnode>
+        <childnode refid="80" relation="usage">
+          <edgelabel>inventoryOpen</edgelabel>
+        </childnode>
+        <childnode refid="81" relation="usage">
+          <edgelabel>inventoryAction</edgelabel>
+        </childnode>
+        <childnode refid="83" relation="usage">
+          <edgelabel>disableDash</edgelabel>
+        </childnode>
+        <childnode refid="85" relation="usage">
+          <edgelabel>disableMouse</edgelabel>
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>playerDead</edgelabel>
+        </childnode>
+        <childnode refid="87" relation="usage">
+          <edgelabel>equipmentAction</edgelabel>
+        </childnode>
+        <childnode refid="89" relation="usage">
+          <edgelabel>disableInventory</edgelabel>
+        </childnode>
+        <childnode refid="90" relation="usage">
+          <edgelabel>playerIneraction</edgelabel>
+        </childnode>
+        <childnode refid="92" relation="usage">
+          <edgelabel>equipmentUpdate</edgelabel>
+        </childnode>
+        <childnode refid="93" relation="usage">
+          <edgelabel>disableMovement</edgelabel>
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>playerStatAction</edgelabel>
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>enemyDead</edgelabel>
+        </childnode>
+      </node>
+      <node id="75">
+        <label>UnityEvent&lt; Transform &gt;</label>
+      </node>
+      <node id="78">
+        <label>InventoryUpdate</label>
+        <link refid="class_inventory_update"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>UnityEvent&lt; ItemData &gt;</label>
+      </node>
+      <node id="93">
+        <label>DisableMovement</label>
+        <link refid="class_disable_movement"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>DisableDash</label>
+        <link refid="class_disable_dash"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>PlayerInteraction</label>
+        <link refid="class_player_interaction"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>UnityEvent&lt; bool &gt;</label>
+      </node>
+      <node id="82">
+        <label>UnityEvent&lt; Inventory.InventoryActions, ItemData, int &gt;</label>
+      </node>
+      <node id="85">
+        <label>DisableMouse</label>
+        <link refid="class_disable_mouse"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>PlayerStatAction</label>
+        <link refid="class_player_stat_action"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>UnityEvent</label>
+      </node>
+      <node id="74">
+        <label>PlayerSpottedByEnemy</label>
+        <link refid="class_player_spotted_by_enemy"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>UpdatePlayerStats</label>
+        <link refid="class_update_player_stats"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>InventoryAction</label>
+        <link refid="class_inventory_action"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>EnemyDead</label>
+        <link refid="class_enemy_dead"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>InventoryOpen</label>
+        <link refid="class_inventory_open"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>DisableInventory</label>
+        <link refid="class_disable_inventory"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" line="8" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/GameManagers/EventGame.cs" bodystart="7" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_event_game_1a09947ec2f7e50a9b8044adcb9c8c1d28" prot="public" virt="non-virtual"><scope>EventGame</scope><name>disableDash</name></member>
+      <member refid="class_event_game_1a50f83c92e4d6234f23f14ba059932cb0" prot="public" virt="non-virtual"><scope>EventGame</scope><name>disableInventory</name></member>
+      <member refid="class_event_game_1ae70c45c42f0ee2edfdd1573cbe683a8b" prot="public" virt="non-virtual"><scope>EventGame</scope><name>disableMouse</name></member>
+      <member refid="class_event_game_1aea42ffaf1610ec6d5f015e52214cebbc" prot="public" virt="non-virtual"><scope>EventGame</scope><name>disableMovement</name></member>
+      <member refid="class_event_game_1a6ccbeab775c20a2e6fbfbee86f6dcedb" prot="public" virt="non-virtual"><scope>EventGame</scope><name>enemyDead</name></member>
+      <member refid="class_event_game_1aabf7f790ccd58b15c999ab1bd4407a38" prot="public" virt="non-virtual"><scope>EventGame</scope><name>equipmentAction</name></member>
+      <member refid="class_event_game_1a8089fbaab2be2807b176598a6991d6c5" prot="public" virt="non-virtual"><scope>EventGame</scope><name>equipmentUpdate</name></member>
+      <member refid="class_event_game_1a28c86fb7f1678a3c436396fde185b0be" prot="public" virt="non-virtual"><scope>EventGame</scope><name>inventoryAction</name></member>
+      <member refid="class_event_game_1a6448418e968fcdbdbc1b3616ac0e36eb" prot="public" virt="non-virtual"><scope>EventGame</scope><name>inventoryOpen</name></member>
+      <member refid="class_event_game_1afa958240a06d901a3ee89c694b74a586" prot="public" virt="non-virtual"><scope>EventGame</scope><name>inventoryUpdate</name></member>
+      <member refid="class_event_game_1a680560cedd122787c35349da8f57656a" prot="public" virt="non-virtual"><scope>EventGame</scope><name>playerDead</name></member>
+      <member refid="class_event_game_1a96e8ee082ae3544ee4f3f2273a4d643f" prot="public" virt="non-virtual"><scope>EventGame</scope><name>playerIneraction</name></member>
+      <member refid="class_event_game_1a6a3ceedc6018887dfb9c4fb4c502050f" prot="public" virt="non-virtual"><scope>EventGame</scope><name>playerSpottedByEnemy</name></member>
+      <member refid="class_event_game_1ac4fe25358cea3f6390d8a421d47a00e3" prot="public" virt="non-virtual"><scope>EventGame</scope><name>playerStatAction</name></member>
+      <member refid="class_event_game_1a6183d8323730e4c20c2cd50e02159afd" prot="public" virt="non-virtual"><scope>EventGame</scope><name>updatePlayerStats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

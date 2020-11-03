@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c7db7479815d75e07563f38f13cdc194" kind="dir">
+    <compoundname>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/3. HealthStats</compoundname>
+    <innerfile refid="_health_stats__actor_8cs">HealthStats_actor.cs</innerfile>
+    <innerfile refid="_health_stats__player_8cs">HealthStats_player.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/3. HealthStats/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_enemy_a_i___soul" kind="class" prot="public">
+    <compoundname>EnemyAI_Soul</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_enemy_a_i___soul_1ae39f2b618d25643ef377466aee572dbd" prot="public" static="no">
+        <name>AI_Type</name>
+        <enumvalue id="class_enemy_a_i___soul_1ae39f2b618d25643ef377466aee572dbdae686710e1512ff998541ddd98ee4b7e8" prot="public">
+          <name>melee</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_enemy_a_i___soul_1ae39f2b618d25643ef377466aee572dbda37b19816109a32106d109e83bbb3c97d" prot="public">
+          <name>range</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="14" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_a_i___soul_1a6c52b03488315a2c0d959b1477630fab" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyAI_Soul.lookRadius</definition>
+        <argsstring></argsstring>
+        <name>lookRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="11" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_enemy_a_i___soul_1ac0c95ab5abdcf746ebdb29364b61fd4d" compoundref="_enemy_a_i___soul_8cs" startline="74" endline="94">ActorActions</referencedby>
+        <referencedby refid="class_enemy_a_i___soul_1a72ad6a1016c15c2b74815043b26da911" compoundref="_enemy_a_i___soul_8cs" startline="30" endline="34">OnDrawGizmosSelected</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_a_i___soul_1a9de998d05eb37840d235459e7286bdab" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyAI_Soul.runRadius</definition>
+        <argsstring></argsstring>
+        <name>runRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="12" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_enemy_a_i___soul_1aa2672700e015c319d88fd32fb30b1a7a" compoundref="_enemy_a_i___soul_8cs" startline="96" endline="124">ActorMove</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_a_i___soul_1a0dabf30880ad685f77cdd2de1ccb83a3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyAI_Soul.attackRadius</definition>
+        <argsstring></argsstring>
+        <name>attackRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="13" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" compoundref="_enemy_a_i___soul_8cs" startline="126" endline="151">ActorAttack</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_a_i___soul_1a048781eebd6e734007cadb4adecabd9e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_enemy_a_i___soul_1ae39f2b618d25643ef377466aee572dbd" kindref="member">AI_Type</ref></type>
+        <definition>AI_Type EnemyAI_Soul.ai_Type</definition>
+        <argsstring></argsstring>
+        <name>ai_Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="15" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" compoundref="_enemy_a_i___soul_8cs" startline="126" endline="151">ActorAttack</referencedby>
+        <referencedby refid="class_enemy_a_i___soul_1aa2672700e015c319d88fd32fb30b1a7a" compoundref="_enemy_a_i___soul_8cs" startline="96" endline="124">ActorMove</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_a_i___soul_1a9394f662ff911b85c1a3f0334ab61432" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyAI_Soul.damage</definition>
+        <argsstring></argsstring>
+        <name>damage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="18" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" compoundref="_enemy_a_i___soul_8cs" startline="126" endline="151">ActorAttack</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_a_i___soul_1a4d686a4dff21a30735cb5e736e51ff3c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyAI_Soul.attackDelay</definition>
+        <argsstring></argsstring>
+        <name>attackDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="19" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" compoundref="_enemy_a_i___soul_8cs" startline="126" endline="151">ActorAttack</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_a_i___soul_1aef5b70b75896f510587f2f417110ec62" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyAI_Soul.shootForce</definition>
+        <argsstring></argsstring>
+        <name>shootForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="22" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" compoundref="_enemy_a_i___soul_8cs" startline="126" endline="151">ActorAttack</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_a_i___soul_1a5088a99bfbefd085efc2087574a5f554" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject EnemyAI_Soul.projectile</definition>
+        <argsstring></argsstring>
+        <name>projectile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="23" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" compoundref="_enemy_a_i___soul_8cs" startline="126" endline="151">ActorAttack</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_a_i___soul_1ad78324e602e5b9afe2033fc9a59c1f13" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform EnemyAI_Soul.pfPojectile</definition>
+        <argsstring></argsstring>
+        <name>pfPojectile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="24" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" compoundref="_enemy_a_i___soul_8cs" startline="126" endline="151">ActorAttack</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_a_i___soul_1a117926b0f225f61e75befa6fbfb8d9e5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyAI_Soul.lastAttacked</definition>
+        <argsstring></argsstring>
+        <name>lastAttacked</name>
+        <initializer>= -9999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="20" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" compoundref="_enemy_a_i___soul_8cs" startline="126" endline="151">ActorAttack</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_a_i___soul_1a0b174ce0aa075daea0cb2f0788b31b39" prot="private" static="no" mutable="no">
+        <type>NavMeshAgent</type>
+        <definition>NavMeshAgent EnemyAI_Soul.navMeshAgent</definition>
+        <argsstring></argsstring>
+        <name>navMeshAgent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="26" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_enemy_a_i___soul_1a0c530fbea64122a499768917dd3ccda5" compoundref="_enemy_a_i___soul_8cs" startline="45" endline="48">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_a_i___soul_1a72ad6a1016c15c2b74815043b26da911" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAI_Soul.OnDrawGizmosSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmosSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="30" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="30" bodyend="34"/>
+        <references refid="class_enemy_a_i___soul_1a6c52b03488315a2c0d959b1477630fab" compoundref="_enemy_a_i___soul_8cs" startline="11">lookRadius</references>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_a_i___soul_1af2dfce451063858bf714530050f7221f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAI_Soul.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="38" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="38" bodyend="41"/>
+        <references refid="class_enemy_a_i___soul_1ac48f01e8f765f0d4a528a030b378161b" compoundref="_enemy_a_i___soul_8cs" startline="62" endline="72">PlayerSpottedByEmeny</references>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_a_i___soul_1a0c530fbea64122a499768917dd3ccda5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAI_Soul.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="45" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="45" bodyend="48"/>
+        <references refid="class_enemy_a_i___soul_1a0b174ce0aa075daea0cb2f0788b31b39" compoundref="_enemy_a_i___soul_8cs" startline="26">navMeshAgent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_a_i___soul_1adbb4c660ca31ced47480503376807410" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAI_Soul.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="52" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="52" bodyend="56"/>
+        <references refid="class_enemy_a_i___soul_1ac0c95ab5abdcf746ebdb29364b61fd4d" compoundref="_enemy_a_i___soul_8cs" startline="74" endline="94">ActorActions</references>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_a_i___soul_1ac48f01e8f765f0d4a528a030b378161b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAI_Soul.PlayerSpottedByEmeny</definition>
+        <argsstring>(Transform _nearbyEnemy)</argsstring>
+        <name>PlayerSpottedByEmeny</name>
+        <param>
+          <type>Transform</type>
+          <declname>_nearbyEnemy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="62" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="62" bodyend="72"/>
+        <referencedby refid="class_enemy_a_i___soul_1af2dfce451063858bf714530050f7221f" compoundref="_enemy_a_i___soul_8cs" startline="38" endline="41">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_a_i___soul_1ac0c95ab5abdcf746ebdb29364b61fd4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAI_Soul.ActorActions</definition>
+        <argsstring>()</argsstring>
+        <name>ActorActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="74" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="74" bodyend="94"/>
+        <references refid="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" compoundref="_enemy_a_i___soul_8cs" startline="126" endline="151">ActorAttack</references>
+        <references refid="class_enemy_a_i___soul_1aa2672700e015c319d88fd32fb30b1a7a" compoundref="_enemy_a_i___soul_8cs" startline="96" endline="124">ActorMove</references>
+        <references refid="class_game_manager_1a7666e8468dac197b9eb32dd32128524f" compoundref="_game_manager_8cs" startline="27">GameManager.instance</references>
+        <references refid="class_enemy_a_i___soul_1a6c52b03488315a2c0d959b1477630fab" compoundref="_enemy_a_i___soul_8cs" startline="11">lookRadius</references>
+        <references refid="class_game_manager_1ab21fdb48fd1c8ce2275e50e20cde1e84" compoundref="_game_manager_8cs" startline="20">GameManager.playerManager</references>
+        <referencedby refid="class_enemy_a_i___soul_1adbb4c660ca31ced47480503376807410" compoundref="_enemy_a_i___soul_8cs" startline="52" endline="56">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_a_i___soul_1aa2672700e015c319d88fd32fb30b1a7a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAI_Soul.ActorMove</definition>
+        <argsstring>(float distance)</argsstring>
+        <name>ActorMove</name>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="96" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="96" bodyend="124"/>
+        <references refid="class_enemy_a_i___soul_1a048781eebd6e734007cadb4adecabd9e" compoundref="_enemy_a_i___soul_8cs" startline="15">ai_Type</references>
+        <references refid="class_enemy_a_i___soul_1a9de998d05eb37840d235459e7286bdab" compoundref="_enemy_a_i___soul_8cs" startline="12">runRadius</references>
+        <referencedby refid="class_enemy_a_i___soul_1ac0c95ab5abdcf746ebdb29364b61fd4d" compoundref="_enemy_a_i___soul_8cs" startline="74" endline="94">ActorActions</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyAI_Soul.ActorAttack</definition>
+        <argsstring>(float distance)</argsstring>
+        <name>ActorAttack</name>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="126" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="126" bodyend="151"/>
+        <references refid="class_enemy_a_i___soul_1a048781eebd6e734007cadb4adecabd9e" compoundref="_enemy_a_i___soul_8cs" startline="15">ai_Type</references>
+        <references refid="class_enemy_a_i___soul_1a4d686a4dff21a30735cb5e736e51ff3c" compoundref="_enemy_a_i___soul_8cs" startline="19">attackDelay</references>
+        <references refid="class_enemy_a_i___soul_1a0dabf30880ad685f77cdd2de1ccb83a3" compoundref="_enemy_a_i___soul_8cs" startline="13">attackRadius</references>
+        <references refid="class_enemy_a_i___soul_1a9394f662ff911b85c1a3f0334ab61432" compoundref="_enemy_a_i___soul_8cs" startline="18">damage</references>
+        <references refid="class_enemy_a_i___soul_1a117926b0f225f61e75befa6fbfb8d9e5" compoundref="_enemy_a_i___soul_8cs" startline="20">lastAttacked</references>
+        <references refid="class_enemy_a_i___soul_1ad78324e602e5b9afe2033fc9a59c1f13" compoundref="_enemy_a_i___soul_8cs" startline="24">pfPojectile</references>
+        <references refid="class_enemy_a_i___soul_1a5088a99bfbefd085efc2087574a5f554" compoundref="_enemy_a_i___soul_8cs" startline="23">projectile</references>
+        <references refid="class_enemy_a_i___soul_1aef5b70b75896f510587f2f417110ec62" compoundref="_enemy_a_i___soul_8cs" startline="22">shootForce</references>
+        <referencedby refid="class_enemy_a_i___soul_1ac0c95ab5abdcf746ebdb29364b61fd4d" compoundref="_enemy_a_i___soul_8cs" startline="74" endline="94">ActorActions</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="44">
+        <label>EnemyAI_Soul</label>
+        <link refid="class_enemy_a_i___soul"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="46">
+        <label>EnemyAI_Soul</label>
+        <link refid="class_enemy_a_i___soul"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" line="9" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/AI/EnemyAI_Soul.cs" bodystart="8" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_enemy_a_i___soul_1ac0c95ab5abdcf746ebdb29364b61fd4d" prot="private" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>ActorActions</name></member>
+      <member refid="class_enemy_a_i___soul_1a7b3163239c02a24f390e731c4c08f9df" prot="private" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>ActorAttack</name></member>
+      <member refid="class_enemy_a_i___soul_1aa2672700e015c319d88fd32fb30b1a7a" prot="private" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>ActorMove</name></member>
+      <member refid="class_enemy_a_i___soul_1ae39f2b618d25643ef377466aee572dbd" prot="public" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>AI_Type</name></member>
+      <member refid="class_enemy_a_i___soul_1a048781eebd6e734007cadb4adecabd9e" prot="public" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>ai_Type</name></member>
+      <member refid="class_enemy_a_i___soul_1a4d686a4dff21a30735cb5e736e51ff3c" prot="public" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>attackDelay</name></member>
+      <member refid="class_enemy_a_i___soul_1a0dabf30880ad685f77cdd2de1ccb83a3" prot="public" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>attackRadius</name></member>
+      <member refid="class_enemy_a_i___soul_1af2dfce451063858bf714530050f7221f" prot="private" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>Awake</name></member>
+      <member refid="class_enemy_a_i___soul_1a9394f662ff911b85c1a3f0334ab61432" prot="public" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>damage</name></member>
+      <member refid="class_enemy_a_i___soul_1a117926b0f225f61e75befa6fbfb8d9e5" prot="private" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>lastAttacked</name></member>
+      <member refid="class_enemy_a_i___soul_1a6c52b03488315a2c0d959b1477630fab" prot="public" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>lookRadius</name></member>
+      <member refid="class_enemy_a_i___soul_1a0b174ce0aa075daea0cb2f0788b31b39" prot="private" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>navMeshAgent</name></member>
+      <member refid="class_enemy_a_i___soul_1a72ad6a1016c15c2b74815043b26da911" prot="private" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>OnDrawGizmosSelected</name></member>
+      <member refid="class_enemy_a_i___soul_1ad78324e602e5b9afe2033fc9a59c1f13" prot="public" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>pfPojectile</name></member>
+      <member refid="class_enemy_a_i___soul_1ac48f01e8f765f0d4a528a030b378161b" prot="private" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>PlayerSpottedByEmeny</name></member>
+      <member refid="class_enemy_a_i___soul_1a5088a99bfbefd085efc2087574a5f554" prot="public" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>projectile</name></member>
+      <member refid="class_enemy_a_i___soul_1a9de998d05eb37840d235459e7286bdab" prot="public" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>runRadius</name></member>
+      <member refid="class_enemy_a_i___soul_1aef5b70b75896f510587f2f417110ec62" prot="public" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>shootForce</name></member>
+      <member refid="class_enemy_a_i___soul_1a0c530fbea64122a499768917dd3ccda5" prot="private" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>Start</name></member>
+      <member refid="class_enemy_a_i___soul_1adbb4c660ca31ced47480503376807410" prot="private" virt="non-virtual"><scope>EnemyAI_Soul</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

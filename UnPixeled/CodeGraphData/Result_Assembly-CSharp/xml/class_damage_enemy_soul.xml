@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_damage_enemy_soul" kind="class" prot="public">
+    <compoundname>DamageEnemySoul</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEvent&lt; AudioSource &gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>DamageEnemySoul</label>
+        <link refid="class_damage_enemy_soul"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>UnityEvent&lt; AudioSource &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>DamageEnemySoul</label>
+        <link refid="class_damage_enemy_soul"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>UnityEvent&lt; AudioSource &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" line="73" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/1. Game Managers/IO/AudioManager.cs" bodystart="73" bodyend="73"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

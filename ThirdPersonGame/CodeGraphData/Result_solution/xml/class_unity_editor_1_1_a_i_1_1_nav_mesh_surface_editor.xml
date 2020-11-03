@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor" kind="class" prot="public">
+    <compoundname>UnityEditor::AI::NavMeshSurfaceEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <innerclass refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles" prot="private">UnityEditor::AI::NavMeshSurfaceEditor::Styles</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0791ec8fcd8f24edf2be9e3cd096fe6a" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_AgentTypeID</definition>
+        <argsstring></argsstring>
+        <name>m_AgentTypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="19" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1aa61a311ba093acdd2e0cf5784c604b1a" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_BuildHeightMesh</definition>
+        <argsstring></argsstring>
+        <name>m_BuildHeightMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="20" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad3d772f4eb826c849887ce2cca023040" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_Center</definition>
+        <argsstring></argsstring>
+        <name>m_Center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="21" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a70053fd4d0a72bc280ee13130e3f51d8" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_CollectObjects</definition>
+        <argsstring></argsstring>
+        <name>m_CollectObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="22" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad2f9d34f26f97b6323e5706389469e4f" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_DefaultArea</definition>
+        <argsstring></argsstring>
+        <name>m_DefaultArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="23" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0827e41b6c9aa432adf1c75caf4be9af" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_LayerMask</definition>
+        <argsstring></argsstring>
+        <name>m_LayerMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="24" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0c9c6eb40867af3d4a0aa6919a8222d5" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_OverrideTileSize</definition>
+        <argsstring></argsstring>
+        <name>m_OverrideTileSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="25" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1afb34bdd4d38e4a930a53fa57f40ed5e5" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_OverrideVoxelSize</definition>
+        <argsstring></argsstring>
+        <name>m_OverrideVoxelSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="26" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0e0f7e6c2d891bc016bf9c5605a0103a" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_Size</definition>
+        <argsstring></argsstring>
+        <name>m_Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="27" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1abff143429f2ce6f2e59b2b55b71ece02" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_TileSize</definition>
+        <argsstring></argsstring>
+        <name>m_TileSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="28" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ae61ec1ec2b7c6de36a16d93c507538a9" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_UseGeometry</definition>
+        <argsstring></argsstring>
+        <name>m_UseGeometry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="29" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a05493d46d1fbc50b90ab3c5714e12832" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_VoxelSize</definition>
+        <argsstring></argsstring>
+        <name>m_VoxelSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="30" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1afe835d7776abd9e8fd373e03d385e423" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshSurfaceEditor.m_NavMeshData</definition>
+        <argsstring></argsstring>
+        <name>m_NavMeshData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="33" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a9e6bdfb23c431cb92a48c89171ab63fa" prot="private" static="no" mutable="no">
+        <type>BoxBoundsHandle</type>
+        <definition>BoxBoundsHandle UnityEditor.AI.NavMeshSurfaceEditor.m_BoundsHandle</definition>
+        <argsstring></argsstring>
+        <name>m_BoundsHandle</name>
+        <initializer>= new BoxBoundsHandle()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="56" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0282cf93aa9ff5bd3bb61a0e01bd9d21" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles" kindref="compound">Styles</ref></type>
+        <definition>Styles UnityEditor.AI.NavMeshSurfaceEditor.s_Styles</definition>
+        <argsstring></argsstring>
+        <name>s_Styles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="48" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a7d678fa124c4f83e728502d0100b13f7" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool UnityEditor.AI.NavMeshSurfaceEditor.s_ShowDebugOptions</definition>
+        <argsstring></argsstring>
+        <name>s_ShowDebugOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="50" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1acc2b431dea077427d0928836082e6429" prot="private" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color UnityEditor.AI.NavMeshSurfaceEditor.s_HandleColor</definition>
+        <argsstring></argsstring>
+        <name>s_HandleColor</name>
+        <initializer>= new Color(127f, 214f, 244f, 100f) / 255</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="52" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a7873ed29e2ea1d81fd5b31983eb35560" prot="private" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color UnityEditor.AI.NavMeshSurfaceEditor.s_HandleColorSelected</definition>
+        <argsstring></argsstring>
+        <name>s_HandleColorSelected</name>
+        <initializer>= new Color(127f, 214f, 244f, 210f) / 255</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="53" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a7f31aaf39e363b2b9b07a1f636bc12c6" prot="private" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color UnityEditor.AI.NavMeshSurfaceEditor.s_HandleColorDisabled</definition>
+        <argsstring></argsstring>
+        <name>s_HandleColorDisabled</name>
+        <initializer>= new Color(127f * 0.75f, 214f * 0.75f, 244f * 0.75f, 100f) / 255</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="54" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a889726b8b48d927ab914a49125deb562" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UnityEditor.AI.NavMeshSurfaceEditor.editingCollider</definition>
+        <argsstring></argsstring>
+        <name>editingCollider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="58" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a3f3133957daa4c0436f32eeb154507e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.AI.NavMeshSurfaceEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="63" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="63" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a5fb0febf2fb7a31caf88117a6bd908f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.AI.NavMeshSurfaceEditor.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="84" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad0ab4d5ffdff16d64bf3147dfe59d440" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bounds</type>
+        <definition>Bounds UnityEditor.AI.NavMeshSurfaceEditor.GetBounds</definition>
+        <argsstring>()</argsstring>
+        <name>GetBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="89" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="89" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a799f88af773d7ee990d7bbe703261a74" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.AI.NavMeshSurfaceEditor.OnSceneGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnSceneGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="362" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="362" bodyend="387"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ac5e76f0631254a0c3bbd9416b37f92eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.AI.NavMeshSurfaceEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="95" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="95" bodyend="304"/>
+        <references refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1ada23db57d56759a36a94939d754aae64" compoundref="_nav_mesh_surface_8cs" startline="24">UnityEngine.AI.NavMeshSurface.agentTypeID</references>
+        <references refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a30c7cb2dadbf689a036085d2b804d1e0" compoundref="_nav_mesh_surface_8cs" startline="36">UnityEngine.AI.NavMeshSurface.center</references>
+        <references refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a00bcc3b2f3500381af09377a64fa3708" compoundref="_nav_mesh_surface_8cs" startline="28">UnityEngine.AI.NavMeshSurface.collectObjects</references>
+        <references refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a69d3632948e2abd25a60eee7622015c4" compoundref="_nav_mesh_surface_8cs" startline="32">UnityEngine.AI.NavMeshSurface.size</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad250c52818871f76da2c441d8408def2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEditor.AI.NavMeshSurfaceEditor.RenderBoxGizmoSelected</definition>
+        <argsstring>(NavMeshSurface navSurface, GizmoType gizmoType)</argsstring>
+        <name>RenderBoxGizmoSelected</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface" kindref="compound">NavMeshSurface</ref></type>
+          <declname>navSurface</declname>
+        </param>
+        <param>
+          <type>GizmoType</type>
+          <declname>gizmoType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="307" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="307" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a27dd74eb5cf3e01f61d2472ec65790a4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEditor.AI.NavMeshSurfaceEditor.RenderBoxGizmoNotSelected</definition>
+        <argsstring>(NavMeshSurface navSurface, GizmoType gizmoType)</argsstring>
+        <name>RenderBoxGizmoNotSelected</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface" kindref="compound">NavMeshSurface</ref></type>
+          <declname>navSurface</declname>
+        </param>
+        <param>
+          <type>GizmoType</type>
+          <declname>gizmoType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="313" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="313" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a53d78573dea22b29fb609e72752dbb86" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEditor.AI.NavMeshSurfaceEditor.RenderBoxGizmo</definition>
+        <argsstring>(NavMeshSurface navSurface, GizmoType gizmoType, bool selected)</argsstring>
+        <name>RenderBoxGizmo</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface" kindref="compound">NavMeshSurface</ref></type>
+          <declname>navSurface</declname>
+        </param>
+        <param>
+          <type>GizmoType</type>
+          <declname>gizmoType</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="321" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="321" bodyend="360"/>
+        <references refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1a00bcc3b2f3500381af09377a64fa3708" compoundref="_nav_mesh_surface_8cs" startline="28">UnityEngine.AI.NavMeshSurface.collectObjects</references>
+        <references refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_surface_1af93626d806baafc9dd6cf35878f1c5ea" compoundref="_nav_mesh_surface_8cs" startline="80">UnityEngine.AI.NavMeshSurface.navMeshData</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1aef0aa706a714ba527984e415a08cbf3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEditor.AI.NavMeshSurfaceEditor.CreateNavMeshSurface</definition>
+        <argsstring>(MenuCommand menuCommand)</argsstring>
+        <name>CreateNavMeshSurface</name>
+        <param>
+          <type>MenuCommand</type>
+          <declname>menuCommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="390" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="390" bodyend="398"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="200">
+        <label>Editor</label>
+      </node>
+      <node id="199">
+        <label>UnityEditor.AI.NavMeshSurfaceEditor</label>
+        <link refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor"/>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="202">
+        <label>Editor</label>
+      </node>
+      <node id="203">
+        <label>UnityEditor.AI.NavMeshSurfaceEditor.Styles</label>
+        <link refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1_1_styles"/>
+      </node>
+      <node id="201">
+        <label>UnityEditor.AI.NavMeshSurfaceEditor</label>
+        <link refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor"/>
+        <childnode refid="202" relation="public-inheritance">
+        </childnode>
+        <childnode refid="203" relation="usage">
+          <edgelabel>s_Styles</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" line="18" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" bodystart="17" bodyend="399"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1aef0aa706a714ba527984e415a08cbf3c" prot="public" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>CreateNavMeshSurface</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a889726b8b48d927ab914a49125deb562" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>editingCollider</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad0ab4d5ffdff16d64bf3147dfe59d440" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>GetBounds</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0791ec8fcd8f24edf2be9e3cd096fe6a" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_AgentTypeID</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a9e6bdfb23c431cb92a48c89171ab63fa" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_BoundsHandle</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1aa61a311ba093acdd2e0cf5784c604b1a" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_BuildHeightMesh</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad3d772f4eb826c849887ce2cca023040" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_Center</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a70053fd4d0a72bc280ee13130e3f51d8" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_CollectObjects</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad2f9d34f26f97b6323e5706389469e4f" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_DefaultArea</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0827e41b6c9aa432adf1c75caf4be9af" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_LayerMask</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1afe835d7776abd9e8fd373e03d385e423" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_NavMeshData</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0c9c6eb40867af3d4a0aa6919a8222d5" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_OverrideTileSize</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1afb34bdd4d38e4a930a53fa57f40ed5e5" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_OverrideVoxelSize</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0e0f7e6c2d891bc016bf9c5605a0103a" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_Size</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1abff143429f2ce6f2e59b2b55b71ece02" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_TileSize</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ae61ec1ec2b7c6de36a16d93c507538a9" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_UseGeometry</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a05493d46d1fbc50b90ab3c5714e12832" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>m_VoxelSize</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a5fb0febf2fb7a31caf88117a6bd908f2" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>OnDisable</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a3f3133957daa4c0436f32eeb154507e3" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>OnEnable</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ac5e76f0631254a0c3bbd9416b37f92eb" prot="public" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a799f88af773d7ee990d7bbe703261a74" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>OnSceneGUI</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a53d78573dea22b29fb609e72752dbb86" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>RenderBoxGizmo</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a27dd74eb5cf3e01f61d2472ec65790a4" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>RenderBoxGizmoNotSelected</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1ad250c52818871f76da2c441d8408def2" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>RenderBoxGizmoSelected</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1acc2b431dea077427d0928836082e6429" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>s_HandleColor</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a7f31aaf39e363b2b9b07a1f636bc12c6" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>s_HandleColorDisabled</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a7873ed29e2ea1d81fd5b31983eb35560" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>s_HandleColorSelected</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a7d678fa124c4f83e728502d0100b13f7" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>s_ShowDebugOptions</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_surface_editor_1a0282cf93aa9ff5bd3bb61a0e01bd9d21" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshSurfaceEditor</scope><name>s_Styles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

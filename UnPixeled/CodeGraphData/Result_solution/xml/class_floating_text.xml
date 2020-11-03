@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_floating_text" kind="class" prot="public">
+    <compoundname>FloatingText</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_floating_text_1a4926445120e79d1ca60035300456cbea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FloatingText.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/OnScreenUI/FloatingText.cs" line="8" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/OnScreenUI/FloatingText.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_floating_text_1a342c243903e506087fabba4f1c55e598" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FloatingText.showText</definition>
+        <argsstring>(Transform parent, float value, int colorIndex)</argsstring>
+        <name>showText</name>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>colorIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/OnScreenUI/FloatingText.cs" line="14" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/OnScreenUI/FloatingText.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="101">
+        <label>FloatingText</label>
+        <link refid="class_floating_text"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="103">
+        <label>FloatingText</label>
+        <link refid="class_floating_text"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/OnScreenUI/FloatingText.cs" line="7" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/UI Scripts/OnScreenUI/FloatingText.cs" bodystart="6" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_floating_text_1a342c243903e506087fabba4f1c55e598" prot="public" virt="non-virtual"><scope>FloatingText</scope><name>showText</name></member>
+      <member refid="class_floating_text_1a4926445120e79d1ca60035300456cbea" prot="private" virt="non-virtual"><scope>FloatingText</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

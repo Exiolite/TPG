@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor" kind="class" prot="public">
+    <compoundname>UnityEditor::AI::NavMeshModifierVolumeEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a176db6376ef85d619aba55aab928b06c" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshModifierVolumeEditor.m_AffectedAgents</definition>
+        <argsstring></argsstring>
+        <name>m_AffectedAgents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="12" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1785523edaae7c589ab754ec9e81cc82" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshModifierVolumeEditor.m_Area</definition>
+        <argsstring></argsstring>
+        <name>m_Area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="13" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a831d39c0d389691597fcb479e4631865" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshModifierVolumeEditor.m_Center</definition>
+        <argsstring></argsstring>
+        <name>m_Center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="14" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a04f1947caf4f68c4614d5d90ca341c72" prot="private" static="no" mutable="no">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty UnityEditor.AI.NavMeshModifierVolumeEditor.m_Size</definition>
+        <argsstring></argsstring>
+        <name>m_Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="15" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1aa550619578db38866c1f740023e22c13" prot="private" static="no" mutable="no">
+        <type>BoxBoundsHandle</type>
+        <definition>BoxBoundsHandle UnityEditor.AI.NavMeshModifierVolumeEditor.m_BoundsHandle</definition>
+        <argsstring></argsstring>
+        <name>m_BoundsHandle</name>
+        <initializer>= new BoxBoundsHandle()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="20" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a6dfe00c3a33a8558c0faf5c68821631b" prot="private" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color UnityEditor.AI.NavMeshModifierVolumeEditor.s_HandleColor</definition>
+        <argsstring></argsstring>
+        <name>s_HandleColor</name>
+        <initializer>= new Color(187f, 138f, 240f, 210f) / 255</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="17" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1d19b0d328856172080dd464298eba35" prot="private" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color UnityEditor.AI.NavMeshModifierVolumeEditor.s_HandleColorDisabled</definition>
+        <argsstring></argsstring>
+        <name>s_HandleColorDisabled</name>
+        <initializer>= new Color(187f * 0.75f, 138f * 0.75f, 240f * 0.75f, 100f) / 255</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="18" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a5d06a376a0531f926a4eed90fe66d55d" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool UnityEditor.AI.NavMeshModifierVolumeEditor.editingCollider</definition>
+        <argsstring></argsstring>
+        <name>editingCollider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="22" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ab71add1366687575f0958a60ad8200a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.AI.NavMeshModifierVolumeEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="27" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="27" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a6518e60bbef44d8ade61d92bbbe701f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.AI.NavMeshModifierVolumeEditor.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="37" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a33a5fc0d3e3476635fdf7300d9c4a92b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bounds</type>
+        <definition>Bounds UnityEditor.AI.NavMeshModifierVolumeEditor.GetBounds</definition>
+        <argsstring>()</argsstring>
+        <name>GetBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="42" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ad7875912c028d50fffbe8a75024efc7a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEditor.AI.NavMeshModifierVolumeEditor.OnSceneGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnSceneGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="109" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="109" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1691fedc7d5772f04c10ac7cd60e98e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void UnityEditor.AI.NavMeshModifierVolumeEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="48" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="48" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1af2e552c4429452f94c91a9fb5dfbfa46" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEditor.AI.NavMeshModifierVolumeEditor.RenderBoxGizmo</definition>
+        <argsstring>(NavMeshModifierVolume navModifier, GizmoType gizmoType)</argsstring>
+        <name>RenderBoxGizmo</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume" kindref="compound">NavMeshModifierVolume</ref></type>
+          <declname>navModifier</declname>
+        </param>
+        <param>
+          <type>GizmoType</type>
+          <declname>gizmoType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="66" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="66" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a0804fbd8b7c4e225d0815343141dc31d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEditor.AI.NavMeshModifierVolumeEditor.RenderBoxGizmoNotSelected</definition>
+        <argsstring>(NavMeshModifierVolume navModifier, GizmoType gizmoType)</argsstring>
+        <name>RenderBoxGizmoNotSelected</name>
+        <param>
+          <type><ref refid="class_unity_engine_1_1_a_i_1_1_nav_mesh_modifier_volume" kindref="compound">NavMeshModifierVolume</ref></type>
+          <declname>navModifier</declname>
+        </param>
+        <param>
+          <type>GizmoType</type>
+          <declname>gizmoType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="89" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="89" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ae11cb0e71942b612c58cb0a495035b80" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEditor.AI.NavMeshModifierVolumeEditor.CreateNavMeshModifierVolume</definition>
+        <argsstring>(MenuCommand menuCommand)</argsstring>
+        <name>CreateNavMeshModifierVolume</name>
+        <param>
+          <type>MenuCommand</type>
+          <declname>menuCommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="136" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="136" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="192">
+        <label>Editor</label>
+      </node>
+      <node id="191">
+        <label>UnityEditor.AI.NavMeshModifierVolumeEditor</label>
+        <link refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="194">
+        <label>Editor</label>
+      </node>
+      <node id="193">
+        <label>UnityEditor.AI.NavMeshModifierVolumeEditor</label>
+        <link refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" line="11" column="1" bodyfile="D:/UnPixeled Project/UnPixeled/Assets/98. NavMesh_____________________________________/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" bodystart="10" bodyend="145"/>
+    <listofallmembers>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ae11cb0e71942b612c58cb0a495035b80" prot="public" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>CreateNavMeshModifierVolume</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a5d06a376a0531f926a4eed90fe66d55d" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>editingCollider</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a33a5fc0d3e3476635fdf7300d9c4a92b" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>GetBounds</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a176db6376ef85d619aba55aab928b06c" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>m_AffectedAgents</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1785523edaae7c589ab754ec9e81cc82" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>m_Area</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1aa550619578db38866c1f740023e22c13" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>m_BoundsHandle</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a831d39c0d389691597fcb479e4631865" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>m_Center</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a04f1947caf4f68c4614d5d90ca341c72" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>m_Size</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a6518e60bbef44d8ade61d92bbbe701f3" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>OnDisable</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ab71add1366687575f0958a60ad8200a3" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>OnEnable</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1691fedc7d5772f04c10ac7cd60e98e5" prot="public" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1ad7875912c028d50fffbe8a75024efc7a" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>OnSceneGUI</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1af2e552c4429452f94c91a9fb5dfbfa46" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>RenderBoxGizmo</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a0804fbd8b7c4e225d0815343141dc31d" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>RenderBoxGizmoNotSelected</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a6dfe00c3a33a8558c0faf5c68821631b" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>s_HandleColor</name></member>
+      <member refid="class_unity_editor_1_1_a_i_1_1_nav_mesh_modifier_volume_editor_1a1d19b0d328856172080dd464298eba35" prot="private" virt="non-virtual"><scope>UnityEditor::AI::NavMeshModifierVolumeEditor</scope><name>s_HandleColorDisabled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_9742df03e7eb413dac2c37fd79a21592" kind="dir">
+    <compoundname>D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/Projectiles</compoundname>
+    <innerfile refid="_projectile_8cs">Projectile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/UnPixeled Project/UnPixeled/Assets/1. Scripts__________________________________________/2. Controllers/Projectiles/"/>
+  </compounddef>
+</doxygen>
