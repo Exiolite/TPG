@@ -1,31 +1,35 @@
-﻿//Copyright Ex/IO 2020
+﻿using Systems.S_Inventory;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIItemSlot : MonoBehaviour
+namespace Systems.S_UiScripts.GUI
 {
-    public ItemData item;
-    public GameObject textName;
-    public GameObject textCount;
-
-
-
-    public void OnClicked()
+    public class UiItemSlot : MonoBehaviour
     {
-        if (item != null)
-            EventManager.equipmentAction.Invoke(item);
-    }
+        private ItemData _item;
+        private GameObject _textName;
+        private GameObject _textCount;
 
-    public void SetSlot(ItemData _item, int _count)
-    {
-        item = _item;
-        textName.GetComponent<Text>().text = item.itemName;
 
-        if (_count > 1)
-            textCount.GetComponent<Text>().text = _count.ToString();
-        else
-            textCount.GetComponent<Text>().text = "";
 
-        GetComponent<Image>().sprite = item.itemIcon;
+        public void OnClicked()
+        {
+            if (_item != null)
+                EventInventory
+                    .equipmentAction.Invoke(_item);
+        }
+
+        public void SetSlot(ItemData item, int count)
+        {
+            item = item;
+            _textName.GetComponent<Text>().text = item.itemName;
+
+            if (count > 1)
+                _textCount.GetComponent<Text>().text = count.ToString();
+            else
+                _textCount.GetComponent<Text>().text = "";
+
+            GetComponent<Image>().sprite = item.itemIcon;
+        }
     }
 }

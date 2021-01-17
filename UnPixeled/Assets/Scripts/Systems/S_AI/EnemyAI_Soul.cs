@@ -3,6 +3,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using Systems.S_HealthStats;
+using Core.Managers;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.EventSystems;
@@ -139,7 +141,7 @@ public class EnemyAI_Soul : MonoBehaviour
                 case AiType.melee:
                     if (distance <= attackRadius)
                     {
-                        EventManager.playerStatAction.Invoke("remove", "health", damage);
+                        EventStats.changePlayerHealth.Invoke(-damage);
                         lastAttacked = Time.time;
                     }
 

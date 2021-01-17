@@ -1,48 +1,49 @@
-﻿//Copyright Ex/IO 2020
-using System.Collections;
-using System.Collections.Generic;
+﻿using Systems.S_Inventory;
 using UnityEngine;
 
-public class UIInventory : MonoBehaviour
+namespace Systems.S_UiScripts.GUI
 {
-    public GameObject uiItemGrid;
-    public GameObject uiItem;
-    public GameObject uiWeaponSlot;
-
-
-
-    void Awake()
+    public class UiInventory : MonoBehaviour
     {
-        EventManager.inventoryUpdate.AddListener(UpdateInventory);
-        EventManager.equipmentUpdate.AddListener(UpdateEquipment);
-    }
+        public GameObject uiItemGrid;
+        public GameObject uiItem;
+        public GameObject uiWeaponSlot;
 
 
 
-    void UpdateInventory()
-    {
-        for (int i = 0; i < uiItemGrid.transform.childCount; i++)
-            Destroy(uiItemGrid.transform.GetChild(i).gameObject);
-
-        for (int i = 0; i < GameManager.instance.playerBehaviour.playerInventory.container.Count; i++)
+        void Awake()
         {
-            GameObject uiItemSlot = Instantiate(uiItem, uiItemGrid.transform);
-            uiItemSlot.GetComponent<UIItemSlot>().SetSlot(GameManager.instance.playerBehaviour.playerInventory.container[i].item, GameManager.instance.playerBehaviour.playerInventory.container[i].count);
+            EventInventory.inventoryUpdate.AddListener(UpdateInventory);
+            EventInventory.equipmentUpdate.AddListener(UpdateEquipment);
         }
-    }
 
-    void UpdateEquipment()
-    {
-        if (GameManager.instance.playerBehaviour.playerEquipment.weaponSlot != null)
+
+
+        void UpdateInventory()
         {
-            for (int i = 0; i < uiWeaponSlot.transform.childCount; i++)
-                Destroy(uiWeaponSlot.transform.GetChild(i).gameObject);
+            for (int i = 0; i < uiItemGrid.transform.childCount; i++)
+                Destroy(uiItemGrid.transform.GetChild(i).gameObject);
 
-            GameObject weaponSlot = Instantiate(uiItem, uiWeaponSlot.transform);
-            weaponSlot.GetComponent<UIItemSlot>().SetSlot(GameManager.instance.playerBehaviour.playerEquipment.weaponSlot, GameManager.instance.playerBehaviour.playerEquipment.weaponSlot.count);
+            for (int i = 0; i < GameManager.instance.playerBehaviour.PlayerInventory.container.Count; i++)
+            {
+                GameObject uiItemSlot = Instantiate(uiItem, uiItemGrid.transform);
+                uiItemSlot.GetComponent<UiItemSlot>().SetSlot(GameManager.instance.playerBehaviour.PlayerInventory.container[i].item, GameManager.instance.playerBehaviour.PlayerInventory.container[i].count);
+            }
         }
-        else
-            for (int i = 0; i < uiWeaponSlot.transform.childCount; i++)
-                Destroy(uiWeaponSlot.transform.GetChild(i).gameObject);
+
+        void UpdateEquipment()
+        {
+            if (GameManager.instance.playerBehaviour.PlayerEquipment.weaponSlot != null)
+            {
+                for (int i = 0; i < uiWeaponSlot.transform.childCount; i++)
+                    Destroy(uiWeaponSlot.transform.GetChild(i).gameObject);
+
+                GameObject weaponSlot = Instantiate(uiItem, uiWeaponSlot.transform);
+                weaponSlot.GetComponent<UiItemSlot>().SetSlot(GameManager.instance.playerBehaviour.PlayerEquipment.weaponSlot, GameManager.instance.playerBehaviour.PlayerEquipment.weaponSlot.count);
+            }
+            else
+                for (int i = 0; i < uiWeaponSlot.transform.childCount; i++)
+                    Destroy(uiWeaponSlot.transform.GetChild(i).gameObject);
+        }
     }
 }

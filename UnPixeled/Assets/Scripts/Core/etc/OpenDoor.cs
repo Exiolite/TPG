@@ -1,4 +1,6 @@
 ﻿//Copyright Ex/IO 2020
+
+using Core.Managers;
 using UnityEngine;
 
 public class OpenDoor : MonoBehaviour

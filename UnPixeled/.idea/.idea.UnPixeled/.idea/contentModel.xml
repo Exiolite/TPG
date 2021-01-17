@@ -12,12 +12,23 @@
               <e p="OpenDoor.cs" t="Include" />
             </e>
             <e p="Managers" t="Include">
-              <e p="AudioManager.cs" t="Include" />
+              <e p="Audio" t="Include">
+                <e p="AudioManager.cs" t="Include" />
+              </e>
               <e p="EventManager.cs" t="Include" />
-              <e p="GameManager.cs" t="Include" />
-              <e p="InputManager.cs" t="Include" />
-              <e p="UIManager.cs" t="Include" />
-              <e p="VFXManager.cs" t="Include" />
+              <e p="Game" t="Include">
+                <e p="GameManager.cs" t="Include" />
+              </e>
+              <e p="Input" t="Include">
+                <e p="EventInput.cs" t="Include" />
+                <e p="InputManager.cs" t="Include" />
+              </e>
+              <e p="UI" t="Include">
+                <e p="UIManager.cs" t="Include" />
+              </e>
+              <e p="VFX" t="Include">
+                <e p="VFXManager.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Systems" t="Include">
@@ -32,17 +43,24 @@
               <e p="AudioSteps.cs" t="Include" />
             </e>
             <e p="S_HealthStats" t="Include">
+              <e p="EventStats.cs" t="Include" />
+              <e p="HealthStats.cs" t="Include" />
               <e p="HealthStatsActor.cs" t="Include" />
-              <e p="HealthStatsPlayer.cs" t="Include" />
+              <e p="Stat.cs" t="Include" />
             </e>
             <e p="S_Inventory" t="Include">
               <e p="Equipment.cs" t="Include" />
+              <e p="EventInventory.cs" t="Include" />
               <e p="Inventory.cs" t="Include" />
               <e p="Item.cs" t="Include" />
               <e p="ItemData.cs" t="Include" />
             </e>
             <e p="S_Player" t="Include">
+              <e p="PlayerAnimator.cs" t="Include" />
               <e p="PlayerBehaviour.cs" t="Include" />
+              <e p="PlayerInteraction.cs" t="Include" />
+              <e p="PlayerInventory.cs" t="Include" />
+              <e p="PlayerMovement.cs" t="Include" />
             </e>
             <e p="S_UiScripts" t="Include">
               <e p="GUI" t="Include">

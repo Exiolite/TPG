@@ -1,5 +1,8 @@
 ﻿//Copyright Ex/IO 2020
 using System.Collections.Generic;
+using Systems.S_HealthStats;
+using Systems.S_HealthStats.Stats;
+using Core.Managers.Input;
 using UnityEngine.PlayerLoop;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,40 +11,47 @@ public class UIGame : MonoBehaviour
 {
     [SerializeField] public Slider healthBar;
     [SerializeField] public Slider energyBar;
-    [SerializeField] public Slider expirienceBar;
-    [SerializeField] public GameObject InventoryPannell;
-    bool inventoryEnabled = false;
+    [SerializeField] public Slider experienceBar;
+    [SerializeField] public GameObject inventoryPannell;
+    private bool _inventoryEnabled = false;
 
 
 
     private void Awake()
     {
-        EventManager.inventoryOpen.AddListener(InventorySetActive);
-        EventManager.updatePlayerStats.AddListener(UpdateBars);
+        EventInput.inventoryOpen.AddListener(InventorySetActive);
+        
+        EventStats.updatePlayerHealth.AddListener(UpdatePlayerHealth);
+        EventStats.updatePlayerEnergy.AddListener(UpdatePlayerEnergy);
+        EventStats.updatePlayerExperience.AddListener(UpdatePlayerExpirience);
     }
 
+    
+    
     void Start ()
     {
-        InventoryPannell.SetActive(inventoryEnabled);
+        inventoryPannell.SetActive(_inventoryEnabled);
     }
-
-
-
-    void InventorySetActive ()
+    
+    
+    
+    private void InventorySetActive()
     {
-        inventoryEnabled = !inventoryEnabled;
-        InventoryPannell.SetActive(inventoryEnabled);
-        if (GameManager.instance.playerBehaviour.weaponCollider)
-        {
-            GameManager.instance.playerBehaviour.weaponCollider.enabled = false;
-        }
+        _inventoryEnabled = !_inventoryEnabled;
+        inventoryPannell.SetActive(_inventoryEnabled);
     }
 
-
-    void UpdateBars (float _health, float _energy, float _expirience)
+    private void UpdatePlayerHealth(float value)
     {
-        healthBar.value = _health;
-        energyBar.value = _energy;
-        expirienceBar.value = _expirience;
+        healthBar.value = value;
     }
+    private void UpdatePlayerEnergy(float value)
+    {
+        energyBar.value = value;
+    }
+    private void UpdatePlayerExpirience(float value)
+    {
+        experienceBar.value = value;
+    }
+    
 }

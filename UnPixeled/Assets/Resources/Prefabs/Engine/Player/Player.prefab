@@ -134,7 +134,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2790081978255780472}
   - component: {fileID: 2297682110258011930}
-  - component: {fileID: 1351821986608748253}
   - component: {fileID: 8747254815426458643}
   - component: {fileID: 2167566971519901889}
   - component: {fileID: -1190784215094091311}
@@ -173,39 +172,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29b28b3bd7af2c240b408568a7aa6ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 20
-  dashSpeed: 150
   charController: {fileID: 0}
   playerModel: {fileID: 6478778570535909170}
-  weaponCollider: {fileID: 0}
-  weaponHandler: {fileID: 3095505901714168009}
   playerInventory: {fileID: 11400000, guid: 877eec8ff69fd0449a4b8e2fb48d66af, type: 2}
   playerEquipment: {fileID: 11400000, guid: da9139e436080a1468f1c11be7ef4896, type: 2}
+  weaponCollider: {fileID: 0}
+  weaponHandler: {fileID: 3095505901714168009}
   defenceState: 0
---- !u!114 &1351821986608748253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2790081978255780477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a05e4a3a8fa8642b6daf0a7ff09a8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disableDeaht: 0
-  health: 100
-  healthMax: 100
-  healthRegeneration: 0.1
-  expirience: 0
-  energy: 100
-  energyMax: 100
-  energyRegeneration: 15
-  energyUseForDash: 80
-  minimumEnergyForDash: 7
-  energyUsageForDefence: 70
-  minimumEnergyForDefence: 5
 --- !u!143 &8747254815426458643
 CharacterController:
   m_ObjectHideFlags: 0

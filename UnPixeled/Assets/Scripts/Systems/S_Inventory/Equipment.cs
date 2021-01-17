@@ -2,6 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Net;
+using Systems.S_HealthStats;
+using Systems.S_Inventory;
+using Core.Managers;
 using UnityEngine;
 
 //[CreateAssetMenu(fileName = "New ItemData", menuName = "Inventory System/Equipment", order = 51)]
@@ -26,11 +29,11 @@ public class Equipment : ScriptableObject
             case ItemData.ItemType.weapon:
                 if (weaponSlot == null)
                 {
-                    EventManager.inventoryAction.Invoke(Inventory.InventoryActions.remove, _item, _item.count);
+                    EventInventory.inventoryAction.Invoke(Inventory.InventoryActions.remove, _item, _item.count);
                     weaponSlot = _item; //запись оружия в слот
-                    Instantiate(weaponSlot.prefab, GameManager.instance.playerBehaviour.weaponHandler.transform);//создание оружия в руке
-                    GameManager.instance.playerBehaviour.weaponCollider = GameManager.instance.playerBehaviour.weaponHandler.transform.GetChild(0).GetComponent<BoxCollider>();//установка коллайдера оружия
-                    GameManager.instance.playerBehaviour.weaponCollider.enabled = false;//отключение коллайдера оружия
+                    Instantiate(weaponSlot.prefab, GameManager.instance.playerBehaviour.WeaponHandler.transform);//создание оружия в руке
+                    //GameManager.instance.playerBehaviour.weaponCollider = GameManager.instance.playerBehaviour.weaponHandler.transform.GetChild(0).GetComponent<BoxCollider>();//установка коллайдера оружия
+                    //GameManager.instance.playerBehaviour.weaponCollider.enabled = false;//отключение коллайдера оружия
 
                 }
                 else
@@ -40,11 +43,11 @@ public class Equipment : ScriptableObject
                     else
                     {
                         UpEqip(weaponSlot);
-                        EventManager.inventoryAction.Invoke(Inventory.InventoryActions.remove, _item, _item.count);
+                        EventInventory.inventoryAction.Invoke(Inventory.InventoryActions.remove, _item, _item.count);
                         weaponSlot = _item; //запись оружия в слот
-                        Instantiate(_item.prefab, GameManager.instance.playerBehaviour.weaponHandler.transform);//создание оружия в руке
-                        GameManager.instance.playerBehaviour.weaponCollider = GameManager.instance.playerBehaviour.weaponHandler.transform.GetChild(1).GetComponent<BoxCollider>();//установка коллайдера оружия
-                        GameManager.instance.playerBehaviour.weaponCollider.enabled = false;//отключение коллайдера оружия
+                        Instantiate(_item.prefab, GameManager.instance.playerBehaviour.WeaponHandler.transform);//создание оружия в руке
+                        //GameManager.instance.playerBehaviour.weaponCollider = GameManager.instance.playerBehaviour.weaponHandler.transform.GetChild(1).GetComponent<BoxCollider>();//установка коллайдера оружия
+                        //GameManager.instance.playerBehaviour.weaponCollider.enabled = false;//отключение коллайдера оружия
                     }
                 }
                 break;
@@ -53,11 +56,11 @@ public class Equipment : ScriptableObject
                 break;
 
             case ItemData.ItemType.consumable:
-                if (GameManager.instance.playerBehaviour.GetComponent<HealthStatsPlayer>().health < GameManager.instance.playerBehaviour.GetComponent<HealthStatsPlayer>().healthMax)
+                /*if (GameManager.instance.playerBehaviour.GetComponent<HealthStats>().health < GameManager.instance.playerBehaviour.GetComponent<HealthStats>().healthMax)
                 {
                     EventManager.playerStatAction.Invoke("add", "health", _item.restoreHealth);
                     EventManager.inventoryAction.Invoke(Inventory.InventoryActions.remove, _item, 1);
-                }
+                }*/
                 break;
         }
     }
@@ -67,9 +70,9 @@ public class Equipment : ScriptableObject
         switch (_item.itemType)
         {
             case ItemData.ItemType.weapon:
-                EventManager.inventoryAction.Invoke(Inventory.InventoryActions.add, _item, _item.count);
-                Destroy(GameManager.instance.playerBehaviour.weaponHandler.transform.GetChild(0).gameObject);//уничтожение оружия в руке
-                GameManager.instance.playerBehaviour.weaponCollider = null;//установка коллайдера в ноль
+                EventInventory.inventoryAction.Invoke(Inventory.InventoryActions.add, _item, _item.count);
+                Destroy(GameManager.instance.playerBehaviour.WeaponHandler.transform.GetChild(0).gameObject);//уничтожение оружия в руке
+                //GameManager.instance.playerBehaviour.weaponCollider = null;//установка коллайдера в ноль
                 weaponSlot = null;
                 break;
 
@@ -81,9 +84,9 @@ public class Equipment : ScriptableObject
     //SaveLoad
     public void Clear()
     {
-        for (int i = 0; i < GameManager.instance.playerBehaviour.weaponHandler.transform.childCount; i++)
-            Destroy(GameManager.instance.playerBehaviour.weaponHandler.transform.GetChild(i).gameObject);//уничтожение оружия в руке
-        GameManager.instance.playerBehaviour.weaponCollider = null;//установка коллайдера в ноль
+        for (int i = 0; i < GameManager.instance.playerBehaviour.WeaponHandler.transform.childCount; i++)
+            Destroy(GameManager.instance.playerBehaviour.WeaponHandler.transform.GetChild(i).gameObject);//уничтожение оружия в руке
+        //GameManager.instance.playerBehaviour.weaponCollider = null;//установка коллайдера в ноль
         weaponSlot = null;
     }
 }

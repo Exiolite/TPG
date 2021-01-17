@@ -1,6 +1,8 @@
 ﻿//Copyright Ex/IO 2020
 using System.Collections;
 using System.Collections.Generic;
+using Systems.S_HealthStats;
+using Core.Managers;
 using UnityEngine;
 
 public class ProjectileBehaviour : MonoBehaviour
@@ -21,7 +23,7 @@ public class ProjectileBehaviour : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            EventManager.playerStatAction.Invoke("remove", "health", damage);
+            EventStats.changePlayerHealth.Invoke(-damage);
             Destroy(gameObject);
         }
         else
@@ -32,7 +34,7 @@ public class ProjectileBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Weapon")
+        /*if (other.gameObject.tag == "Weapon")
         {
             if (GameManager.instance.playerBehaviour.defenceState)
             {
@@ -49,7 +51,7 @@ public class ProjectileBehaviour : MonoBehaviour
         {
             other.gameObject.GetComponent<HealthStatsActor>().HealthDamage(damage);
             Destroy(gameObject);
-        }
+        }*/
     }
 }
 

@@ -282,8 +282,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 9127588815966065879}
   energyBar: {fileID: 1380186333863180838}
-  expirienceBar: {fileID: 5924294509912028846}
-  InventoryPannell: {fileID: 2611835972562693770}
+  experienceBar: {fileID: 5924294509912028846}
+  inventoryPannell: {fileID: 2611835972562693770}
 --- !u!1 &1122760254316703562
 GameObject:
   m_ObjectHideFlags: 0

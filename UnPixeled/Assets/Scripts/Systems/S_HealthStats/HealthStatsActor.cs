@@ -41,12 +41,12 @@ public class HealthStatsActor : MonoBehaviour
     {
         float damage = 0;
 
-        if (GameManager.instance.playerBehaviour.playerEquipment.weaponSlot != null)
+        if (GameManager.instance.playerBehaviour.PlayerEquipment.weaponSlot != null)
             if (UnityEngine.Random.Range(0, 100) <=
-                GameManager.instance.playerBehaviour.playerEquipment.weaponSlot.CritChance)
-                damage = GameManager.instance.playerBehaviour.playerEquipment.weaponSlot.WeaponDamage * 2;
+                GameManager.instance.playerBehaviour.PlayerEquipment.weaponSlot.CritChance)
+                damage = GameManager.instance.playerBehaviour.PlayerEquipment.weaponSlot.WeaponDamage * 2;
             else
-                damage = GameManager.instance.playerBehaviour.playerEquipment.weaponSlot.WeaponDamage;
+                damage = GameManager.instance.playerBehaviour.PlayerEquipment.weaponSlot.WeaponDamage;
 
         if (other.tag == "Weapon" && health >= 0)
             HealthDamage(damage);
