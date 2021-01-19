@@ -1,74 +1,68 @@
-﻿//Copyright Ex/IO 2020
-using System.Collections.Generic;
+﻿using System;
+using JetBrains.Annotations;
 using UnityEngine;
 
-[System.Serializable]
-public class InventorySlot //Реализация колличества предмета с помощью доп класса
+namespace Systems.S_Inventory
 {
-    public ItemData item;
-    public int count;
-
-    public InventorySlot(ItemData _item)
+    public class Inventory
     {
-        item = _item;
-        count = _item.count;
-    }
+        private InventoryContainer _inventoryContainer;
+        public InventoryContainer InventoryContainer => _inventoryContainer;
 
-    public void AddCount(int _value)
-    {
-        count += _value;
-    }
-}
-
-
-
-[CreateAssetMenu(fileName = "New ItemData", menuName = "Inventory System/Inventory", order = 51)]
-
-public class Inventory : ScriptableObject
-{
-    public enum InventoryActions
-    {
-        add,
-        remove
-    }
-    public InventoryActions inventoryAcctions;
-
-    public List<InventorySlot> container = new List<InventorySlot>();//Массив предметов
-
-
-    public void InventoryAction(InventoryActions _action, ItemData _item, int _count)
-    {
-        switch (_action)
+        
+        public void SetContainer(InventoryContainer inventoryContainer)
         {
-            case InventoryActions.add:
-                AddItem(_item, _count);
-                break;
-
-            case InventoryActions.remove:
-                RemoveItem(_item, _count);
-                break;
+            _inventoryContainer = inventoryContainer;
         }
-    }
 
-    public void AddItem (ItemData _item, int _count)
-    {
-        for (int i = 0; i < container.Count; i++)
-            if (container[i].item == _item && _item.stackable)
+        public void ResetContainer()
+        {
+            _inventoryContainer.container.Clear();
+        }
+        
+        public void AddItem(ItemData item, int count)
+        {
+            for (int i = 0; i < _inventoryContainer.container.Count; i++)
             {
-                container[i].AddCount(_count);
-                return;
+                if (_inventoryContainer.container[i].item == item && item.stackable)
+                {
+                    _inventoryContainer.container[i].AddCount(count);
+                    EventInventory.updateInventory.Invoke();
+                    return;
+                }
             }
 
-        container.Add(new InventorySlot(_item));
-    }
+            _inventoryContainer.container.Add(new InventorySlot(item));
+            EventInventory.updateInventory.Invoke();
+        }
 
-    public void RemoveItem(ItemData _item, int _count)
-    {
-        for (int i = 0; i < container.Count; i++)
-            if (container[i].item.itemName == _item.itemName)
-                if (container[i].count > 1)
-                    container[i].count -= _count;
-                else
-                    container.RemoveAt(i);
+        public void RemoveItem([NotNull] ItemData item, int count)
+        {
+            if (item == null) throw new ArgumentNullException(nameof(item));
+            
+            for (int i = 0; i < _inventoryContainer.container.Count; i++)
+            {
+                if (_inventoryContainer.container[i].item.itemName == item.itemName)
+                {
+                    if (_inventoryContainer.container[i].count > 1)
+                    {
+                        _inventoryContainer.container[i].count -= count;
+                        EventInventory.updateInventory.Invoke();
+                    }
+                    else
+                    {
+                        _inventoryContainer.container.RemoveAt(i);
+                        EventInventory.updateInventory.Invoke();
+                    }
+                }
+            }
+        }
+
+        public void UseItem([NotNull] ItemData item)
+        {
+            if (item == null) throw new ArgumentNullException(nameof(item));
+            //TODO: использование предмета 
+            EventInventory.updateInventory.Invoke();
+        }
     }
 }

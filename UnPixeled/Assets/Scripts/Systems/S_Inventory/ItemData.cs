@@ -1,103 +1,105 @@
 ﻿//Copyright Ex/IO 2020
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New ItemData", menuName = "Inventory System/Item", order = 51)]
-public class ItemData : ScriptableObject
+namespace Systems.S_Inventory
 {
-    public GameObject prefab;
-    public Sprite itemIcon;
-    public string itemName;
-    public bool stackable;
-    public int count;
-    public enum ItemType
+    [CreateAssetMenu(fileName = "New ItemData", menuName = "Inventory System/Item", order = 51)]
+    public class ItemData : ScriptableObject
     {
-        etc,
-        weapon,
-        armour,
-        consumable
-    }
-    public ItemType itemType;
-
-    [Header("Weapon")]
-    public float weaponDamage;
-    public float critChance;
-    public enum WeaponType
-    {
-        stuff,
-        sword
-    }
-    public WeaponType weaponType;
-
-    [Header("Armour")]
-
-    [Header("Counsumable")]
-    public float restoreHealth;
-
-
-
-    public Sprite ItemIcon
-    {
-        get
+        public GameObject prefab;
+        public Sprite itemIcon;
+        public string itemName;
+        public bool stackable;
+        public int count;
+        public enum ItemType
         {
-            return itemIcon;
+            etc,
+            weapon,
+            armour,
+            consumable
         }
-    }
+        public ItemType itemType;
 
-    public string ItemName
-    {
-        get
+        [Header("Weapon")]
+        public float weaponDamage;
+        public float critChance;
+        public enum WeaponType
         {
-            return itemName;
+            stuff,
+            sword
         }
-    }
+        public WeaponType weaponType;
 
-    public bool Stackable
-    {
-        get
+        [Header("Armour")]
+
+        [Header("Counsumable")]
+        public float restoreHealth;
+
+
+
+        public Sprite ItemIcon
         {
-            return stackable;
+            get
+            {
+                return itemIcon;
+            }
         }
-    }
 
-    public int Count
-    {
-        get
+        public string ItemName
         {
-            return count;
+            get
+            {
+                return itemName;
+            }
         }
-    }
 
-    public GameObject Prefab
-    {
-        get
+        public bool Stackable
         {
-            return prefab;
+            get
+            {
+                return stackable;
+            }
         }
-    }
 
-    public float WeaponDamage
-    {
-        get
+        public int Count
         {
-            return weaponDamage;
+            get
+            {
+                return count;
+            }
         }
-    }
 
-    public float CritChance
-    {
-        get
+        public GameObject Prefab
         {
-            return critChance;
+            get
+            {
+                return prefab;
+            }
         }
-    }
 
-    public float RestoreHealth
-    {
-        get
+        public float WeaponDamage
         {
-            return restoreHealth;
+            get
+            {
+                return weaponDamage;
+            }
+        }
+
+        public float CritChance
+        {
+            get
+            {
+                return critChance;
+            }
+        }
+
+        public float RestoreHealth
+        {
+            get
+            {
+                return restoreHealth;
+            }
         }
     }
 }

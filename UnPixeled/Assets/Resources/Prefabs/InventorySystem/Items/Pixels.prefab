@@ -91,7 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8727693730743776857}
   - component: {fileID: 3447335532780933290}
-  - component: {fileID: 8290657756774479658}
+  - component: {fileID: 3731758216990927175}
   m_Layer: 0
   m_Name: Pixels
   m_TagString: Item
@@ -127,8 +127,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 9a2de9e86a57eb54db7c0b799db8d206, type: 2}
---- !u!65 &8290657756774479658
-BoxCollider:
+  spriteGObject: {fileID: 0}
+--- !u!135 &3731758216990927175
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -138,5 +139,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7, y: 0.1, z: 7}
-  m_Center: {x: 0, y: 0.2, z: 0}
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}

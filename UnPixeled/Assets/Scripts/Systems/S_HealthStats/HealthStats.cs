@@ -1,7 +1,5 @@
 ﻿//Copyright Ex/IO 2020
 
-using Systems.S_HealthStats.Stats;
-
 namespace Systems.S_HealthStats
 {
     public class HealthStats

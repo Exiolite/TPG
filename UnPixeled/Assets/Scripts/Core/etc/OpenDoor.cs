@@ -1,6 +1,7 @@
 ﻿//Copyright Ex/IO 2020
 
 using Core.Managers;
+using Core.Managers.Audio;
 using UnityEngine;
 
 public class OpenDoor : MonoBehaviour

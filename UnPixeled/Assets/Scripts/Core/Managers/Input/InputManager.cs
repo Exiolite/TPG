@@ -2,6 +2,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using Core.Managers.Game;
 using Core.Managers.Input;
 using UnityEngine;
 
@@ -35,6 +36,7 @@ public class InputManager : MonoBehaviour
         WASDMovement();
         Dash();
         OpenCloseInventory();
+        Interact();
     }
 
 
@@ -136,11 +138,8 @@ public class InputManager : MonoBehaviour
     }
 
     // Interaction
-    public bool Interact()
+    public void Interact()
     {
-        if (Input.GetKey(KeyCode.F))
-            return true;
-        else
-            return false;
+        if (Input.GetKeyDown(KeyCode.F)) EventInput.interact.Invoke();
     }
 }

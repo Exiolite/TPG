@@ -11,6 +11,7 @@ namespace Core.Managers.Input
         public static DisableInventory disableInventory = new DisableInventory();
         public static DisableMouse disableMouse = new DisableMouse();
         public static InventoryOpen inventoryOpen = new InventoryOpen();
+        public static Interact interact = new Interact();
     }
     
     public class DisableMovement : UnityEvent <bool> { }
@@ -19,4 +20,6 @@ namespace Core.Managers.Input
     public class DisableInventory : UnityEvent { }
     public class DisableMouse : UnityEvent { }
     public class InventoryOpen : UnityEvent { }
+    public class Interact : UnityEvent { }
+    
 }

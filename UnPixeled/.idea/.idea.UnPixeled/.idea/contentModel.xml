@@ -49,17 +49,16 @@
               <e p="Stat.cs" t="Include" />
             </e>
             <e p="S_Inventory" t="Include">
-              <e p="Equipment.cs" t="Include" />
               <e p="EventInventory.cs" t="Include" />
               <e p="Inventory.cs" t="Include" />
-              <e p="Item.cs" t="Include" />
+              <e p="InventoryContainer.cs" t="Include" />
+              <e p="InventorySlot.cs" t="Include" />
+              <e p="ItemBehaviour.cs" t="Include" />
               <e p="ItemData.cs" t="Include" />
             </e>
             <e p="S_Player" t="Include">
               <e p="PlayerAnimator.cs" t="Include" />
               <e p="PlayerBehaviour.cs" t="Include" />
-              <e p="PlayerInteraction.cs" t="Include" />
-              <e p="PlayerInventory.cs" t="Include" />
               <e p="PlayerMovement.cs" t="Include" />
             </e>
             <e p="S_UiScripts" t="Include">

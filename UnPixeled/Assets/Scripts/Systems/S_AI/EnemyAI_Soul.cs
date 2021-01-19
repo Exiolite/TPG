@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Threading;
 using Systems.S_HealthStats;
 using Core.Managers;
+using Core.Managers.Audio;
+using Core.Managers.Game;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.EventSystems;

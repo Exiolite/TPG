@@ -1,5 +1,8 @@
 ﻿//Copyright Ex/IO 2020
 
+using Systems.S_Inventory;
+using Core.Managers.Audio;
+using Core.Managers.Game;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -39,17 +42,7 @@ public class HealthStatsActor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        float damage = 0;
-
-        if (GameManager.instance.playerBehaviour.PlayerEquipment.weaponSlot != null)
-            if (UnityEngine.Random.Range(0, 100) <=
-                GameManager.instance.playerBehaviour.PlayerEquipment.weaponSlot.CritChance)
-                damage = GameManager.instance.playerBehaviour.PlayerEquipment.weaponSlot.WeaponDamage * 2;
-            else
-                damage = GameManager.instance.playerBehaviour.PlayerEquipment.weaponSlot.WeaponDamage;
-
-        if (other.tag == "Weapon" && health >= 0)
-            HealthDamage(damage);
+        //:TODO Получение урона?
     }
 
 
@@ -59,7 +52,7 @@ public class HealthStatsActor : MonoBehaviour
         {
             GameObject deadDrop = Instantiate(GameManager.instance.soulDrop, transform);
             deadDrop.transform.parent = null;
-            deadDrop.GetComponent<Item>().item.count = UnityEngine.Random.Range(1, dropFromMob[i].count);
+            deadDrop.GetComponent<ItemBehaviour>().item.count = UnityEngine.Random.Range(1, dropFromMob[i].count);
             if (dropFromMob[i].item.itemName == "Pixels")
                 deadDrop.GetComponentInChildren<MeshRenderer>().material = GetComponent<MeshRenderer>().material;
         }

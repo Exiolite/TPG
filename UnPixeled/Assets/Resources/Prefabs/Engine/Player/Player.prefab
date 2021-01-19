@@ -172,13 +172,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29b28b3bd7af2c240b408568a7aa6ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charController: {fileID: 0}
+  inventoryContainer: {fileID: 11400000, guid: c073e5b98667d3845b6e43e12203aaeb, type: 2}
   playerModel: {fileID: 6478778570535909170}
-  playerInventory: {fileID: 11400000, guid: 877eec8ff69fd0449a4b8e2fb48d66af, type: 2}
-  playerEquipment: {fileID: 11400000, guid: da9139e436080a1468f1c11be7ef4896, type: 2}
-  weaponCollider: {fileID: 0}
   weaponHandler: {fileID: 3095505901714168009}
-  defenceState: 0
 --- !u!143 &8747254815426458643
 CharacterController:
   m_ObjectHideFlags: 0
@@ -193,7 +189,7 @@ CharacterController:
   m_Height: 5.5
   m_Radius: 0.5
   m_SlopeLimit: 45
-  m_StepOffset: 0.81
+  m_StepOffset: 5.19
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 2, z: 0}

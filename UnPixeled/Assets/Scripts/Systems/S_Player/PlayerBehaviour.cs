@@ -1,10 +1,5 @@
-﻿//Copyright Ex/IO 2020
-
-using System;
-using Systems.S_HealthStats;
+﻿using UnityEngine;
 using Systems.S_Inventory;
-using Core.Managers;
-using UnityEngine;
 
 namespace Systems.S_Player
 {
@@ -12,23 +7,28 @@ namespace Systems.S_Player
     {
         private PlayerAnimator _playerAnimator;
         private PlayerMovement _playerMovement;
-        private PlayerInventory _playerInventory;
-        private PlayerInteraction _playerInteraction;
-        
+
+        [SerializeField] private InventoryContainer inventoryContainer;
+        private Inventory _inventory;
+        public Inventory Inventory => _inventory;
+
         private Animator _animator;
         private CharacterController _charController;
-        
-        [Header("Components")]
-        [SerializeField] private GameObject playerModel;
-        public GameObject WeaponHandler => weaponHandler;
+
+        [Header("Components")] [SerializeField]
+        private GameObject playerModel;
+
         [SerializeField] private GameObject weaponHandler;
-        public Inventory PlayerInventory => playerInventory;
+        public GameObject WeaponHandler => weaponHandler;
         [SerializeField] private Inventory playerInventory;
-        public Equipment PlayerEquipment => playerEquipment;
-        [SerializeField] private Equipment playerEquipment;
-        
-        
-        
+        public Inventory PlayerInventory => playerInventory;
+
+        public PlayerBehaviour(Inventory inventory)
+        {
+            _inventory = inventory;
+        }
+
+
         private void Awake()
         {
             InitializeComponents();
@@ -37,51 +37,38 @@ namespace Systems.S_Player
 
         private void Start()
         {
-            EventManager.playerDead.AddListener(_playerInventory.ResetPlayer);
-            EventInventory.inventoryAction.AddListener(_playerInventory.PlayerInventoryAction);
-            EventInventory.equipmentAction.AddListener(_playerInventory.PlayerEqupmentAction);
+            EventInventory.addItem.AddListener(_inventory.AddItem);
+            EventInventory.removeItem.AddListener(_inventory.RemoveItem);
+            EventInventory.useItem.AddListener(_inventory.UseItem);
         }
 
-        private void OnTriggerStay(Collider other)
-        {
-            _playerInteraction.Interact(other);
-        }
-        
         private void Update()
         {
             UpdateModules();
         }
-        
+
         private void InitializeComponents()
         {
             _charController = GetComponent<CharacterController>();
             _animator = playerModel.GetComponent<Animator>();
         }
-        
+
         private void InitializeModules()
         {
             _playerMovement = new PlayerMovement();
             _playerMovement.InitializeComponent(_charController, playerModel);
-            
+
             _playerAnimator = new PlayerAnimator();
             _playerAnimator.InitializeComponent(_animator);
-            
-            _playerInventory = new PlayerInventory();
-            _playerInventory.InitializeComponent(playerInventory, playerEquipment);
-            
-            _playerInteraction = new PlayerInteraction();
+
+            _inventory = new Inventory();
+            _inventory.SetContainer(inventoryContainer);
         }
 
         private void UpdateModules()
         {
             _playerMovement.UpdatePlayerMovement();
             _playerAnimator.UpdateAnimation();
-        }
-
-        private void OnApplicationQuit()
-        {
-            playerInventory.container.Clear();
-            playerEquipment.Clear();
         }
     }
 }

@@ -34,46 +34,36 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/ItemData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/Equipment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_HealthStats/EventStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Projectiles/ProjectileBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Managers/Input/EventInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Audio/AudioSteps.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_AI/EnemyAI_Soul.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerInventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/InventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_HealthStats/HealthStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/EventInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_HealthStats/HealthStatsActor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Managers/Audio/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Managers/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/ItemBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_HealthStats/Stat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Managers/UI/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UIItemSlot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UIGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UiItemSlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UiGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Managers/Game/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UIInventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/ItemData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UiInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Managers/Input/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/InventoryContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/etc/OpenDoor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/1. Scripts__________________________________________/1.Core/etc/OpenDoor.cs" />
-        <option value="$PROJECT_DIR$/Assets/1.Scripts/1.Core/Managers/InputManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/1.Scripts/2.Processors/AI/EnemyAI_Soul.cs" />
-        <option value="$PROJECT_DIR$/Assets/1.Scripts/HealthStats/HealthStats_actor.cs" />
-        <option value="$PROJECT_DIR$/Assets/1.Scripts/HealthStats/HealthStats_player.cs" />
-        <option value="$PROJECT_DIR$/Assets/1.Scripts/2.Processors/Stats/Stat.cs" />
-        <option value="$PROJECT_DIR$/Assets/1.Scripts/2.Processors/Stats/StatP.cs" />
-        <option value="$PROJECT_DIR$/Assets/1.Scripts/2.Processors/Actor.cs" />
-        <option value="$PROJECT_DIR$/Assets/1.Scripts/3.Data/ActorData.cs" />
         <option value="$PROJECT_DIR$/Assets/1.Scripts/2.Processors/AI/Actor.cs" />
         <option value="$PROJECT_DIR$/Assets/1.Scripts/1.Core/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerManager.cs" />
@@ -94,28 +84,42 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/Animator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_HealthStats/HealthStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_HealthStats/HealthStatsActor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UIGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Managers/Input/EventInput.cs" />
         <option value="$PROJECT_DIR$/Assembly-CSharp.csproj" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Managers/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_HealthStats/EventHealthStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_HealthStats/EventStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Projectiles/ProjectileBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_AI/EnemyAI_Soul.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/EventInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Managers/EventManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/InventorySlot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/Equipment.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/ItemContainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerInventory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UIInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/dsfgdsfgdfsg.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_HealthStats/HealthStatsActor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/Container.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/ItemData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/InventoryContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Managers/Input/EventInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/ItemBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Managers/Input/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Managers/Audio/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UIItemSlot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Managers/Input/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/EventInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UIInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UIGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_UiScripts/GUI/UiItemSlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_Inventory/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_HealthStats/Stat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Managers/Game/GameManager.cs" />
       </list>
     </option>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="ProjectFolder" pattern="file[riderModule]:Assets/Scripts/*" />
   </component>
   <component name="ProjectId" id="1kDy6AeqgW8R1GSMcQzPR2NlVgt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -127,6 +131,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
@@ -161,13 +166,40 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="627" y="303" key="#TODO" timestamp="1610904492444">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="627" y="303" key="#TODO/0.0.1680.1020/-1920.0.1920.1050@0.0.1680.1020" timestamp="1610904492444" />
     <state x="922" y="215" key="SettingsEditor" timestamp="1605251570509">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="922" y="215" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605251570509" />
+    <state x="632" y="368" width="490" height="396" key="scopes" timestamp="1610904579185">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="632" y="368" width="490" height="396" key="scopes/0.0.1680.1020/-1920.0.1920.1050@0.0.1680.1020" timestamp="1610904579185" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605249560594">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605249560594" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerMovement.cs</url>
+          <line>54</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Systems/S_Player/PlayerMovement.cs" initialLine="53">
+            <startOffsets>
+              <option value="1466" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1564" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

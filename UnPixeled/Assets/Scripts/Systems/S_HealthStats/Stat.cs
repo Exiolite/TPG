@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Systems.S_HealthStats.Stats
+namespace Systems.S_HealthStats
 {
     public class StatParameter
     {
