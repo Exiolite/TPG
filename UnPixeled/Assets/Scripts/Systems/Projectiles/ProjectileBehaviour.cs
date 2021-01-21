@@ -1,57 +1,41 @@
-﻿//Copyright Ex/IO 2020
-using System.Collections;
-using System.Collections.Generic;
-using Systems.S_HealthStats;
-using Core.Managers;
+﻿using Core;
 using UnityEngine;
 
-public class ProjectileBehaviour : MonoBehaviour
+namespace Systems.Projectiles
 {
-    public bool defendedProjectileByPlayer = false;
-    [HideInInspector] public float damage;
-    public GameObject particleSystemTrail;
-
-
-
-    private void Update()
+    public class ProjectileBehaviour : MonoBehaviour
     {
-        if (defendedProjectileByPlayer)
-            GetComponent<Rigidbody>().AddForce(transform.forward * -2000);
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Player")
+        private Rigidbody _rigidbody;
+        
+        private float _damage;
+        public float Damage
         {
-            EventStats.changePlayerHealth.Invoke(-damage);
-            Destroy(gameObject);
+            get => _damage;
+            set => _damage = value;
         }
-        else
-            Destroy(gameObject);
-    }
 
 
-
-    private void OnTriggerEnter(Collider other)
-    {
-        /*if (other.gameObject.tag == "Weapon")
+        
+        private void Awake()
         {
-            if (GameManager.instance.playerBehaviour.defenceState)
-            {
-                defendedProjectileByPlayer = true;
-                GetComponent<Rigidbody>().AddForce(transform.forward * -3000);
-                particleSystemTrail.transform.rotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
-            }
-            else
-            {
-                Destroy(gameObject);
-            }
+            _rigidbody = GetComponent<Rigidbody>();
         }
-        else if (other.gameObject.tag == "Enemy" && defendedProjectileByPlayer)
+
+        private void Update()
         {
-            other.gameObject.GetComponent<HealthStatsActor>().HealthDamage(damage);
-            Destroy(gameObject);
-        }*/
+            transform.LookAt(GameManager.instance.playerBehaviour.transform);
+            _rigidbody.AddForce(transform.forward * 2000);
+        }
+
+        private void OnCollisionEnter(Collision collision)
+        {
+            
+        }
+        
+        private void OnTriggerEnter(Collider other)
+        {
+            
+        }
     }
 }
 
