@@ -16,12 +16,19 @@ namespace Systems.Player
         [SerializeField] private StatParameter energy;
         public StatParameter Energy => energy;
 
-        [Header("Inventory")]
+        [Header("Inventory and equipment")]
         [SerializeField] private Inventory.Inventory inventory;
         public Inventory.Inventory Inventory
         {
             get => inventory;
             set => inventory = value;
+        }
+
+        [SerializeField] private Equipment equipment;
+        public Equipment Equipment
+        {
+            get => equipment;
+            set => equipment = value;
         }
         
         [Header("Prefab GameObjects")] 
@@ -58,8 +65,10 @@ namespace Systems.Player
         {
             EventInventory.addItem.AddListener(inventory.AddItem);
             EventInventory.removeItem.AddListener(inventory.RemoveItem);
-            EventInventory.useItem.AddListener(inventory.UseItem);
+            EventInventory.useItem.AddListener(equipment.UseItem);
             EventInventory.updateInventory.Invoke();
+            EventInventory.clearInventory.AddListener(inventory.Clear);
+            EventInventory.clearInventory.AddListener(equipment.Clear);
             EventStats.changePlayerHealth.AddListener(health.ChangeStat);
             EventStats.changePlayerEnergy.AddListener(energy.ChangeStat);
         }

@@ -1,4 +1,6 @@
-﻿using Systems.Player;
+﻿using System;
+using Systems.Inventory;
+using Systems.Player;
 using UnityEngine;
 
 namespace Core
@@ -42,6 +44,11 @@ namespace Core
             gameCamera = Instantiate(cameraPrefab);
             playerBehaviour = Instantiate(playerPrefab).GetComponent<PlayerBehaviour>();
             playerBehaviour = FindObjectOfType<PlayerBehaviour>();
+        }
+
+        private void OnApplicationQuit()
+        {
+            EventInventory.clearInventory.Invoke();
         }
     }
 }

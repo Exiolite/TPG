@@ -57,11 +57,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Actor/ActorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/02/b12c91a3/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Actor/Actors/MeleeActorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Equipment.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_AI/ScriptableObjects/RangeActor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_AI/ScriptableObjects/Actor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_AI/MeleeActor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/S_HealthStats/HealthStats.cs" />
@@ -90,28 +90,29 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Stats/StatParameter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Stats/EventStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ui/SceneUi/FloatingTextBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Projectiles/ProjectileBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Item.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/InventorySlot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/EventInventory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Items/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Items/Heal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Items/Food.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/ItemBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Audio/AudioClipAndVolume.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Actor/ActorBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Actor/Actors/RangeActorBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ui/Gui/InventoryUiBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ui/Gui/ItemSlotUiBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ui/Gui/GameUiBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Items/Drink.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/EventInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Actor/Actors/RangeActorBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Actor/ActorBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Projectiles/ProjectileBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Items/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/InventorySlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ui/Gui/InventoryUiBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ui/Gui/ItemSlotUiBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/EventInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Equipment.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" />
       </list>
     </option>
   </component>

@@ -11,9 +11,7 @@ namespace Systems.Inventory
     {
         public List<InventorySlot> container = new List<InventorySlot>();
         
-       
-        
-        public void ResetContainer()
+        public void Clear()
         {
             container.Clear();
         }
@@ -34,7 +32,7 @@ namespace Systems.Inventory
             EventInventory.updateInventory.Invoke();
         }
 
-        public void RemoveItem([NotNull] Item item, int count)
+        public void RemoveItem([NotNull] Item item)
         {
             if (item == null) throw new ArgumentNullException(nameof(item));
             
@@ -44,7 +42,7 @@ namespace Systems.Inventory
                 {
                     if (container[i].count > 1)
                     {
-                        container[i].count -= count;
+                        container[i].count -= 1;
                         EventInventory.updateInventory.Invoke();
                     }
                     else
@@ -54,18 +52,6 @@ namespace Systems.Inventory
                     }
                 }
             }
-        }
-
-        public void UseItem([NotNull] Item item)
-        {
-            if (item == null) throw new ArgumentNullException(nameof(item));
-
-            if (item.GetType() == typeof(Weapon))
-            {
-                Debug.Log("Hello");
-            }
-            
-            EventInventory.updateInventory.Invoke();
         }
     }
 }

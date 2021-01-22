@@ -36,6 +36,5 @@ namespace Systems.Inventory
         public abstract Weapon GetWeaponData();
         public abstract Heal GetHealData();
         public abstract Food GetFoodData();
-        
     }
 }

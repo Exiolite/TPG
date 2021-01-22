@@ -302,6 +302,7 @@ MonoBehaviour:
     stat: 100
     maxStat: 100
   inventory: {fileID: 11400000, guid: c073e5b98667d3845b6e43e12203aaeb, type: 2}
+  equipment: {fileID: 11400000, guid: 83e1cc8126ad2ab4886defa9e48fafcd, type: 2}
   playerModel: {fileID: 6478778570535909170}
   weaponHandler: {fileID: 3095505901714168009}
 --- !u!1 &2882241029945018820

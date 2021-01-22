@@ -14,6 +14,7 @@ namespace Systems.Actor
         [Header("Combat")] 
         [SerializeField] private float damage;
         [SerializeField] private float attackDelay;
+        [SerializeField] private bool attackBeforeDelay;
         [SerializeField] private int memoryAboutPlayer;
         
         [Header("Vision")]
@@ -76,10 +77,20 @@ namespace Systems.Actor
         private IEnumerator AttackCoroutine()
         {
             if (_isAttacking) yield break;
-            _isAttacking = true;
-            yield return new WaitForSeconds(attackDelay);
-            Attack(-damage);
-            _isAttacking = false;
+            if (attackBeforeDelay)
+            {
+                _isAttacking = true;
+                Attack(-damage);
+                yield return new WaitForSeconds(attackDelay);
+                _isAttacking = false;
+            }
+            else
+            {
+                _isAttacking = true;
+                yield return new WaitForSeconds(attackDelay);
+                Attack(-damage);
+                _isAttacking = false;
+            }
         }
 
         private IEnumerator RememberAboutPlayer()
@@ -100,6 +111,8 @@ namespace Systems.Actor
         {
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, lookRadius);
+            Gizmos.color = Color.blue;
+            Gizmos.DrawWireSphere(transform.position, attackRadius);
         }
     }
 }

@@ -25,6 +25,7 @@
             </e>
             <e p="CameraFollow.cs" t="Include" />
             <e p="Inventory" t="Include">
+              <e p="Equipment.cs" t="Include" />
               <e p="EventInventory.cs" t="Include" />
               <e p="Inventory.cs" t="Include" />
               <e p="InventorySlot.cs" t="Include" />

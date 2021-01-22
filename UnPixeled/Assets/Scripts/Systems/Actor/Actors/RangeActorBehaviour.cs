@@ -29,7 +29,10 @@ namespace Systems.Actor.Actors
         protected override void Attack(float damage)
         {
             projectileBehaviour.Damage = damage;
-            Instantiate(projectileBehaviour);
+            var projectile = Instantiate(projectileBehaviour, transform);
+            var projectileTransform = projectile.transform;
+            projectileTransform.parent = null;
+            projectileTransform.position = transform.position;
         }
     }
 }

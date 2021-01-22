@@ -6,10 +6,10 @@
         public Item item;
         public int count;
 
-        public InventorySlot(Item _item)
+        public InventorySlot(Item item)
         {
-            this.item = _item;
-            count = item.count;
+            this.item = item;
+            count = this.item.count;
         }
 
         public void AddCount(int value)

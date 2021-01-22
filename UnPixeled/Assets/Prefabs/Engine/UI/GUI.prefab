@@ -571,8 +571,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiItemGrid: {fileID: 9202519858794297734}
-  uiItem: {fileID: 1512888920430997910, guid: afb933990bcf7c440958e5e96556d138, type: 3}
   uiWeaponSlot: {fileID: 1978620601245686454}
+  uiItem: {fileID: 9194755988888935404, guid: afb933990bcf7c440958e5e96556d138, type: 3}
 --- !u!1 &2896574499150463937
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,16 +9,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2145301827187494369}
-  - component: {fileID: -3792913506287412318}
-  - component: {fileID: 494994396434057655}
+  - component: {fileID: -7035416553846275437}
   - component: {fileID: 2145301827187494372}
-  - component: {fileID: 2145301827187494368}
   - component: {fileID: 2145301827187494370}
   - component: {fileID: 2145301827187494371}
   - component: {fileID: 3836877099150308017}
-  - component: {fileID: -4314343930681647826}
+  - component: {fileID: 1284025046594584430}
   m_Layer: 9
-  m_Name: Range
+  m_Name: Melee
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,12 +32,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
-  m_Children:
-  - {fileID: 792488543648772600}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-3792913506287412318
+--- !u!114 &-7035416553846275437
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48,36 +45,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 2145301827187494374}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2cd50380d5bbb84fa1b15c9af430040, type: 3}
+  m_Script: {fileID: 11500000, guid: 96608be6d6fd42f79dc92716309b2033, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 35
-  runRadius: 15
-  attackRadius: 50
-  chaseRadius: 10
-  ai_Type: 1
-  damage: 30
+  health:
+    stat: 100
+    maxStat: 100
+  damage: 10
   attackDelay: 0.5
-  shootForce: 2000
-  projectile: {fileID: 4183246804399279875, guid: 20393a3238cc18745a1f50f6c5f83e67, type: 3}
-  pfPojectile: {fileID: 792488543648772600}
---- !u!114 &494994396434057655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2145301827187494374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58ef66d97aa8ccd489d5490916dbfa8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 60
-  dead: 0
-  dropFromMob:
-  - item: {fileID: 11400000, guid: 9a2de9e86a57eb54db7c0b799db8d206, type: 2}
-    count: 2
+  attackBeforeDelay: 0
+  memoryAboutPlayer: 5
+  lookRadius: 30
+  attackRadius: 5
+  moveSound:
+    audioClip: {fileID: 0}
+    volume: 0
+  attackSound:
+    audioClip: {fileID: 0}
+    volume: 0
+  getDamageSound:
+    audioClip: {fileID: 0}
+    volume: 0
 --- !u!195 &2145301827187494372
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -87,11 +75,11 @@ NavMeshAgent:
   m_GameObject: {fileID: 2145301827187494374}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.8
+  m_Radius: 0.5
   m_Speed: 15
-  m_Acceleration: 100
+  m_Acceleration: 50
   avoidancePriority: 50
-  m_AngularSpeed: 900
+  m_AngularSpeed: 500
   m_StoppingDistance: 0.1
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 0
@@ -100,22 +88,6 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &2145301827187494368
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2145301827187494374}
-  serializedVersion: 2
-  m_Mass: 10
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 84
-  m_CollisionDetection: 0
 --- !u!33 &2145301827187494370
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -143,7 +115,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c3f101f3180d6ef4d9ff308436d9e371, type: 2}
+  - {fileID: 2100000, guid: d61b9df0d949c7d4d8ee1f517cba82eb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -175,11 +147,11 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.63
-  m_Height: 2.04
+  m_Radius: 0.5
+  m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!82 &-4314343930681647826
+--- !u!82 &1284025046594584430
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -275,33 +247,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &5327422222702945302
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 792488543648772600}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &792488543648772600
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5327422222702945302}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -0.73}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 2145301827187494369}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}

@@ -12,7 +12,7 @@ namespace Systems.Inventory.Items
 
         public override void UseItem()
         {
-            
+            EventInventory.useItem.Invoke(this);
         }
 
         public override Drink GetDrinkData()
