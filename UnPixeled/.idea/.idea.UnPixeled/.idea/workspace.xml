@@ -55,7 +55,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Ui/Gui/InventoryUiBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Items/WeaponBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Actor/ActorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/02/b12c91a3/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Actor/Actors/MeleeActorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -90,8 +89,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Audio/AudioClipAndVolume.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/EventInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Actor/Actors/RangeActorBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Projectiles/ProjectileBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/InventorySlot.cs" />
@@ -106,15 +103,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Stats/StatParameter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Stats/EventStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerEquipment.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/ItemBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/WeaponBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Equipment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Items/Weapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Actor/Actors/MeleeActorBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Items/WeaponBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Equipment.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/ItemBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Actor/ActorBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Projectiles/ProjectileBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Actor/Actors/RangeActorBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -168,9 +167,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="824" y="388" key="#Notifications" timestamp="1611239084412">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="721" y="377" key="#Notifications" timestamp="1611323252196">
+      <screen x="0" y="0" width="1680" height="1020" />
     </state>
+    <state x="721" y="377" key="#Notifications/0.0.1680.1020/-1920.-28.1920.1050@0.0.1680.1020" timestamp="1611323252196" />
     <state x="824" y="388" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1611239084412" />
     <state x="627" y="303" key="#TODO" timestamp="1610904492444">
       <screen x="0" y="0" width="1680" height="1020" />

@@ -37,7 +37,7 @@ namespace Systems.Inventory
             {
                 equipmentItem = item;
                 EventInventory.removeItem.Invoke(item);
-                Instantiate(item.prefab, transform).GetComponent<WeaponBehaviour>().ItemSetInactive();
+                Instantiate(item.prefab, transform).GetComponentInChildren<ItemBehaviour>().SetInactive();
             }
             else
             {

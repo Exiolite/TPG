@@ -10,22 +10,29 @@ namespace Systems.Actor
 {
     public abstract class ActorBehaviour : MonoBehaviour
     {
-        [SerializeField] private StatParameter health;
-
+        [Header("Vision")]
+        [SerializeField] private float lookRadius;
+        [SerializeField] private float attackRadius;
+        
         [Header("Combat")] 
         [SerializeField] private float damage;
         [SerializeField] private float attackDelay;
         [SerializeField] private bool attackBeforeDelay;
         [SerializeField] private int memoryAboutPlayer;
         
-        [Header("Vision")]
-        [SerializeField] private float lookRadius;
-        [SerializeField] private float attackRadius;
+        [Header("Stats")]
+        [SerializeField] private StatParameter health;
         
         [Header("Sounds")]
         [SerializeField] private AudioClipAndVolume moveSound;
         [SerializeField] private AudioClipAndVolume attackSound;
         [SerializeField] private AudioClipAndVolume getDamageSound;
+
+        [Header("Visual")]
+        [SerializeField] private GameObject hitParticles;
+        private ParticleSystem _hitParticles;
+        [SerializeField] private GameObject deathParticles;
+        private ParticleSystem _deathParticles;
 
         private AudioSource _audioSource;
         private NavMeshAgent _navMeshAgent;
@@ -34,40 +41,36 @@ namespace Systems.Actor
         
         private bool _isAttacking;
         private bool _isPlayerSpotted;
+        private bool _isDead;
 
         
-        private void OnTriggerEnter(Collider other)
-        {
-            if (other.CompareTag("Weapon"))
-            {
-                if (GameManager.instance.playerBehaviour.PlayerAnimator.IsAttacking)
-                {
-                    ApplyDamageToActor(-GameManager.instance.playerBehaviour.Equipment.Weapon.GetWeaponData().damage);
-                }
-            }
-        }
+        
+        protected abstract void Move(ref NavMeshAgent navMeshAgent);
+        protected abstract void Attack(float damage);
+        
+        
         
         private void Awake()
         {
             _audioSource = GetComponent<AudioSource>();
             _navMeshAgent = GetComponent<NavMeshAgent>();
+            
+            _hitParticles = Instantiate(hitParticles, transform).GetComponent<ParticleSystem>();
+            _deathParticles = Instantiate(deathParticles, transform).GetComponent<ParticleSystem>();
+            _hitParticles.GetComponent<ParticleSystemRenderer>().material = GetComponent<MeshRenderer>().material;
+            _hitParticles.GetComponent<ParticleSystemRenderer>().trailMaterial = GetComponent<MeshRenderer>().material;
+            _deathParticles.GetComponent<ParticleSystemRenderer>().material = GetComponent<MeshRenderer>().material;
+            _deathParticles.GetComponent<ParticleSystemRenderer>().trailMaterial = GetComponent<MeshRenderer>().material;
         }
         
-
         private void Update()
         {
             UpdateBehaviour();
         }
         
-        private void ApplyDamageToActor(float value)
-        {
-            health.ChangeStat(value);
-            getDamageSound.PlaySound(ref _audioSource);
-            if (health.CheckStat()) Destroy(gameObject);
-        }
-        
         private void UpdateBehaviour()
         {
+            if (_isDead) return;
             if (CalculateDistance() < lookRadius || _isPlayerSpotted)
             {
                 Move(ref _navMeshAgent);
@@ -112,13 +115,35 @@ namespace Systems.Actor
             yield return new WaitForSeconds(memoryAboutPlayer);
             _isPlayerSpotted = false;
         }
-        
-        
-        
-        protected abstract void Move(ref NavMeshAgent navMeshAgent);
-        protected abstract void Attack(float damage);
 
 
+        
+        private void OnTriggerEnter(Collider other)
+        {
+            if (!GameManager.instance.playerBehaviour.PlayerAnimator.IsAttacking) return;
+            if (!other.CompareTag("Weapon")) return;
+            ApplyDamageToActor(-GameManager.instance.playerBehaviour.Equipment.Weapon.GetWeaponData().damage);
+        }
+        
+        private void ApplyDamageToActor(float value)
+        {
+            health.ChangeStat(value);
+            getDamageSound.PlaySound(ref _audioSource);
+            if (hitParticles != null) _hitParticles.Play();
+            if (!health.CheckStat()) return;
+            if (deathParticles != null) _deathParticles.Play();
+            _navMeshAgent.ResetPath();
+            StartCoroutine(DeathCoroutine());
+        }
+        
+        private IEnumerator DeathCoroutine()
+        {
+            _isDead = true;
+            yield return new WaitForSeconds(0.8f);
+            Destroy(gameObject);
+        }
+        
+        
         private void OnDrawGizmosSelected()
         {
             Gizmos.color = Color.red;

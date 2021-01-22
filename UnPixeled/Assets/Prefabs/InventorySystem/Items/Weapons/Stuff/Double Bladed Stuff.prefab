@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1273603638462581983}
   - component: {fileID: 7488513301183697030}
   m_Layer: 0
-  m_Name: ItemCoolider
+  m_Name: Item Behaviour
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,10 +67,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6814156830072221251}
-  - component: {fileID: 4000354806179576247}
   - component: {fileID: 8011080435410556745}
   m_Layer: 0
-  m_Name: SoubleBladedStuff - Weapon
+  m_Name: Double Bladed Stuff
   m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,18 +91,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4000354806179576247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6913483319234991641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f3e678281b54b14b4fe1f5079dd3b24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &8011080435410556745
 BoxCollider:
   m_ObjectHideFlags: 0

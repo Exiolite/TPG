@@ -75,8 +75,8 @@ namespace Systems.Player
             EventInventory.updateInventory.Invoke();
             EventInventory.clearInventory.AddListener(inventory.Clear);
             EventInventory.clearInventory.AddListener(equipment.Clear);
-            //EventStats.ChangePlayerHealth.AddListener(health.ChangeStat);
-            //EventStats.ChangePlayerEnergy.AddListener(energy.ChangeStat);
+            EventStats.ChangePlayerHealth.AddListener(health.ChangeStat);
+            EventStats.ChangePlayerEnergy.AddListener(energy.ChangeStat);
         }
         
         private void Update()

@@ -7,6 +7,7 @@ namespace Systems.Actor.Actors
 {
     public class RangeActorBehaviour : ActorBehaviour
     {
+        [Header("Range attributes")]
         [SerializeField] private ProjectileBehaviour projectileBehaviour;
         
         protected override void Move(ref NavMeshAgent navMeshAgent)
@@ -28,8 +29,8 @@ namespace Systems.Actor.Actors
 
         protected override void Attack(float damage)
         {
-            projectileBehaviour.Damage = damage;
-            var projectile = Instantiate(projectileBehaviour, transform);
+            ProjectileBehaviour projectile = Instantiate(projectileBehaviour, transform);
+            projectile.Damage = damage;
             var projectileTransform = projectile.transform;
             projectileTransform.parent = null;
             projectileTransform.position = transform.position;

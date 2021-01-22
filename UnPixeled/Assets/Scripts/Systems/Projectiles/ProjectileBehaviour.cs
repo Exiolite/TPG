@@ -1,4 +1,5 @@
 ﻿using System;
+using Systems.Stats;
 using Core;
 using UnityEngine;
 
@@ -11,7 +12,7 @@ namespace Systems.Projectiles
         
         private Transform _transform;
 
-        private static readonly Vector3 PlayerHeightCorrection = new Vector3(0,1.5f, 0);
+        private static readonly Vector3 PlayerHeightCorrection = new Vector3(0,2.3f, 0);
         private Vector3 _playerPosition;
 
         private float _projectileSpeed;
@@ -53,7 +54,16 @@ namespace Systems.Projectiles
         
         private void OnTriggerEnter(Collider other)
         {
-            
+            if (other.CompareTag("Environment"))
+            {
+                Destroy(gameObject);
+            }
+
+            if (other.CompareTag("Player"))
+            {
+                EventStats.ChangePlayerHealth.Invoke(_damage);
+                Destroy(gameObject);
+            }
         }
     }
 }

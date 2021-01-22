@@ -20,4 +20,4 @@ MonoBehaviour:
   count: 1
   stackable: 0
   numberOfUses: 1
-  damage: 51
+  damage: 20
