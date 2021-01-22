@@ -42,13 +42,14 @@ namespace Systems.Inventory
                 {
                     if (container[i].count > 1)
                     {
-                        container[i].count -= 1;
+                        container[i].count -= item.count;
                         EventInventory.updateInventory.Invoke();
                     }
                     else
                     {
                         container.RemoveAt(i);
                         EventInventory.updateInventory.Invoke();
+                        return;
                     }
                 }
             }

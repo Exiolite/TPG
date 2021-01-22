@@ -11,8 +11,8 @@ namespace Systems.Ui.Gui
         
         [SerializeField] private ItemSlotUiBehaviour uiItem;
 
-        
-        
+
+
         private void Awake()
         {
             EventInventory.updateInventory.AddListener(UpdateInventory);
@@ -29,13 +29,20 @@ namespace Systems.Ui.Gui
             for (int j = 0; j < playerBehaviour.Inventory.container.Count; j++)
             {
                 var uiItemSlot = Instantiate(uiItem, uiItemGrid.transform);
-                uiItemSlot.SetSlot(playerBehaviour.Inventory.container[j], j);
+                uiItemSlot.SetSlot(playerBehaviour.Inventory.container[j], j,false);
             }
-
-            if (playerBehaviour.Equipment.weapon != null)
-            { 
-                var uiItemSlot = Instantiate(uiItem, uiWeaponSlot.transform);
-                uiItemSlot.SetSlot(new InventorySlot(playerBehaviour.Equipment.weapon), 1);
+            
+            if (playerBehaviour.Equipment.Weapon != null)
+            {
+                var  weaponSlot = Instantiate(uiItem, uiWeaponSlot.transform);
+                weaponSlot.SetSlot(new InventorySlot(playerBehaviour.Equipment.Weapon), 1,true);
+            }
+            if (playerBehaviour.Equipment.Weapon == null && uiWeaponSlot.transform.childCount > 0)
+            {
+                for (var i = 0; i < uiWeaponSlot.transform.childCount; i++)
+                {
+                    Destroy(uiWeaponSlot.transform.GetChild(i).gameObject);
+                }
             }
         }
     }

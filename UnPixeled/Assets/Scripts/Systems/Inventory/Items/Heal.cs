@@ -1,4 +1,6 @@
 ﻿using System;
+using Systems.Stats;
+using Core;
 using UnityEngine;
 
 namespace Systems.Inventory.Items
@@ -10,9 +12,10 @@ namespace Systems.Inventory.Items
         
         
         
-        public override void UseItem()
+        public override void UseItem(bool isEquipped)
         {
-
+            EventStats.ChangePlayerHealth.Invoke(healthRestore);
+            EventInventory.removeItem.Invoke(this);
         }
 
         public override Drink GetDrinkData()

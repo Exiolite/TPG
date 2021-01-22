@@ -296,7 +296,7 @@ MonoBehaviour:
   speed: 20
   dashSpeed: 100
   health:
-    stat: 100
+    stat: 50
     maxStat: 100
   energy:
     stat: 100
@@ -421,13 +421,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3095505901714168009}
-  m_LocalRotation: {x: 0.45746884, y: 0.5409612, z: -0.4702491, w: 0.5262595}
-  m_LocalPosition: {x: -0.00113, y: 0.00052, z: 0.00003}
-  m_LocalScale: {x: 0.012, y: 0.012, z: 0.012}
+  m_LocalRotation: {x: 0.4410313, y: 0.5431168, z: -0.44325382, w: 0.5603941}
+  m_LocalPosition: {x: -0.00015, y: 0.00044, z: 0.00131}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children: []
   m_Father: {fileID: 7213263920970563941}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 82, y: 91.578, z: 0}
+  m_LocalEulerAnglesHint: {x: 77.364, y: 84.483, z: -4.649}
 --- !u!1 &3201897515603839814
 GameObject:
   m_ObjectHideFlags: 0

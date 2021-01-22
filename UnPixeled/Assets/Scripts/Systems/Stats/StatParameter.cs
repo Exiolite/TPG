@@ -17,11 +17,13 @@ namespace Systems.Stats
         public void ChangeStat(float value)
         {
             stat = Mathf.Clamp(stat + value, 0, 100);
+            EventStats.UpdateStats.Invoke();
         }
 
         public void RegenerateStat()
         {
             stat = Mathf.Clamp(stat + (0.1f * Time.deltaTime), 0, 100);
+            EventStats.UpdateStats.Invoke();
         }
 
         public bool CheckStat()

@@ -6,7 +6,9 @@ namespace Systems.Player
     public class PlayerAnimator
     {
         private readonly Animator _playerAnim;
-        
+        private bool _isAttacking;
+        public bool IsAttacking => _isAttacking;
+
         private static readonly int Move = Animator.StringToHash("Move");
         private static readonly int StuffAttack = Animator.StringToHash("StuffAttack");
         private static readonly int Attack1 = Animator.StringToHash("Attack");
@@ -42,11 +44,13 @@ namespace Systems.Player
             if (GameManager.instance.inputManager.LeftMouseButton())
             {
                 _playerAnim.SetInteger(StuffAttack, 1);
+                _isAttacking = true;
             }
             else if (Input.GetAxis("Attack") == 0)
             {
                 _playerAnim.SetInteger(StuffAttack, 0);
                 _playerAnim.SetInteger(Attack1, 0);
+                _isAttacking = false;
             }
             else
             {

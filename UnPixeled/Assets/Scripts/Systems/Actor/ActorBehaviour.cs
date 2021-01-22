@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Systems.Audio;
 using Systems.Stats;
 using Core;
@@ -28,18 +29,22 @@ namespace Systems.Actor
 
         private AudioSource _audioSource;
         private NavMeshAgent _navMeshAgent;
-        
+
         private float _distanceToPlayer;
         
         private bool _isAttacking;
         private bool _isPlayerSpotted;
-        
 
-        public void ApplyDamageToActor(int value)
+        
+        private void OnTriggerEnter(Collider other)
         {
-            health.ChangeStat(value);
-            getDamageSound.PlaySound(ref _audioSource);
-            if (health.CheckStat()) Destroy(gameObject);
+            if (other.CompareTag("Weapon"))
+            {
+                if (GameManager.instance.playerBehaviour.PlayerAnimator.IsAttacking)
+                {
+                    ApplyDamageToActor(-GameManager.instance.playerBehaviour.Equipment.Weapon.GetWeaponData().damage);
+                }
+            }
         }
         
         private void Awake()
@@ -47,13 +52,20 @@ namespace Systems.Actor
             _audioSource = GetComponent<AudioSource>();
             _navMeshAgent = GetComponent<NavMeshAgent>();
         }
+        
 
         private void Update()
         {
             UpdateBehaviour();
         }
         
-
+        private void ApplyDamageToActor(float value)
+        {
+            health.ChangeStat(value);
+            getDamageSound.PlaySound(ref _audioSource);
+            if (health.CheckStat()) Destroy(gameObject);
+        }
+        
         private void UpdateBehaviour()
         {
             if (CalculateDistance() < lookRadius || _isPlayerSpotted)

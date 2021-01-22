@@ -10,7 +10,7 @@ namespace Systems.Inventory.Items
         
         
         
-        public override void UseItem()
+        public override void UseItem(bool isEquipped)
         {
 
         }

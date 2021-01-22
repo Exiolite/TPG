@@ -34,11 +34,17 @@ namespace Systems.Player
         [Header("Prefab GameObjects")] 
         [SerializeField] private GameObject playerModel;
         [SerializeField] private GameObject weaponHandler;
+        public GameObject WeaponHandler
+        {
+            get => weaponHandler;
+            set => weaponHandler = value;
+        }
 
         private Animator _animator;
         private CharacterController _charController;
         
         private PlayerAnimator _playerAnimator;
+        public PlayerAnimator PlayerAnimator => _playerAnimator;
         private PlayerMovement _playerMovement;
         
         
@@ -69,8 +75,8 @@ namespace Systems.Player
             EventInventory.updateInventory.Invoke();
             EventInventory.clearInventory.AddListener(inventory.Clear);
             EventInventory.clearInventory.AddListener(equipment.Clear);
-            EventStats.changePlayerHealth.AddListener(health.ChangeStat);
-            EventStats.changePlayerEnergy.AddListener(energy.ChangeStat);
+            //EventStats.ChangePlayerHealth.AddListener(health.ChangeStat);
+            //EventStats.ChangePlayerEnergy.AddListener(energy.ChangeStat);
         }
         
         private void Update()

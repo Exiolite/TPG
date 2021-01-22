@@ -13,7 +13,7 @@ namespace Systems.Inventory
     }
     public class AddItem : UnityEvent<Item, int> { }
     public class RemoveItem : UnityEvent<Item> { }
-    public class UseItem : UnityEvent <Item> { }
+    public class UseItem : UnityEvent <Item,bool> { }
     public class UpdateInventory : UnityEvent { }
     public class ClearInventory : UnityEvent { }
 }

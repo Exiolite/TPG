@@ -6,8 +6,15 @@ namespace Systems.Inventory
     public class ItemBehaviour : MonoBehaviour
     {
         public Item item;
-        
-        
+
+        private bool _inRangeOfPlayer;
+
+
+
+        public void SetInactive()
+        {
+            gameObject.SetActive(false);
+        }
         
         private void Awake()
         {
@@ -16,8 +23,22 @@ namespace Systems.Inventory
 
         private void PickUpItem()
         {
+            if (!_inRangeOfPlayer) return;
             EventInventory.addItem.Invoke(item, item.count);
-            Destroy(gameObject);
+            Destroy(transform.parent.gameObject);
+        }
+
+        private void OnTriggerStay(Collider other)
+        {
+            if (other.CompareTag("Player"))
+            {
+                _inRangeOfPlayer = true;
+            }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            _inRangeOfPlayer = false;
         }
     }
 }

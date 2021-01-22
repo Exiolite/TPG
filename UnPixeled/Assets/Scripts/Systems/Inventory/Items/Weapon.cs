@@ -10,9 +10,9 @@ namespace Systems.Inventory.Items
         public float damage;
         
 
-        public override void UseItem()
+        public override void UseItem(bool isEquipped)
         {
-            EventInventory.useItem.Invoke(this);
+            EventInventory.useItem.Invoke(this, isEquipped);
         }
 
         public override Drink GetDrinkData()

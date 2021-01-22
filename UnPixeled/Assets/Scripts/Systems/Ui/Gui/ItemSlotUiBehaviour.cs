@@ -10,21 +10,26 @@ namespace Systems.Ui.Gui
         [SerializeField] private GameObject textCount;
 
         private InventorySlot _inventorySlot;
-
+        private bool _isEquipped;
         
         
-        public void SetSlot(InventorySlot inventorySlot, int itemIndex)
+        public void SetSlot(InventorySlot inventorySlot, int itemIndex, bool isEquipped)
         {
             _inventorySlot = inventorySlot;
             textName.GetComponent<Text>().text = inventorySlot.item.itemName;
             textCount.GetComponent<Text>().text = inventorySlot.count > 1 ? inventorySlot.count.ToString() : "";
             GetComponent<Image>().sprite = inventorySlot.item.itemIcon;
+            _isEquipped = isEquipped;
         }
         
         public void OnClicked()
         {
-            EventInventory.useItem.Invoke(_inventorySlot.item);
-            Destroy(gameObject);
+            _inventorySlot.item.UseItem(_isEquipped);
+        }
+
+        public void DestroySlot()
+        {
+            Destroy(this);
         }
     }
 }

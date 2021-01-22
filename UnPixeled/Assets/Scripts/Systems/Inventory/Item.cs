@@ -30,7 +30,7 @@ namespace Systems.Inventory
         public int NumberOfUses => numberOfUses;
         
 
-        public abstract void UseItem();
+        public abstract void UseItem(bool isEquipped);
 
         public abstract Drink GetDrinkData();
         public abstract Weapon GetWeaponData();

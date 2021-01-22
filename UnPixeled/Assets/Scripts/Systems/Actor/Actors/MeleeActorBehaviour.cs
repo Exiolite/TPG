@@ -13,7 +13,7 @@ namespace Systems.Actor.Actors
 
         protected override void Attack(float damage)
         {
-            EventStats.changePlayerHealth.Invoke(damage);
+            EventStats.ChangePlayerHealth.Invoke(damage);
         }
     }
 }

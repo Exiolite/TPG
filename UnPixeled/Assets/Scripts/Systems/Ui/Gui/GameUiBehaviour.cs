@@ -21,14 +21,14 @@ namespace Systems.Ui.Gui
         private void Awake()
         {
             EventInput.inventoryOpen.AddListener(InventorySetActive);
-            EventStats.changePlayerHealth.AddListener(UpdatePlayerHealth);
-            EventStats.changePlayerEnergy.AddListener(UpdatePlayerEnergy);
+            EventStats.UpdateStats.AddListener(UpdateStats);
         }
         
         private void Start ()
         {
             _playerBehaviour = GameManager.instance.playerBehaviour;
             inventoryPanel.SetActive(_inventoryEnabled);
+            EventStats.UpdateStats.Invoke();
         }
         
         private void InventorySetActive()
@@ -37,12 +37,9 @@ namespace Systems.Ui.Gui
             inventoryPanel.SetActive(_inventoryEnabled);
         }
 
-        private void UpdatePlayerHealth(float value)
+        private void UpdateStats()
         {
             healthBar.value = _playerBehaviour.Health.Stat;
-        }
-        private void UpdatePlayerEnergy(float value)
-        {
             energyBar.value = _playerBehaviour.Energy.Stat;
         }
     }
