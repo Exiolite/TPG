@@ -96,7 +96,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Items/Food.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Items/Drink.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ui/Gui/ItemSlotUiBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ui/Gui/InventoryUiBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/EventInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Inventory/Items/Heal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ui/Gui/GameUiBehaviour.cs" />
@@ -114,6 +113,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Projectiles/ProjectileBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Actor/Actors/RangeActorBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ui/Gui/InventoryUiBehaviour.cs" />
       </list>
     </option>
   </component>

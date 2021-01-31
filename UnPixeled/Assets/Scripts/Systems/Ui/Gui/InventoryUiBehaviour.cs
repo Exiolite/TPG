@@ -32,6 +32,8 @@ namespace Systems.Ui.Gui
                 uiItemSlot.SetSlot(playerBehaviour.Inventory.container[j], j,false);
             }
             
+            
+            
             if (playerBehaviour.Equipment.Weapon != null)
             {
                 var  weaponSlot = Instantiate(uiItem, uiWeaponSlot.transform);

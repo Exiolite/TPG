@@ -133,10 +133,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2790081978255780472}
+  - component: {fileID: 1886166421528032504}
   - component: {fileID: 8747254815426458643}
   - component: {fileID: 2167566971519901889}
   - component: {fileID: -1190784215094091311}
-  - component: {fileID: 1886166421528032504}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -159,6 +159,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!114 &1886166421528032504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2790081978255780477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b28b3bd7af2c240b408568a7aa6ed9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  dashSpeed: 100
+  health:
+    stat: 100
+    maxStat: 100
+  energy:
+    stat: 100
+    maxStat: 100
+  inventory: {fileID: 11400000, guid: c073e5b98667d3845b6e43e12203aaeb, type: 2}
+  equipment: {fileID: 11400000, guid: 83e1cc8126ad2ab4886defa9e48fafcd, type: 2}
+  playerModel: {fileID: 6478778570535909170}
+  weaponHandler: {fileID: 3095505901714168009}
 --- !u!143 &8747254815426458643
 CharacterController:
   m_ObjectHideFlags: 0
@@ -281,30 +305,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2790081978255780477}
   m_Enabled: 1
---- !u!114 &1886166421528032504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2790081978255780477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29b28b3bd7af2c240b408568a7aa6ed9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 20
-  dashSpeed: 100
-  health:
-    stat: 50
-    maxStat: 100
-  energy:
-    stat: 100
-    maxStat: 100
-  inventory: {fileID: 11400000, guid: c073e5b98667d3845b6e43e12203aaeb, type: 2}
-  equipment: {fileID: 11400000, guid: 83e1cc8126ad2ab4886defa9e48fafcd, type: 2}
-  playerModel: {fileID: 6478778570535909170}
-  weaponHandler: {fileID: 3095505901714168009}
 --- !u!1 &2882241029945018820
 GameObject:
   m_ObjectHideFlags: 0
