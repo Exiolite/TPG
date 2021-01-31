@@ -1,57 +1,70 @@
-﻿//Copyright Ex/IO 2020
-using System.Collections;
-using System.Collections.Generic;
-using Systems.S_HealthStats;
-using Core.Managers;
+﻿using System;
+using Systems.Stats;
+using Core;
 using UnityEngine;
 
-public class ProjectileBehaviour : MonoBehaviour
+namespace Systems.Projectiles
 {
-    public bool defendedProjectileByPlayer = false;
-    [HideInInspector] public float damage;
-    public GameObject particleSystemTrail;
-
-
-
-    private void Update()
+    public class ProjectileBehaviour : MonoBehaviour
     {
-        if (defendedProjectileByPlayer)
-            GetComponent<Rigidbody>().AddForce(transform.forward * -2000);
-    }
+        [SerializeField] private float speed;
+        [SerializeField] private bool isAutoTrack;
+        
+        private Transform _transform;
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Player")
+        private static readonly Vector3 PlayerHeightCorrection = new Vector3(0,2.3f, 0);
+        private Vector3 _playerPosition;
+
+        private float _projectileSpeed;
+        private float _damage;
+        public float Damage
         {
-            EventStats.changePlayerHealth.Invoke(-damage);
-            Destroy(gameObject);
+            get => _damage;
+            set => _damage = value;
         }
-        else
-            Destroy(gameObject);
-    }
 
 
-
-    private void OnTriggerEnter(Collider other)
-    {
-        /*if (other.gameObject.tag == "Weapon")
+        
+        private void Awake()
         {
-            if (GameManager.instance.playerBehaviour.defenceState)
+            _transform = GetComponent<Transform>();
+        }
+
+        private void Start()
+        {
+            _playerPosition = GameManager.instance.playerBehaviour.transform.position;
+            transform.LookAt(_playerPosition + PlayerHeightCorrection);
+        }
+
+        private void Update()
+        {
+            if (isAutoTrack)
             {
-                defendedProjectileByPlayer = true;
-                GetComponent<Rigidbody>().AddForce(transform.forward * -3000);
-                particleSystemTrail.transform.rotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+                _playerPosition = GameManager.instance.playerBehaviour.transform.position;
+                transform.LookAt(_playerPosition + PlayerHeightCorrection);
             }
-            else
+            _projectileSpeed = Time.deltaTime * speed;
+            _transform.position += _transform.forward * _projectileSpeed;
+        }
+
+        private void OnCollisionEnter(Collision collision)
+        {
+            
+        }
+        
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("Environment"))
             {
                 Destroy(gameObject);
             }
+
+            if (other.CompareTag("Player"))
+            {
+                EventStats.ChangePlayerHealth.Invoke(_damage);
+                Destroy(gameObject);
+            }
         }
-        else if (other.gameObject.tag == "Enemy" && defendedProjectileByPlayer)
-        {
-            other.gameObject.GetComponent<HealthStatsActor>().HealthDamage(damage);
-            Destroy(gameObject);
-        }*/
     }
 }
 

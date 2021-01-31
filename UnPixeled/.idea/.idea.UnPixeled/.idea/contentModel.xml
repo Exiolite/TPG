@@ -8,67 +8,56 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
-            <e p="etc" t="Include">
-              <e p="OpenDoor.cs" t="Include" />
-            </e>
-            <e p="Managers" t="Include">
-              <e p="Audio" t="Include">
-                <e p="AudioManager.cs" t="Include" />
-              </e>
-              <e p="EventManager.cs" t="Include" />
-              <e p="Game" t="Include">
-                <e p="GameManager.cs" t="Include" />
-              </e>
-              <e p="Input" t="Include">
-                <e p="EventInput.cs" t="Include" />
-                <e p="InputManager.cs" t="Include" />
-              </e>
-              <e p="UI" t="Include">
-                <e p="UIManager.cs" t="Include" />
-              </e>
-              <e p="VFX" t="Include">
-                <e p="VFXManager.cs" t="Include" />
-              </e>
-            </e>
+            <e p="EventInput.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="InputManager.cs" t="Include" />
           </e>
           <e p="Systems" t="Include">
+            <e p="Actor" t="Include">
+              <e p="ActorBehaviour.cs" t="Include" />
+              <e p="Actors" t="Include">
+                <e p="MeleeActorBehaviour.cs" t="Include" />
+                <e p="RangeActorBehaviour.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Audio" t="Include">
+              <e p="AudioClipAndVolume.cs" t="Include" />
+            </e>
             <e p="CameraFollow.cs" t="Include" />
-            <e p="Projectiles" t="Include">
-              <e p="ProjectileBehaviour.cs" t="Include" />
-            </e>
-            <e p="S_AI" t="Include">
-              <e p="EnemyAI_Soul.cs" t="Include" />
-            </e>
-            <e p="S_Audio" t="Include">
-              <e p="AudioSteps.cs" t="Include" />
-            </e>
-            <e p="S_HealthStats" t="Include">
-              <e p="EventStats.cs" t="Include" />
-              <e p="HealthStats.cs" t="Include" />
-              <e p="HealthStatsActor.cs" t="Include" />
-              <e p="Stat.cs" t="Include" />
-            </e>
-            <e p="S_Inventory" t="Include">
+            <e p="Inventory" t="Include">
+              <e p="Equipment.cs" t="Include" />
               <e p="EventInventory.cs" t="Include" />
               <e p="Inventory.cs" t="Include" />
-              <e p="InventoryContainer.cs" t="Include" />
               <e p="InventorySlot.cs" t="Include" />
+              <e p="Item.cs" t="Include" />
               <e p="ItemBehaviour.cs" t="Include" />
-              <e p="ItemData.cs" t="Include" />
+              <e p="Items" t="Include">
+                <e p="Drink.cs" t="Include" />
+                <e p="Food.cs" t="Include" />
+                <e p="Heal.cs" t="Include" />
+                <e p="Weapon.cs" t="Include" />
+              </e>
             </e>
-            <e p="S_Player" t="Include">
+            <e p="Player" t="Include">
               <e p="PlayerAnimator.cs" t="Include" />
               <e p="PlayerBehaviour.cs" t="Include" />
               <e p="PlayerMovement.cs" t="Include" />
             </e>
-            <e p="S_UiScripts" t="Include">
+            <e p="Projectiles" t="Include">
+              <e p="ProjectileBehaviour.cs" t="Include" />
+            </e>
+            <e p="Stats" t="Include">
+              <e p="EventStats.cs" t="Include" />
+              <e p="StatParameter.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
               <e p="GUI" t="Include">
-                <e p="UIGame.cs" t="Include" />
-                <e p="UIInventory.cs" t="Include" />
-                <e p="UIItemSlot.cs" t="Include" />
+                <e p="GameUiBehaviour.cs" t="Include" />
+                <e p="InventoryUiBehaviour.cs" t="Include" />
+                <e p="ItemSlotUiBehaviour.cs" t="Include" />
               </e>
-              <e p="OnScreenUI" t="Include">
-                <e p="FloatingText.cs" t="Include" />
+              <e p="SceneUi" t="Include">
+                <e p="FloatingTextBehaviour.cs" t="Include" />
               </e>
             </e>
           </e>

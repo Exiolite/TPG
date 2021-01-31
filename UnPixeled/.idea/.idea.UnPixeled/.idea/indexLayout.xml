@@ -22,7 +22,6 @@
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>
-      <Path>.vs</Path>
       <Path>CodeGraphData</Path>
       <Path>Library</Path>
       <Path>Logs</Path>

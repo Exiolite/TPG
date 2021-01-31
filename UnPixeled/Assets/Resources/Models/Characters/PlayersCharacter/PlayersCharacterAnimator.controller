@@ -9,10 +9,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: stuffAttack
+    m_ConditionEvent: StuffAttack
     m_EventTreshold: 0
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5736134871333134269}
@@ -87,10 +87,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 0
   - m_ConditionMode: 6
-    m_ConditionEvent: swordDefence
+    m_ConditionEvent: SwordDefence
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6918839594493916364}
@@ -143,10 +143,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: swordAttack
+    m_ConditionEvent: SwordAttack
     m_EventTreshold: 0
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5736134871333134269}
@@ -171,10 +171,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: stuffDefence
+    m_ConditionEvent: StuffDefence
     m_EventTreshold: 1
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6918839594493916364}
@@ -313,7 +313,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: stuffAttack
+    m_ConditionEvent: StuffAttack
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1109008366855773000}
@@ -338,7 +338,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: stuffDefence
+    m_ConditionEvent: StuffDefence
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6985555731444430406}
@@ -363,7 +363,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5432273082964532623}
@@ -388,10 +388,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: swordDefence
+    m_ConditionEvent: SwordDefence
     m_EventTreshold: 0
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6918839594493916364}
@@ -456,10 +456,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: stuffAttack
+    m_ConditionEvent: StuffAttack
     m_EventTreshold: 1
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1109008366855773000}
@@ -484,7 +484,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6476981078464764374}
@@ -512,7 +512,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Attack
     m_EventTreshold: 1
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5736134871333134269}
@@ -537,7 +537,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6918839594493916364}
@@ -590,10 +590,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: swordDefence
+    m_ConditionEvent: SwordDefence
     m_EventTreshold: 1
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7867842854186427418}
@@ -618,7 +618,7 @@ AnimatorController:
   m_Name: PlayersCharacterAnimator
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: move
+  - m_Name: Move
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -630,25 +630,25 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: stuffDefence
+  - m_Name: StuffDefence
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: stuffAttack
+  - m_Name: StuffAttack
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: swordDefence
+  - m_Name: SwordDefence
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: swordAttack
+  - m_Name: SwordAttack
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -682,13 +682,13 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: stuffDefence
+    m_ConditionEvent: StuffDefence
     m_EventTreshold: 0
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 0
   - m_ConditionMode: 6
-    m_ConditionEvent: swordDefence
+    m_ConditionEvent: SwordDefence
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6476981078464764374}
@@ -713,7 +713,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: stuffDefence
+    m_ConditionEvent: StuffDefence
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5432273082964532623}
@@ -738,7 +738,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6985555731444430406}
@@ -763,7 +763,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: swordDefence
+    m_ConditionEvent: SwordDefence
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7867842854186427418}
@@ -813,10 +813,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: swordAttack
+    m_ConditionEvent: SwordAttack
     m_EventTreshold: 1
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6624440030635554763}
@@ -870,7 +870,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: stuffAttack
+    m_ConditionEvent: StuffAttack
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5432273082964532623}
@@ -895,7 +895,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: swordDefence
+    m_ConditionEvent: SwordDefence
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5432273082964532623}
@@ -920,10 +920,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: swordAttack
+    m_ConditionEvent: SwordAttack
     m_EventTreshold: 0
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5432273082964532623}
@@ -948,10 +948,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: swordAttack
+    m_ConditionEvent: SwordAttack
     m_EventTreshold: 1
   - m_ConditionMode: 6
-    m_ConditionEvent: move
+    m_ConditionEvent: Move
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6624440030635554763}

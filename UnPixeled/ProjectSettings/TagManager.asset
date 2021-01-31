@@ -10,6 +10,7 @@ TagManager:
   - PlayerDefens
   - Item
   - Interactive
+  - Environment
   layers:
   - Default
   - TransparentFX
